@@ -14,12 +14,12 @@ Associate Professor
 The University of Southern Mississippi
 
 ###Contact:
-Office: WSB 228A – 601-266-5807
+Office: WSB 228A 601-266-5807
 Email: george.raber@usm.edu
 Office Hours: Wednesday 10-12am or by Appointment
 
 **TURN ASSIGNMENTS INTO:**
-ghy.cag@gmail.com
+ghy.gis@gmail.com
 
 ##Course Overview:
 This course class will teach concepts and methods that are often important when implementing actual GIS applications.  A GIS system has many powerful standard features, however in any application there are going to be instances where the GIS needs to be customized in order perform at its maximum potential.  
