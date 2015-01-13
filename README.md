@@ -104,9 +104,9 @@ Python 2.7 or 2.8 This software installs with ArcGIS.  It can also be downloaded
 - - - - - -
 **March 24** - Manipulating Raster GIS data
 - - - - - -
-**March 31** - Temporal Modeling With Scripts
+**March 31** - Interacting with Spatial Databases
 - - - - - -
-**April 7** - Testing Multiple Scenarios with Scripts
+**April 7** - Scripting Applications and Spatial Error
 - - - - - -
 **April 14** - Using GIS Scripting with other Programs
 - - - - - -
