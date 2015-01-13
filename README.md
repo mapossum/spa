@@ -47,7 +47,7 @@ PLEASE TURN ASSIGNEMENTS INTO: ghy.cag@gmail.com
 Everyone (not just graduate students) will be responsible for creating a GIS program that automates a task.  The program must implement branching, looping and at least two different GIS tools.  Undergraduates must turn in a short (two paragraph) descriptions of what there tool does.  Graduate students are responsible for turning in a term paper along with there tool.  The paper must describe the need (background) for use of such a tool and examples of the tool executed on data (maps and figures) in answering a simple research question.  This paper will likely be around 10 pages.  This will be due May 1st.
 
 ##Prerequisites:
-GIS experience **required** for course.  217 or equivilent is required and you should be taking or have already taken GHY 417 or 418 before you enrolled.  There can be exceptions with the instructors permission.  We won’t be using the GIS knowledge for the first few weeks of the course so if you are dedicated you have time to catch up.
+GIS experience **required** for course.  217 or equivilent is required and you should be taking or have already taken GHY 417 or 418 before you enrolled.  There can be exceptions with the instructors permission.  We won't be using the GIS knowledge for the first few weeks of the course so if you are dedicated you have time to catch up.
 
 ##Required Materials:
 Downey, Allen, 2014. Think Python: How to Think Like a Computer Scientist, 214 p.
@@ -82,13 +82,13 @@ Python 2.7 or 2.8 This software installs with ArcGIS.  It can also be downloaded
 
 ##Schedule:
 
-**Jan 13** - Course Introduction – Introduction to Programming & Python, Python Variables Expressions and Statements
+**Jan 13** - Course Introduction, Introduction to Programming & Python, Python Variables Expressions and Statements
 - - - - - -
 **Jan 20** - Functions, Conditionals and Recursion, Fruitful functions
 - - - - - -
 **Jan 27** - Iteration, Intro to Sequences Strings, Lists and Tuples, Dictionaries
 - - - - - -
-**Feb 3** - Objects and External Modules – Making the GIS Connection Automating ArcGIS functions with Python Geoprocessing
+**Feb 3** - Objects and External Modules, Making the GIS Connection Automating ArcGIS functions with Python Geoprocessing
 - - - - - -
 **Feb 10** - Python Geoprocessing Cont.
 - - - - - -
@@ -98,11 +98,7 @@ Python 2.7 or 2.8 This software installs with ArcGIS.  It can also be downloaded
 - - - - - -
 **March 3** - *Exam 1*
 - - - - - -
-**March 10** - *Spring Holidays � NO CLASS*
-- - - - - -
-**March 3**	- *Exam 1 *
-- - - - - -
-**March 10** - *Spring Holidays – NO CLASS*
+**March 10** - *Spring Holidays NO CLASS*
 - - - - - -
 **March 17** - Manipulating Vector GIS data
 - - - - - -
