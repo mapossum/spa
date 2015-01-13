@@ -39,7 +39,10 @@
 
 #Lab Assignment
 For this assignment you will simply do all the exercises found in each of the book chapters we covered so far (1-2).  
+
 Python has updated it's webpage and the instructions for Excersize 1.2 are no longer valid.  That is ok, just skip it.
+
 You do not need to turn in anything for this assignment.
+
 You should make sure your understand the terms in the glossary that we discussed in class.
 
