@@ -8,7 +8,7 @@ Lab: Immidiatly following the Lecture
 
 Room WSB 228
 
-###Intructor:
+###Instructor:
 George T. Raber, PhD  
 Associate Professor
 The University of Southern Mississippi
@@ -63,9 +63,19 @@ Helpful Google Python Course: http://code.google.com/edu/languages/google-python
 Various ArcGIS 10.x help and documentation, most of these items will be posted on the course website.
 
 ##Required Software:
-ArcGIS 10.x – This software is installed on all the Lab machines.  You can also receive a student version from the instructor free of charge to install on your own machine.  You will not use this software product for the first 3 weeks.
+ArcGIS 10.x – This software is installed on all the Lab machines.  You can also receive a student version from the instructor free of charge to install on your own machine.  You will not use this software product for the first 3 weeks, but you may want to install it, just so that you will have python already installed on your system.
 
 Python 2.7 or 2.8 – This software installs with ArcGIS.  It can also be downloaded and installed for free from the following website: www.python.org.
+
+##Grading Policy
+#### Graduate
+Lecture: 35% Midterm, 40% Final, 25% Paper
+Lab: 80% Lab Assignments, 20% Project
+#### Undergraduate
+Lecture: 45% Midterm, 50% Final, 5% Paper
+Lab: 85% Lab Assignments, 15% Project
+
+
 
 
 
