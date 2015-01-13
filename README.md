@@ -76,7 +76,7 @@ Python 2.7 or 2.8 – This software installs with ArcGIS.  It can also be download
 **Lab:** 85% Lab Assignments, 15% Project
 
 ##Schedule:
-
+---
 **Jan 13** - Course Introduction – Introduction to Programming & Python, Python Variables Expressions and Statements
 ---
 **Jan 20** - Functions, Conditionals and Recursion, Fruitful functions
@@ -91,7 +91,7 @@ Python 2.7 or 2.8 – This software installs with ArcGIS.  It can also be download
 ---
 **Feb 24** - Exploring and Manipulating Spatial Data
 ---
-**March 3**	- *Exam 1 – No Lab Meeting this week*
+**March 3**	- *Exam 1 *
 ---
 **March 10** - *Spring Holidays – NO CLASS*
 ---
@@ -107,7 +107,7 @@ Python 2.7 or 2.8 – This software installs with ArcGIS.  It can also be download
 ---
 **April 21** - *Instructor Traveling to AAG  (Lab will meet for help)*
 ---
-**April 28** - *Review Session & Final Project Presentations (No Lab Assignment, but we will still meet)*
+**April 28** - *Review Session & Final Project Presentations*
 
 
 
