@@ -96,7 +96,7 @@ Python 2.7 or 2.8 – This software installs with ArcGIS.  It can also be download
 ---
 **Feb 24** - Exploring and Manipulating Spatial Data
 ---
-**March 3**	- *Exam 1 *
+**March 3** - *Exam 1*
 ---
 **March 10** - *Spring Holidays – NO CLASS*
 ---
