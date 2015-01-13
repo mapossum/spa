@@ -67,7 +67,7 @@ ArcGIS 10.x – This software is installed on all the Lab machines.  You can also 
 
 Python 2.7 or 2.8 – This software installs with ArcGIS.  It can also be downloaded and installed for free from the following website: www.python.org.
 
-##Grading Policy
+##Grading Policy:
 #### Graduate
 **Lecture:**35% Midterm, 40% Final, 25% Paper
 **Lab:** 80% Lab Assignments, 20% Project
@@ -76,7 +76,7 @@ Python 2.7 or 2.8 – This software installs with ArcGIS.  It can also be download
 **Lab:** 85% Lab Assignments, 15% Project
 
 ##Schedule:
----
+
 **Jan 13** - Course Introduction – Introduction to Programming & Python, Python Variables Expressions and Statements
 ---
 **Jan 20** - Functions, Conditionals and Recursion, Fruitful functions
