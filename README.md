@@ -14,7 +14,7 @@ Associate Professor
 The University of Southern Mississippi
 
 ###Contact:
-Office: WSB 228A – 601-266-5807
+Office: WSB 228A â€“ 601-266-5807
 Email: george.raber@usm.edu
 Office Hours: Wednesday 10-12am or by Appointment
 
@@ -47,7 +47,7 @@ PLEASE TURN ASSIGNEMENTS INTO: ghy.cag@gmail.com
 Everyone (not just graduate students) will be responsible for creating a GIS program that automates a task.  The program must implement branching, looping and at least two different GIS tools.  Undergraduates must turn in a short (two paragraph) descriptions of what there tool does.  Graduate students are responsible for turning in a term paper along with there tool.  The paper must describe the need (background) for use of such a tool and examples of the tool executed on data (maps and figures) in answering a simple research question.  This paper will likely be around 10 pages.  This will be due May 1st.
 
 ##Prerequisites:
-GIS experience **required** for course.  217 or equivilent is required and you should be taking or have already taken GHY 417 or 418 before you enrolled.  There can be exceptions with the instructors permission.  We won’t be using the GIS knowledge for the first few weeks of the course so if you are dedicated you have time to catch up.
+GIS experience **required** for course.  217 or equivilent is required and you should be taking or have already taken GHY 417 or 418 before you enrolled.  There can be exceptions with the instructors permission.  We wonâ€™t be using the GIS knowledge for the first few weeks of the course so if you are dedicated you have time to catch up.
 
 ##Required Materials:
 Downey, Allen, 2014. Think Python: How to Think Like a Computer Scientist, 214 p.
@@ -63,9 +63,9 @@ Helpful Google Python Course: http://code.google.com/edu/languages/google-python
 Various ArcGIS 10.x help and documentation, most of these items will be posted on the course website.
 
 ##Required Software:
-ArcGIS 10.x – This software is installed on all the Lab machines.  You can also receive a student version from the instructor free of charge to install on your own machine.  You will not use this software product for the first 3 weeks, but you may want to install it, just so that you will have python already installed on your system.
+ArcGIS 10.x â€“ This software is installed on all the Lab machines.  You can also receive a student version from the instructor free of charge to install on your own machine.  You will not use this software product for the first 3 weeks, but you may want to install it, just so that you will have python already installed on your system.
 
-Python 2.7 or 2.8 – This software installs with ArcGIS.  It can also be downloaded and installed for free from the following website: www.python.org.
+Python 2.7 or 2.8 â€“ This software installs with ArcGIS.  It can also be downloaded and installed for free from the following website: www.python.org.
 
 ##Grading Policy:
 
@@ -82,36 +82,44 @@ Python 2.7 or 2.8 – This software installs with ArcGIS.  It can also be download
 
 ##Schedule:
 
-**Jan 13** - Course Introduction – Introduction to Programming & Python, Python Variables Expressions and Statements
+**Jan 13** - Course Introduction â€“ Introduction to Programming & Python, Python Variables Expressions and Statements
 - - - - - -
 **Jan 20** - Functions, Conditionals and Recursion, Fruitful functions
 - - - - - -
 **Jan 27** - Iteration, Intro to Sequences Strings, Lists and Tuples, Dictionaries
----
-**Feb 3** - Objects and External Modules – Making the GIS Connection Automating ArcGIS functions with Python Geoprocessing
----
+- - - - - -
+**Feb 3** - Objects and External Modules â€“ Making the GIS Connection Automating ArcGIS functions with Python Geoprocessing
+- - - - - -
 **Feb 10** - Python Geoprocessing Cont.
----
+- - - - - -
 **Feb 17** - *MARDI GRAS HOLIDAY*
----
+- - - - - -
 **Feb 24** - Exploring and Manipulating Spatial Data
+<<<<<<< HEAD
 ---
 **March 3** - *Exam 1*
 ---
 **March 10** - *Spring Holidays – NO CLASS*
 ---
+=======
+- - - - - -
+**March 3**	- *Exam 1 *
+- - - - - -
+**March 10** - *Spring Holidays â€“ NO CLASS*
+- - - - - -
+>>>>>>> origin/master
 **March 17** - Manipulating Vector GIS data
----
+- - - - - -
 **March 24** - Manipulating Raster GIS data
----
+- - - - - -
 **March 31** - Temporal Modeling With Scripts
----
+- - - - - -
 **April 7** - Testing Multiple Scenarios with Scripts
----
+- - - - - -
 **April 14** - Using GIS Scripting with other Programs
----
+- - - - - -
 **April 21** - *Instructor Traveling to AAG  (Lab will meet for help)*
----
+- - - - - -
 **April 28** - *Review Session & Final Project Presentations*
 
 
