@@ -69,11 +69,45 @@ Python 2.7 or 2.8 – This software installs with ArcGIS.  It can also be download
 
 ##Grading Policy
 #### Graduate
-Lecture: 35% Midterm, 40% Final, 25% Paper
-Lab: 80% Lab Assignments, 20% Project
+**Lecture:**35% Midterm, 40% Final, 25% Paper
+**Lab:** 80% Lab Assignments, 20% Project
 #### Undergraduate
-Lecture: 45% Midterm, 50% Final, 5% Paper
-Lab: 85% Lab Assignments, 15% Project
+**Lecture:** 45% Midterm, 50% Final, 5% Paper
+**Lab:** 85% Lab Assignments, 15% Project
+
+##Schedule
+**Jan 13** - Course Overview and Data Models and Cartographic Modeling
+---
+**Jan 20** - GIS Modeling Operations
+---
+**Jan 27** - Cartographic Modeling, Map Algebra Capability / Suitability Modeling
+---
+**Feb 3** - Neighborhood Operations
+---
+**Feb 10** - Cost Surface Modeling
+---
+**Feb 17** - *MARDI GRAS HOLIDAY*
+---
+**Feb 24** - Terrain and Surface
+---
+**March 3**	- *Exam 1 – No Lab Meeting this week*
+---
+**March 10** - *Spring Holidays – NO CLASS*
+---
+**March 17** - Surface Flow in a GIS
+---
+**March 24** - Spatial Interpolation, Geostatistical Interpolation and Spatial Uncertainty 
+---
+**March 31** - Spatial Interpolation, Geostatistical Interpolation and Spatial Uncertainty Cont.
+---
+**April 7** - Spatial - Temporal Modeling
+---
+**April 14** - Model Calibration and Statistical Models
+---
+**April 21** - *Instructor Traveling to AAG  (Lab will meet for help)*
+---
+**April 28** - *Review Session & Final Project Presentations (No Lab Assignment, but we will still meet)*
+
 
 
 
