@@ -75,34 +75,35 @@ Python 2.7 or 2.8 – This software installs with ArcGIS.  It can also be download
 **Lecture:** 45% Midterm, 50% Final, 5% Paper
 **Lab:** 85% Lab Assignments, 15% Project
 
-##Schedule
-**Jan 13** - Course Overview and Data Models and Cartographic Modeling
+##Schedule:
+
+**Jan 13** - Course Introduction – Introduction to Programming & Python, Python Variables Expressions and Statements
 ---
-**Jan 20** - GIS Modeling Operations
+**Jan 20** - Functions, Conditionals and Recursion, Fruitful functions
 ---
-**Jan 27** - Cartographic Modeling, Map Algebra Capability / Suitability Modeling
+**Jan 27** - Iteration, Intro to Sequences Strings, Lists and Tuples, Dictionaries
 ---
-**Feb 3** - Neighborhood Operations
+**Feb 3** - Objects and External Modules – Making the GIS Connection Automating ArcGIS functions with Python Geoprocessing
 ---
-**Feb 10** - Cost Surface Modeling
+**Feb 10** - Python Geoprocessing Cont.
 ---
 **Feb 17** - *MARDI GRAS HOLIDAY*
 ---
-**Feb 24** - Terrain and Surface
+**Feb 24** - Exploring and Manipulating Spatial Data
 ---
 **March 3**	- *Exam 1 – No Lab Meeting this week*
 ---
 **March 10** - *Spring Holidays – NO CLASS*
 ---
-**March 17** - Surface Flow in a GIS
+**March 17** - Manipulating Vector GIS data
 ---
-**March 24** - Spatial Interpolation, Geostatistical Interpolation and Spatial Uncertainty 
+**March 24** - Manipulating Raster GIS data
 ---
-**March 31** - Spatial Interpolation, Geostatistical Interpolation and Spatial Uncertainty Cont.
+**March 31** - Temporal Modeling With Scripts
 ---
-**April 7** - Spatial - Temporal Modeling
+**April 7** - Testing Multiple Scenarios with Scripts
 ---
-**April 14** - Model Calibration and Statistical Models
+**April 14** - Using GIS Scripting with other Programs
 ---
 **April 21** - *Instructor Traveling to AAG  (Lab will meet for help)*
 ---
