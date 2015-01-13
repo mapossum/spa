@@ -83,7 +83,7 @@ Python 2.7 or 2.8 – This software installs with ArcGIS.  It can also be download
 ##Schedule:
 
 **Jan 13** - Course Introduction – Introduction to Programming & Python, Python Variables Expressions and Statements
-
+___
 **Jan 20** - Functions, Conditionals and Recursion, Fruitful functions
 ---
 **Jan 27** - Iteration, Intro to Sequences Strings, Lists and Tuples, Dictionaries
