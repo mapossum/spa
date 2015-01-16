@@ -3,27 +3,27 @@
 ####Today we will discuss a number of topics related to logical flow of a computer program.  The lecture notes are outlined below:
 
 1. Review of variables, operators, data types and functions
-  a. Introduce new operator (mod or modulus).
+  1. Introduce new operator (mod or modulus).
 2. Logical operators that are useful in computer science:
-  a. Branching and looping
+  1. Branching and looping
 3. Conditionals 
-  a. Boolean Expressions
-  b. Logical Operators
-  c. Branching:
-    i. Conditional Execution
-    ii. Alternative Execution
-    iii. Nested and Chained Conditions
+  1. Boolean Expressions
+  2. Logical Operators
+  3. Branching:
+    1. Conditional Execution
+    2. Alternative Execution
+    3. Nested and Chained Conditions
 4. Looping
-  a. For Statement (More next week)
-  b. While Statement
-    i. Multiple assignment
-    ii. Updating Variables
+  1. For Statement (More next week)
+  2. While Statement
+    1. Multiple assignment
+    2. Updating Variables
 5. More On Return Values (Fruitful Functions)
-  a. Return statement
-    i. Dead code
-  b. Incremental Development
-  c. Composition
-  d. Boolean Functions
+  1. Return statement
+    1. Dead code
+  2. Incremental Development
+  3. Composition
+  4. Boolean Functions
 6. Keyboard Input – (5.11)
 
 #Lab Assignment
