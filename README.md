@@ -41,7 +41,7 @@ methods development.
 ##Format:
 The course is a traditional lab / lecture format.  The lab and the lecture are both 2 hours.  
 Each week there will be lab exercise. The lab will directly enforce the lecture topic through practical application.  
-PLEASE TURN ASSIGNEMENTS INTO: ghy.cag@gmail.com
+PLEASE TURN ASSIGNEMENTS INTO: ghy.gis@gmail.com
 
 ##Paper / Project:
 Everyone (not just graduate students) will be responsible for creating a GIS program that automates a task.  The program must implement branching, looping and at least two different GIS tools.  Undergraduates must turn in a short (two paragraph) descriptions of what there tool does.  Graduate students are responsible for turning in a term paper along with there tool.  The paper must describe the need (background) for use of such a tool and examples of the tool executed on data (maps and figures) in answering a simple research question.  This paper will likely be around 10 pages.  This will be due May 1st.
