@@ -29,14 +29,15 @@
 #Lab Assignment
 ##Exercise #2 – Making Decisions and Looping
 
-Do the following assignments:
+####Do the following assignments:
 
 1. If you are given three sticks, you may or may not be able to arrange them in a triangle. For example, if one of the sticks is 12 inches long and the other two are one inch long, it is clear that you will not be able to get the short sticks to meet in the middle. For any three lengths, there is a simple test to see if it is possible to form a triangle:
-"If any of the three lengths is greater than the sum of the other two, then you cannot form a triangle. Otherwise, you can."
 
-Write a function named is_triangle that takes three integers as arguments, and that prints either "Yes" or "No," depending on whether you can or cannot form a triangle from sticks with the given lengths.
+  * "If any of the three lengths is greater than the sum of the other two, then you cannot form a triangle. Otherwise, you can."
 
-Write a function that prompts the user to input three stick lengths, converts them to integers, and uses is_triangle to check whether sticks with the given lengths can form a triangle.
+  * Write a function named is_triangle that takes three integers as arguments, and that prints either "Yes" or "No," depending on whether you can or cannot form a triangle from sticks with the given lengths.
+
+  * Write a function that prompts the user to input three stick lengths, converts them to integers, and uses is_triangle to check whether sticks with the given lengths can form a triangle.
 
 2. The function for calculating the distance between two points is given in the book (page 53).  Using this function, write a program that calculates the length of a polyline (a number of connected line segments).  Use a while loop to continually prompt the user to enter a new vertex along a line.  Each time the user should be asked if the polyline is complete.  If it is complete report the length of the line.
 
