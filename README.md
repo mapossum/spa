@@ -6,7 +6,7 @@ Lecture: Tuesday 5-7
 
 Lab: Immidiatly following the Lecture
 
-Room WSB 228
+Room WSB 229
 
 ###Instructor:
 George T. Raber, PhD  
@@ -14,7 +14,7 @@ Associate Professor
 The University of Southern Mississippi
 
 ###Contact:
-Office: WSB 228A 601-266-5807
+Office: WSB 226A 601-266-5807
 Email: george.raber@usm.edu
 Office Hours: Wednesday 10-12am or by Appointment
 
