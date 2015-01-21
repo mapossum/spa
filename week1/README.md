@@ -1,5 +1,5 @@
 #Lecture
-##Week 1 – Course Introduction
+##Week 1 â€“ Course Introduction
 * Course Format
 * Syllabus
   * Content
@@ -31,10 +31,10 @@
   * Types of Programming Languages
   * Compiled
   * Interpreted
-  * Functions – Like little programs (For Next Week)
+  * Functions â€“ Like little programs (For Next Week)
 
 
-* Follow the book for chapters 1 – 2 (Read ahead for next week 3,4,5)
+* Follow the book for chapters 1 â€“ 2 (Read ahead for next week 3,4,5)
 * Read the extra assignment at: http://downloads2.esri.com/ESRIpress/images/224/PYTHON_sample.pdf
 
 #Lab Assignment
@@ -46,3 +46,4 @@ You do not need to turn in anything for this assignment.
 
 You should make sure your understand the terms in the glossary that we discussed in class.
 
+Youtube Link: https://www.youtube.com/watch?v=fKlVV89-jUM&x-yt-ts=1421782837&x-yt-cl=84359240
