@@ -50,6 +50,14 @@
       1. zip function
       2. range function
       3. enumerate function
+5. Dictionaries – Are a data type that is like a list, but the index can be almost any other non sequence type (although it is typically a string)
+  1. Sometimes called hashtables or associative arrays.
+  2. Consist of a key and a value.
+    1. Keys must be unique
+    2. Values can be any of any type
+  3. Tuples are often used to store tabular information
+    1. Can be used to build bar charts and histograms
+
 
 #Lab Assignment
 ##Exercise #3 – Sequences
