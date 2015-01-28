@@ -57,6 +57,8 @@
     2. Values can be any of any type
   3. Tuples are often used to store tabular information
     1. Can be used to build bar charts and histograms
+    
+Lecture Video: https://www.youtube.com/watch?v=5rDnqBTlt_Y&x-yt-ts=1422327029&x-yt-cl=84838260
 
 
 #Lab Assignment
@@ -82,7 +84,9 @@ where :
 * W is your last name, 
 * X is your first name, 
 * Y is the Exercise number (in this case 1) and 
-* Z is the script number (the first is 1 then second is 2 and so on).  
+* Z is the script number (the first is 1 then second is 2 and so on). 
+
+Lab Video: https://www.youtube.com/watch?v=5rDnqBTlt_Y&x-yt-cl=84838260&x-yt-ts=1422327029 
 
 Thus for the first script to turn in, I would name the file Raber_George_3_1.py
 
