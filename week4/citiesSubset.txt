@@ -1,0 +1,40 @@
+Chapman,Alabama,United States
+Millry,Alabama,United States
+Beebe,Arkansas,United States
+London,Arkansas,United States
+Alpine,Arizona,United States
+Rio Rico,Arizona,United States
+Baldwin Park,California,United States
+Chico,California,United States
+Escondido,California,United States
+Huron,California,United States
+Lucerne,California,United States
+Norwalk,California,United States
+Randsburg,California,United States
+Sheep Ranch,California,United States
+Villa Park,California,United States
+Commerce City,Colorado,United States
+Louviers,Colorado,United States
+Bethany,Connecticut,United States
+Mystic,Connecticut,United States
+West Granby,Connecticut,United States
+Callahan,Florida,United States
+Jupiter,Florida,United States
+Plant City,Florida,United States
+Braselton,Georgia,United States
+Grovetown,Georgia,United States
+Pine Mountain,Georgia,United States
+Haiku-Pauwela,Hawaii,United States
+Boone,Iowa,United States
+Ellsworth,Iowa,United States
+Le Mars,Iowa,United States
+Oxford Junction,Iowa,United States
+Truro,Iowa,United States
+Idaho City,Idaho,United States
+Ashley,Illinois,United States
+Christopher,Illinois,United States
+Forrest,Illinois,United States
+Ina,Illinois,United States
+Menard,Illinois,United States
+Piper City,Illinois,United States
+Staunton,Illinois,United States

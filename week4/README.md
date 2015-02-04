@@ -46,6 +46,10 @@
   6. matplotlib (plots and graphs
   7. Pillow (Image Processing)
 
+link to Lecture and Lab:
+
+https://www.youtube.com/watch?v=0v_D4A7WjUQ#t=3176
+  
 #Lab Assignment
 ##Exercise #4 – Using Objects, Dictionaries and Files
 
