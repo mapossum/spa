@@ -56,14 +56,15 @@ population growth multiplier = Population / Households (Occupied Dwelling Units)
 
 The Total population change is the total of all the land use factors
 
-The solution will involve getting all the data into a table in columns and then adding those columns up.
+The solution will involve getting all the data into a table in columns and then adding those columns up.  
 
+The first step is to think about how to do this in ArcGIS and then write the python code using arcpy to do those things.
 
-
-
-
-
-
+Here are some things to think about.
+1. We can get the population growth multiplier for each taz by doing a **Spatial Join** with each TAZ and the census data, then **summarizing** the result based on the taz field.
+2. We can get the acres of land use for each taz by doing a **Spatial Join** with each TAZ and a **subset** of the land use data, then **summarizing** the result based on the taz field.
+  1. We will have to do this once for each land use type (I think looping through the Land Use Multipliers Textfile will work the best)
+3. At this point it would just be a matter of **adding a few fields** that will hold the final numbers and then **joining** all the data to the TAZ data and doing the **final caculations**.
 
 Name the script W_X_Y_Z.py 
 
@@ -73,10 +74,11 @@ where :
 * Y is the Exercise number (in this case 1) and 
 * Z is the script number (the first is 1 then second is 2 and so on). 
 
-
 Thus for the first script to turn in, I would name the file Raber_George_5_1.py
 
 You will turn in 1 script for this exercise.
+
+You also have one question to answer in this lab.  What if the land use and/or census data did not fall completly within a TAZ unit but sometimes overlapped and had portions in two different TAZ units?  How would this change which GIS operations we would use?
       
       
       
