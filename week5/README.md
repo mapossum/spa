@@ -60,7 +60,8 @@ The solution will involve getting all the data into a table in columns and then 
 
 The first step is to think about how to do this in ArcGIS and then write the python code using arcpy to do those things.
 
-Here are some things to think about.
+Here are some things to think about:
+
 1. We can get the population growth multiplier for each taz by doing a **Spatial Join** with each TAZ and the census data, then **summarizing** the result based on the taz field.
 2. We can get the acres of land use for each taz by doing a **Spatial Join** with each TAZ and a **subset** of the land use data, then **summarizing** the result based on the taz field.
   1. We will have to do this once for each land use type (I think looping through the Land Use Multipliers Textfile will work the best)
