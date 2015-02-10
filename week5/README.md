@@ -38,10 +38,31 @@
 We have some data included in this lab.  The data consists of 4 different sets:
 
 1. Census data
-2. Zone Units (TAZ)
+2. Transportation Analysis Zone Units (TAZ)
 3. Land Use Data
+4. Build Out Factor Table (CSV - TextFile)
+5. Land Use Multipliers (TXT - TextFile)
 
-etc.
+The script you will create will calculate the population for each TAZ.  TAZ zones are defined as a group of census blocks so you can depend on a number of census blocks existing entirely within a TAZ zone (i.e. census blocks don't cross TAZ borders).
+The land use data also is derived from census data so it does not cross borders either.  This is the equation for calculating population growth by TAZ zone:
+
+Within Each TAZ there are multiple land uses.  Each land use contributes a factor to the overall growth for that TAZ as follows:
+
+Land Use Factor  = Buildout * Acres * LandUseMultiplier * population growth multipler
+
+The population growth multipler is:
+
+population growth multiplier = Population / Households (Occupied Dwelling Units)
+
+The Total population change is the total of all the land use factors
+
+The solution will involve getting all the data into a table in columns and then adding those columns up.
+
+
+
+
+
+
 
 
 Name the script W_X_Y_Z.py 
