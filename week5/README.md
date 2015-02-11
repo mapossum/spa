@@ -28,6 +28,8 @@
   2. http://resources.arcgis.com/en/help/main/10.2/index.html#/What_is_geoprocessing/002s00000001000000/
   3. http://resources.arcgis.com/en/help/main/10.2/index.html#/What_is_Python/002z00000001000000/
   4. http://resources.arcgis.com/en/help/main/10.2/index.html#/What_is_ArcPy/000v000000v7000000/
+  
+ Video:  https://www.youtube.com/watch?v=Rkg039p7Veo#t=10666
  
   
 #Lab Assignment
