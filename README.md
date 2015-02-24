@@ -88,15 +88,15 @@ Python 2.7 or 2.8 This software installs with ArcGIS.  It can also be downloaded
 - - - - - -
 **Jan 27** - Iteration, Intro to Sequences Strings, Lists and Tuples, Dictionaries
 - - - - - -
-**Feb 3** - Objects and External Modules, Making the GIS Connection Automating ArcGIS functions with Python Geoprocessing
+**Feb 3** - Objects and External Modules
 - - - - - -
-**Feb 10** - Python Geoprocessing Cont.
+**Feb 10** - Making the GIS Connection Automating ArcGIS functions with Python Geoprocessing
 - - - - - -
 **Feb 17** - *MARDI GRAS HOLIDAY*
 - - - - - -
-**Feb 24** - Exploring and Manipulating Spatial Data
+**Feb 24** - Python Geoprocessing Cont.
 - - - - - -
-**March 3** - *Exam 1*
+**March 3** - Exploring and Manipulating Spatial Data & *Exam 1* - Will be entirely take home 
 - - - - - -
 **March 10** - *Spring Holidays NO CLASS*
 - - - - - -
@@ -110,7 +110,7 @@ Python 2.7 or 2.8 This software installs with ArcGIS.  It can also be downloaded
 - - - - - -
 **April 14** - Using GIS Scripting with other Programs
 - - - - - -
-**April 21** - *Instructor Traveling to AAG  (Lab will meet for help)*
+**April 21** - *Instructor Traveling to AAG*
 - - - - - -
 **April 28** - *Review Session & Final Project Presentations*
 
