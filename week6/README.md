@@ -20,6 +20,9 @@ The lab assignement for this week is simply to take the assignement from last we
 In the script tool you create, the user should be able to specify all the input feature classes, and the appropriate fields (TAZ id, Households, Population, Multipliers etc).
 
 
+You tube Video:  https://www.youtube.com/watch?v=gapPG6bXLmk#t=12190
+
+
 
 
       
