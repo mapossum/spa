@@ -1,0 +1,4 @@
+Atqasuk,Alaska,United States,-157.3994444,70.4691667
+Anchorage,Anchorage,Alaska,United States,-149.9002778,61.2180556
+Anderson,Alaska,United States,-149.1869443,64.3441667
+Angoon,Alaska,United States,-134.5838889,57.5033333
