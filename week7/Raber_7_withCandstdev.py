@@ -1,32 +1,46 @@
-import arcpy
+import arcpy, math
 
 #search each GPS Point and get points, Place into Dictionary
 
-def findCenter(animal):
+def distance(x1, y1, x2, y2):
+    dx = x2 - x1
+    dy = y2 - y1
+    dsquared = dx**2 + dy**2
+    result = math.sqrt(dsquared)
+    return result
+
+def stDev(animal, center):
+    totdistance = 0
+    count = -1
     for pt in animal:
-        print pt
+        cdistance = distance(pt.X, pt.Y, center[0], center[1])
+        totdistance += cdistance * cdistance
+        count += 1
+    return math.sqrt(totdistance / count)
+        
+def findCenter(animal):
+    totalx = 0
+    totaly = 0
+    count = 0
+    for pt in animal:
+        totalx += pt.X
+        totaly += pt.Y
+        count += 1
+        
+    #print animals
+        
+    centroid = totalx / count, totaly / count
+    return centroid
 
 rows = arcpy.da.SearchCursor(r"C:\temp\data\GPS_points.shp", ["Shape@XY", "Animal", "Time"])
 
 
-totalx = 0
-totaly = 0
-count = 0
 
 animals = {}
 for row in rows:
-    #print "Animal:" + str(row[1])
     if not animals.has_key(row[1]):
         animals[row[1]] = []
     animals[row[1]].append(arcpy.Point(*row[0]))
-    totalx += row[0][0]
-    totaly += row[0][1]
-    count += 1
-    
-#print animals
-    
-centroid = totalx / count, totaly / count
-print centroid
 
 del rows
 
@@ -43,6 +57,8 @@ for animal in animals:
     #write find centroid function pass animal to it
     
     mycenter = findCenter(animals[animal])
+    mystdev = stDev(animals[animal], mycenter)
+    print mystdev
     
     polyline = arcpy.Polyline(array)
 
@@ -52,7 +68,7 @@ for animal in animals:
 
     #this will fail until we calculate stdev
     
-    #homeRange = polyline.buffer(stdev)
+    homeRange = polyline.buffer(mystdev)
 
     #Also we need a shapefile to save this homeRange in
     
