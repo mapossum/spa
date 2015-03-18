@@ -106,4 +106,3 @@ def _cross_product(x0, y0, x1, y1, x2, y2):
 #test the function
 if __name__ == "__main__":
     print make_circle(((0,0),(5,5)))
-
