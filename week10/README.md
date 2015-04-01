@@ -1,5 +1,5 @@
 #Lecture
-##Week 9 - Working with Raster Data
+##Week 10 - Working with Raster Data
 #### Raster GIS Data Processing using Python
 ###### Today we will discuss how to use arcpy to manipulate raster data
 
@@ -11,7 +11,7 @@
 2. Very useful functions
   1. Con (conditional statement) basically an if-then statement.
   2. Arithmetic operations
-  3. Set Null (assigns a no data value to an area)
+  3. IsNull (assigns a no data value to an area)
 3. arcpy.sa
   1. You can run almost every function in python
   2. WATCH OUT: arcpy.env extent and cell size ussually need to be set or results won't be right (Also watch out for No Data)
