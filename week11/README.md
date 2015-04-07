@@ -5,6 +5,7 @@
 
 
 1. numpy can be used for many local operations, conditional operators, finding global min, global max etc.  You can even use it for zonal functions.
+  1. Pay particular attendtion to cell size and extent, because numpy does NOT
 2. There are however a few functions that are more "GIS-y" that would be very hard to replicate in numpy and therefore GDAL has tools for these operations.
   1. Raster to vector conversion and back
   2. Raster Proximity functions
