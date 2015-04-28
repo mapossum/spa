@@ -115,6 +115,32 @@ Python 2.7 or 2.8 This software installs with ArcGIS.  It can also be downloaded
 **April 28** - *Review Session & Final Project Presentations*
 
 
+#Course Wrap Up
+## Final Exam
+
+We will take the final exam next week at 5pm. 
+Unlike the mid-term, the final exam will be written and in-class.  The final exam will test your knowledge of python programming concepts you should be familier with.
+You will have 2 hours to complete the exam, but it will likely take much less time to actually complete it.
+
+Much of the exam will be code interpretation.  I will give a small code snippet and you will report what the snippet does.  The answer will never be "It does not do anything."
+The purpose of the exam is to test your ability to understand python syntax and how it is used in GIS applications.
+
+The following is a list of concepts that are tested on the exam:
+
+variables
+data types
+sequences, particularly lists and dictionaries
+indexing and slicing a sequence
+functions (what they are, why you would use them and what they look like in when you write them in python code).
+what do map, filter and reduce functions do?
+
+Note: you will absolutly not have to write code for the items below, just interpret
+modules - what they are
+arcpy - running arcgis tools in arcpy and accessing geometry
+gdal/shapely/fiona - same as above
+
+## Course Presentations
+The graduate students will present the results of their final projects.
 
 
 
