@@ -125,7 +125,7 @@ You will have 2 hours to complete the exam, but it will likely take much less ti
 Much of the exam will be code interpretation.  I will give a small code snippet and you will report what the snippet does.  The answer will never be "It does not do anything."
 The purpose of the exam is to test your ability to understand python syntax and how it is used in GIS applications.
 
-The following is a list of concepts that are tested on the exam:
+####The following is a list of concepts that are tested on the exam:
 
 1.  variables
 2.  data types
@@ -134,7 +134,7 @@ The following is a list of concepts that are tested on the exam:
 5.  functions (what they are, why you would use them and what they look like in when you write them in python code).
 6.  what do map, filter and reduce functions do?
 
-Note: you will absolutly not have to write code for the items below, just interpret
+####Note: you will absolutly not have to write code for the items below, just interpret:
 1.  modules - what they are
 2.  arcpy - running arcgis tools in arcpy and accessing geometry
 3.  gdal/shapely/fiona - same as above
