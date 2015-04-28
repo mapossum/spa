@@ -127,17 +127,17 @@ The purpose of the exam is to test your ability to understand python syntax and 
 
 The following is a list of concepts that are tested on the exam:
 
-variables
-data types
-sequences, particularly lists and dictionaries
-indexing and slicing a sequence
-functions (what they are, why you would use them and what they look like in when you write them in python code).
-what do map, filter and reduce functions do?
+1.  variables
+2.  data types
+3.  sequences, particularly lists and dictionaries
+4.  indexing and slicing a sequence
+5.  functions (what they are, why you would use them and what they look like in when you write them in python code).
+6.  what do map, filter and reduce functions do?
 
 Note: you will absolutly not have to write code for the items below, just interpret
-modules - what they are
-arcpy - running arcgis tools in arcpy and accessing geometry
-gdal/shapely/fiona - same as above
+1.  modules - what they are
+2.  arcpy - running arcgis tools in arcpy and accessing geometry
+3.  gdal/shapely/fiona - same as above
 
 ## Course Presentations
 The graduate students will present the results of their final projects.
