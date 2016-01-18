@@ -2,7 +2,7 @@
 
 This is the repository to USM spatial programming course.  This GitHub Repo will serve as a location for all the code and the lecture notes.  
 
-Lecture: Tuesday 5-7
+Lecture: Tuesday 4-6
 
 Lab: Immidiatly following the Lecture
 
@@ -44,7 +44,7 @@ Each week there will be lab exercise. The lab will directly enforce the lecture 
 PLEASE TURN ASSIGNEMENTS INTO: ghy.gis@gmail.com
 
 ##Paper / Project:
-Everyone (not just graduate students) will be responsible for creating a GIS program that automates a task.  The program must implement branching, looping and at least two different GIS tools.  Undergraduates must turn in a short (two paragraph) descriptions of what there tool does.  Graduate students are responsible for turning in a term paper along with there tool.  The paper must describe the need (background) for use of such a tool and examples of the tool executed on data (maps and figures) in answering a simple research question.  This paper will likely be around 10 pages.  This will be due May 1st.
+Everyone (not just graduate students) will be responsible for creating a GIS program that automates a task.  The program must implement branching, looping and at least two different GIS tools.  Undergraduates must turn in a short (two paragraph) descriptions of what there tool does.  Graduate students are responsible for turning in a term paper along with there tool.  The paper must describe the need (background) for use of such a tool and examples of the tool executed on data (maps and figures) in answering a simple research question.  This paper will likely be around 10 pages.  This will be due May 5th.
 
 ##Prerequisites:
 GIS experience **required** for course.  217 or equivilent is required and you should be taking or have already taken GHY 417 or 418 before you enrolled.  There can be exceptions with the instructors permission.  We won't be using the GIS knowledge for the first few weeks of the course so if you are dedicated you have time to catch up.
@@ -74,6 +74,7 @@ Python 2.7 or 2.8 This software installs with ArcGIS.  It can also be downloaded
 **Lecture:**35% Midterm, 40% Final, 25% Paper
 
 **Lab:** 80% Lab Assignments, 20% Project
+
 #### Undergraduate
 
 **Lecture:** 45% Midterm, 50% Final, 5% Paper
@@ -82,65 +83,40 @@ Python 2.7 or 2.8 This software installs with ArcGIS.  It can also be downloaded
 
 ##Schedule:
 
-**Jan 13** - Course Introduction, Introduction to Programming & Python, Python Variables Expressions and Statements
+**Jan 19** - Course Introduction, Introduction to Programming & Python, Python Variables Expressions and Statements
 - - - - - -
-**Jan 20** - Functions, Conditionals and Recursion, Fruitful functions
+**Jan 26** - Functions, Conditionals and Recursion, Fruitful functions
 - - - - - -
-**Jan 27** - Iteration, Intro to Sequences Strings, Lists and Tuples, Dictionaries
+**Feb 2** - Iteration, Intro to Sequences Strings, Lists and Tuples, Dictionaries
 - - - - - -
-**Feb 3** - Objects and External Modules
+**Feb 9** - *MARDI GRAS HOLIDAY*
 - - - - - -
-**Feb 10** - Making the GIS Connection Automating ArcGIS functions with Python Geoprocessing
+**Feb 16** - Objects and External Modules
 - - - - - -
-**Feb 17** - *MARDI GRAS HOLIDAY*
+**Feb 23** - Making the GIS Connection Automating ArcGIS functions with Python Geoprocessing
 - - - - - -
-**Feb 24** - Python Geoprocessing Cont.
+**March 1** - Python Geoprocessing Cont.
 - - - - - -
-**March 3** - Exploring and Manipulating Spatial Data & *Exam 1* - Will be entirely take home 
+**March 8** - Exploring and Manipulating Spatial Data & *Exam 1* - Will be entirely take home 
 - - - - - -
-**March 10** - *Spring Holidays NO CLASS*
+**March 15** - *Spring Holidays NO CLASS*
 - - - - - -
-**March 17** - Manipulating Vector GIS data
+**March 22** - Manipulating Vector GIS data
 - - - - - -
-**March 24** - Manipulating Raster GIS data
+**March 29** - Manipulating Raster GIS data
 - - - - - -
-**March 31** - Interacting with Spatial Databases
+**April 5** - Interacting with Spatial Databases
 - - - - - -
-**April 7** - Scripting Applications and Spatial Error
+**April 12** - Scripting Applications and Spatial Error
 - - - - - -
-**April 14** - Using GIS Scripting with other Programs
+**April 19** - Using GIS Scripting with other Programs
 - - - - - -
-**April 21** - *Instructor Traveling to AAG*
+**April 26** - *Review Session & Final Project Presentations*
 - - - - - -
-**April 28** - *Review Session & Final Project Presentations*
+**May 3** - *Final Exam*
 
 
-#Course Wrap Up
-## Final Exam
 
-We will take the final exam next week at 5pm. 
-Unlike the mid-term, the final exam will be written and in-class.  The final exam will test your knowledge of python programming concepts you should be familier with.
-You will have 2 hours to complete the exam, but it will likely take much less time to actually complete it.
-
-Much of the exam will be code interpretation.  I will give a small code snippet and you will report what the snippet does.  The answer will never be "It does not do anything."
-The purpose of the exam is to test your ability to understand python syntax and how it is used in GIS applications.
-
-####The following is a list of concepts that are tested on the exam:
-
-1.  variables
-2.  data types
-3.  sequences, particularly lists and dictionaries
-4.  indexing and slicing a sequence
-5.  functions (what they are, why you would use them and what they look like in when you write them in python code).
-6.  what do map, filter and reduce functions do?
-
-####Note: you will absolutly not have to write code for the items below, just interpret:
-1.  modules - what they are
-2.  arcpy - running arcgis tools in arcpy and accessing geometry
-3.  gdal/shapely/fiona - same as above
-
-## Course Presentations
-The graduate students will present the results of their final projects.
 
 
 
