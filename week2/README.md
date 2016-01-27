@@ -37,7 +37,7 @@
 
   * Write a function named is_triangle that takes three integers as arguments, and that prints either "Yes" or "No," depending on whether you can or cannot form a triangle from sticks with the given lengths.
 
-  * Write a function that prompts the user to input three stick lengths, converts them to integers, and uses is_triangle to check whether sticks with the given lengths can form a triangle.
+  * Write a function that prompts the user to input three stick lengths, converts them to integers, and uses is_triangle to check whether sticks with the given lengths can form a triangle.  The user must be told if the three sticks form a triangle in a complete sentance.
 
 2. The function for calculating the distance between two points is given in the book (page 53).  Using this function, write a program that calculates the length of a polyline (a number of connected line segments).  Use a while loop to continually prompt the user to enter a new vertex along a line.  Each time the user should be asked if the polyline is complete.  If it is complete report the length of the line.
 
