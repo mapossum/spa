@@ -58,7 +58,7 @@
   3. Tuples are often used to store tabular information
     1. Can be used to build bar charts and histograms
     
-Lecture Video: https://www.youtube.com/watch?v=5rDnqBTlt_Y&x-yt-ts=1422327029&x-yt-cl=84838260
+2015 - Lecture Video: https://www.youtube.com/watch?v=5rDnqBTlt_Y&x-yt-ts=1422327029&x-yt-cl=84838260
 
 
 #Lab Assignment
