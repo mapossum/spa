@@ -48,6 +48,8 @@
 
 link to Lecture and Lab:
 
+2016 Lecture Video: https://www.youtube.com/watch?v=Tfgfp0X6AQE
+2016 Lab Video: https://www.youtube.com/watch?v=kBlAEVH7S1E
 2015 Video: https://www.youtube.com/watch?v=0v_D4A7WjUQ#t=3176
   
 #Lab Assignment
