@@ -33,41 +33,16 @@
  
   
 #Lab Assignment
-##Exercise #5 – Using ArcGIS to Model Growth
+##Exercise #5 – Using ArcGIS to run a simple model
 
 ####Do the following assignment:
 
-We have some data included in this lab.  The data consists of 4 different sets:
+We have some data included in this lab.  The data consists of 2 different sets:
 
 1. Census data
-2. Transportation Analysis Zone Units (TAZ)
-3. Land Use Data
-4. Build Out Factor Table (CSV - TextFile)
-5. Land Use Multipliers (TXT - TextFile)
+2. Watersheds
 
-The script you will create will calculate the population for each TAZ.  TAZ zones are defined as a group of census blocks so you can depend on a number of census blocks existing entirely within a TAZ zone (i.e. census blocks don't cross TAZ borders).
-The land use data also is derived from census data so it does not cross borders either.  This is the equation for calculating population growth by TAZ zone:
-
-Within Each TAZ there are multiple land uses.  Each land use contributes a factor to the overall growth for that TAZ as follows:
-
-Land Use Factor  = Buildout * Acres * LandUseMultiplier * population growth multipler
-
-The population growth multipler is:
-
-population growth multiplier = Population / Households (Occupied Dwelling Units)
-
-The Total population change is the total of all the land use factors
-
-The solution will involve getting all the data into a table in columns and then adding those columns up.  
-
-The first step is to think about how to do this in ArcGIS and then write the python code using arcpy to do those things.
-
-Here are some things to think about:
-
-1. We can get the population growth multiplier for each taz by doing a **Spatial Join** with each TAZ and the census data, then **summarizing** the result based on the taz field.
-2. We can get the acres of land use for each taz by doing a **Spatial Join** with each TAZ and a **subset** of the land use data, then **summarizing** the result based on the taz field.
-  1. We will have to do this once for each land use type (I think looping through the Land Use Multipliers Textfile will work the best)
-3. At this point it would just be a matter of **adding a few fields** that will hold the final numbers and then **joining** all the data to the TAZ data and doing the **final caculations**.
+You will create a simple script that calcuates how many people live in each watershed.  Since the watershed boundaries and the census boundaies do not match up you will use GIS to break apart (overlay) and assign people to each watershed based on the percentage of area a particular tract has in each watershed.  For example if 100 people live in a tract and 80% of the area of that tract falls in a watershed then 80 people will be counted for that watershed.  Your output will be the total number of people in each watershed.
 
 Name the script W_X_Y_Z.py 
 
