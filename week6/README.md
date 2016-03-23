@@ -17,10 +17,9 @@ A toolbox is basically just a file with a .tbx extension.  A toolbox that a user
 4. Use of SetParameterAsText and SetParameter
 
 The lab assignement for this week is simply to take the assignement from last week and turn it into a script tool within a toolbox.
-In the script tool you create, the user should be able to specify all the input feature classes, and the appropriate fields (TAZ id, Households, Population, Multipliers etc).
 
 
-You tube Video:  https://www.youtube.com/watch?v=gapPG6bXLmk#t=12190
+You tube Video:  https://www.youtube.com/watch?v=2W6di6SwNYg
 
 
 
