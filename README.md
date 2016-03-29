@@ -83,35 +83,35 @@ Python 2.7 or 2.8 This software installs with ArcGIS.  It can also be downloaded
 
 ##Schedule:
 
-**Jan 19** - Course Introduction, Introduction to Programming & Python, Python Variables Expressions and Statements
+**Jan 19** - Course Introduction, Introduction to Programming & Python, Python Variables Expressions and Statements (M 1)
 - - - - - -
-**Jan 26** - Functions, Conditionals and Recursion, Fruitful functions
+**Jan 26** - Functions, Conditionals and Recursion, Fruitful functions (M 2)
 - - - - - -
-**Feb 2** - Iteration, Intro to Sequences Strings, Lists and Tuples, Dictionaries
+**Feb 2** - Iteration, Intro to Sequences Strings, Lists and Tuples (M 3)
 - - - - - -
 **Feb 9** - *MARDI GRAS HOLIDAY*
 - - - - - -
-**Feb 16** - Objects and External Modules
+**Feb 16** - Dictionaries, Objects and External Modules (M 4)
 - - - - - -
-**Feb 23** - Making the GIS Connection Automating ArcGIS functions with Python Geoprocessing
+**Feb 23** - Bad Weather Day
 - - - - - -
-**March 1** - Python Geoprocessing Cont.
+**March 1** - Making the GIS Connection Automating ArcGIS functions with Python Geoprocessing (M 5 - Online Only)
 - - - - - -
-**March 8** - Exploring and Manipulating Spatial Data & *Exam 1* - Will be entirely take home 
+**March 8** - Instructor Traveling
 - - - - - -
-**March 15** - *Spring Holidays NO CLASS*
+**March 15** - *Spring Holidays NO CLASS*  
 - - - - - -
-**March 22** - Manipulating Vector GIS data
+**March 22** - ArrcGIS Toolboxes (M 6)
 - - - - - -
-**March 29** - Manipulating Raster GIS data
+**March 29** - Manipulating Vector GIS data Exploring and Manipulating Spatial Data (M 7)
 - - - - - -
-**April 5** - Interacting with Spatial Databases
+**April 5** -  Working with GIS data Continuted (M 8)
 - - - - - -
-**April 12** - Scripting Applications and Spatial Error
+**April 12** -  Manipulating Raster GIS data (M 9)
 - - - - - -
-**April 19** - Using GIS Scripting with other Programs
+**April 19** - Raster Processing Continuted. (M 10)
 - - - - - -
-**April 26** - *Review Session & Final Project Presentations*
+**April 26** - Using GIS Scripting with other Programs (M 11)
 - - - - - -
 **May 3** - *Final Exam*
 

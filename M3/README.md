@@ -1,5 +1,5 @@
 #Lecture
-##Week 3 – Sequences
+##Meeting 3 – Sequences
 ####Today we will discuss a number of data types that allow for grouping of sets of information (sequences):
 
 1. Strings – We already know what strings are, but…

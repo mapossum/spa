@@ -1,5 +1,5 @@
 #Lecture
-##Week 5 – Python in ArcGIS (arcpy)
+##Meeting 5 – Python in ArcGIS (arcpy)
 ####Today we will introduce and discuss arcpy, a module for interacting with ArcGIS:
 
 1. Quick Review of what we have learned so far:

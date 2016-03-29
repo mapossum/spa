@@ -1,5 +1,5 @@
 #Lecture
-##Week 2 – Looping, Branching and Functions
+##Meeting 2 – Looping, Branching and Functions
 ####Today we will discuss a number of topics related to logical flow of a computer program.  The lecture notes are outlined below:
 
 1. Review of variables, operators, data types and functions

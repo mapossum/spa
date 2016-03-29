@@ -1,5 +1,5 @@
 #Lecture
-##Week 1 – Course Introduction
+##Meeting 1 – Course Introduction
 * Course Format
 * Syllabus
   * Content

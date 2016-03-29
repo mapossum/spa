@@ -1,5 +1,5 @@
 #Lecture
-##Week 4 – Dictionaries and External Modules
+##Meeting 4 – Dictionaries and External Modules
 ####Today we will finish sequences (Dictionaries) and introduce a number of powerful external modules:
 
 1. Dictionaries – Are a data type that is like a list, but the index can be almost any other non sequence type (although it is typically a string)

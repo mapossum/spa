@@ -1,5 +1,5 @@
 #Lecture
-##Week 6 – Python in ArcGIS (arcpy) - Building Toolboxes
+##Meeting 6 – Python in ArcGIS (arcpy) - Building Toolboxes
 ####Today we will continue to discuss arcpy, specifically, how to connect the scripts we make to Toolboxes:
 
 Making a toolbox:

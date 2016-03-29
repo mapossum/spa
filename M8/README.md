@@ -1,5 +1,5 @@
 #Lecture
-##Week 8 - Working with GIS data Continuted
+##Meeting 8 - Working with GIS data Continuted
 #### More on Accessing GIS data through Python
 ###### Today we won't cover anything new, just practice doing things we talked about.  
 
