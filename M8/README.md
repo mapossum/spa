@@ -1,10 +1,10 @@
 #Lecture
 ##Meeting 8 - Working with GIS data Continuted
 #### More on Accessing GIS data through Python
-###### Today we won't cover anything new, just practice doing things we talked about.  
+###### Today we won't cover much new.  The new item will be manipulating shapes via python.  
 
 1.  What can GIS systems do with GIS data?
-  1. GIS operations. (Vary by library)
+  1. GIS operations.
     1. Examples
       1. Union
       2. Interset
@@ -13,7 +13,6 @@
 	  5. Find Areas
 	  6. Find Lengths
 	  7. Find Distances
-
 
 #Lab 
 
@@ -54,7 +53,7 @@ The metrics have many applications in both envorimental, biological and social s
 1) Your task for this lab is write a program that takes as input a shapefile, and adds a field for each of the first four metrics discussed above.  Then populates the appropriate value into the field (you should have 4 added fields).
 2) Also output a new shapefile that contains the difference between the smallest circumscribing circle and the area of the input polygon, and another shapefile that contains the circles that are the same area as the inputs.
 
-The circle.py script, already contains code to calculate the smallest circumscribing circle.  Go ahead and use this rather than creating your own.
+The SEC.py script, already contains code to calculate the smallest circumscribing circle (function is called make_circle).  Go ahead and use this rather than creating your own.
 You will need to find the circle and square of the same area as each of the input polygons.
 
 Use the accompanying cities of Mississippi GIS file to test your program.
