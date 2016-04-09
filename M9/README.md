@@ -1,5 +1,5 @@
 #Lecture
-##Week 10 - Working with Raster Data
+##Week 9 - Working with Raster Data
 #### Raster GIS Data Processing using Python
 ###### Today we will discuss how to use arcpy to manipulate raster data
 
