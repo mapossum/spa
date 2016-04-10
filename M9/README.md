@@ -3,6 +3,7 @@
 #### Raster GIS Data Processing using Python
 ###### Today we will discuss how to use arcpy to manipulate raster data
 
+YouTube Link:  https://www.youtube.com/watch?v=e0V_mMspZc8
 
 1. Review of raster operations:
   1. Local
@@ -28,13 +29,14 @@ Here is your assignment (You have two weeks to finish this assignment).
 
 Download the data in this weeks folder.
 
-1. Write a simple script that finds the mean of all either all the precip or temp rasters.
-2. Write a script that does the following:
+1. Write a script that does the following:
   1. Take each of the shapefiles that start with "Risk_"
   2. Use Euclidian distance to create a raster of straight line distance from each of these datasets.
   3. Adjust the output so that only distances to 1000m are present (no data beyond 1000m).
   4. Reverse the values in the each of these datasets so the values start at 1000 and end at 0 in places that are 1000m away from the feature.
   5. add up each of these datasets and save the output.
+  
+
 
 
 
