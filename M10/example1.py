@@ -1,11 +1,13 @@
 import arcpy
 import numpy
 
+arcpy.env.overwriteOutput = True
 # Create a simple array from scratch using random values
-myArray = numpy.random.random_integers(0,100,2500)
-myArray.shape = (50,50)
+myArray = numpy.random.random_integers(0,100,25) #numpy.ones(25) * 5 #
+myArray.shape = (5,5)
+print myArray
 
 # Convert array to a geodatabase raster
-point = arcpy.Point(100, 100)
-myRaster = arcpy.NumPyArrayToRaster(myArray,lower_left_corner=point,x_cell_size=1)
-myRaster.save("C:/temp/myRandomRaster1.tif")
+point = arcpy.Point(50, 50)
+myRaster = arcpy.NumPyArrayToRaster(myArray,lower_left_corner=point,x_cell_size=10)
+myRaster.save("C:/temp/myRandomRaster4.tif")
