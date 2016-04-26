@@ -28,8 +28,7 @@ Here is your assignment (You have two weeks to finish this assignment).
 Download the data in this weeks folder.
 
 1. Write a script that does the following:
-  1. Uses numpy to calculate a focal mean (neighborhood mean)
-  ... More to come
+  1. Uses numpy to rewite the script from last week (except Euecldian distance) so that it runs using numpy instead of spatial analysis tools.
 
 
 

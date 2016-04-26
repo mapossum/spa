@@ -1,5 +1,6 @@
 import arcpy
 from arcpy.sa import *
+start = datetime.datetime.now()
 
 arcpy.CheckOutExtension("Spatial")
 
@@ -28,6 +29,9 @@ statement = "Raster('" + ("') + Raster('").join(riskRasters) + "')"
 arcpy.AddMessage( statement)
 #set this equal to some variable
 TotalRisk = eval(statement)
+
+finish = datetime.datetime.now()
+print finish - start
 
 #save it to some location.
 TotalRisk.save(outputloc)
