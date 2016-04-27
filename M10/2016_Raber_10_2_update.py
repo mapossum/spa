@@ -15,24 +15,21 @@ arcpy.env.overwriteOutput = True
 datasets = arcpy.ListFeatureClasses(filefilter)
 
 riskRasters = []
+
+totalRisk = 0
 for dataset in datasets:
     #print dataset, dataset.replace(".shp", "_distance.img")
     outEucDistance = EucDistance(dataset, 1000)
+    lowerLeft = arcpy.Point(outEucDistance.extent.XMin,outEucDistance.extent.YMin)
     #Change everything from here down to numpy and then change result back to Raster
-    RiskDataset = 1000 - outEucDistance
-    FRiskDataset = Con(IsNull(RiskDataset), 0, RiskDataset)
-    FRiskDataset.save(dataset.replace(".shp", "_risk.img"))
-    
-    riskRasters.append(dataset.replace(".shp", "_risk.img"))
-
-statement = "Raster('" + ("') + Raster('").join(riskRasters) + "')"
-
-arcpy.AddMessage( statement)
-#set this equal to some variable
-TotalRisk = eval(statement)
+    edarray = arcpy.RasterToNumPyArray(outEucDistance, nodata_to_value = 1000)
+    RiskDataset = 1000 - edarray
+    totalRisk = totalRisk + RiskDataset
 
 finish = datetime.datetime.now()
 print finish - start
 
-#save it to some location.
-TotalRisk.save(outputloc)
+myRaster = arcpy.NumPyArrayToRaster(totalRisk,lowerLeft,50,value_to_nodata=0)
+myRaster.save("C:/temp/myRandomRaster6.tif")
+
+
