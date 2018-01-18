@@ -2,11 +2,11 @@
 
 This is the repository to USM spatial programming course.  This GitHub Repo will serve as a location for all the code and the lecture notes.  
 
-Lecture: Tuesday 4-6
+Lecture: Tuesday 1-3pm
 
 Lab: Immidiatly following the Lecture
 
-Room WSB 229
+Room WSB 229 and IVN to Coast
 
 ###Instructor:
 George T. Raber, PhD  
@@ -19,7 +19,7 @@ Email: george.raber@usm.edu
 Office Hours: Wednesday 10-12am or by Appointment
 
 **TURN ASSIGNMENTS INTO:**
-ghy.gis@gmail.com
+CANVAS - Labs will be posted in Canvas.  If multiple files are requested for submission, zip them together and upload.
 
 ##Course Overview:
 This course class will teach concepts and methods that are often important when implementing actual GIS applications.  A GIS system has many powerful standard features, however in any application there are going to be instances where the GIS needs to be customized in order perform at its maximum potential.  
@@ -83,35 +83,35 @@ Python 2.7 or 2.8 This software installs with ArcGIS.  It can also be downloaded
 
 ##Schedule:
 
-**Jan 19** - Course Introduction, Introduction to Programming & Python, Python Variables Expressions and Statements (M 1)
+**Jan 18** - Course Introduction, Introduction to Programming & Python, Python Variables Expressions and Statements (M 1)
 - - - - - -
-**Jan 26** - Functions, Conditionals and Recursion, Fruitful functions (M 2)
+**Jan 25** - Functions, Conditionals and Recursion, Fruitful functions (M 2)
 - - - - - -
-**Feb 2** - Iteration, Intro to Sequences Strings, Lists and Tuples (M 3)
+**Feb 1** - Iteration, Intro to Sequences Strings, Lists and Tuples (M 3)
 - - - - - -
-**Feb 9** - *MARDI GRAS HOLIDAY*
+**Feb 8** - Dictionaries, Objects and Classes(M 4)
 - - - - - -
-**Feb 16** - Dictionaries, Objects and External Modules (M 4)
+**Feb 15** - External Modules (M 5)
 - - - - - -
-**Feb 23** - Bad Weather Day
+**Feb 22** - Making the GIS Connection Automating ArcGIS functions with Python Geoprocessing (M 6)
 - - - - - -
-**March 1** - Making the GIS Connection Automating ArcGIS functions with Python Geoprocessing (M 5 - Online Only)
+**March 1** - Automating ArcGIS functions with Python Geoprocessing Cont. (M 7)
 - - - - - -
-**March 8** - Instructor Traveling
+**March 8** - Instructor Traveling - Exam (May be Take Home)
 - - - - - -
 **March 15** - *Spring Holidays NO CLASS*  
 - - - - - -
-**March 22** - ArrcGIS Toolboxes (M 6)
+**March 22** - ArrcGIS Toolboxes (M 8)
 - - - - - -
-**March 29** - Manipulating Vector GIS data Exploring and Manipulating Spatial Data (M 7)
+**March 29** - Manipulating Vector GIS data Exploring and Manipulating Spatial Data (M 9)
 - - - - - -
-**April 5** -  Working with GIS data Continuted (M 8)
+**April 5** -  Working with GIS data Continuted (M 10)
 - - - - - -
-**April 12** -  Manipulating Raster GIS data (M 9)
+**April 12** -  Manipulating Raster GIS data (M 11)
 - - - - - -
-**April 19** - Raster Processing Continuted. (M 10)
+**April 19** - Raster Processing Continuted. (M 12)
 - - - - - -
-**April 26** - Using GIS Scripting with other Programs (M 11)
+**April 26** - Using GIS Scripting with other Programs (M 13)
 - - - - - -
 **May 3** - *Final Exam*
 
