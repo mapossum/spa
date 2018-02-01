@@ -50,13 +50,7 @@
       1. zip function
       2. range function
       3. enumerate function
-5. Dictionaries – Are a data type that is like a list, but the index can be almost any other non sequence type (although it is typically a string)
-  1. Sometimes called hashtables or associative arrays.
-  2. Consist of a key and a value.
-    1. Keys must be unique
-    2. Values can be any of any type
-  3. Tuples are often used to store tabular information
-    1. Can be used to build bar charts and histograms
+
     
 2015 - Lecture Video: https://www.youtube.com/watch?v=5rDnqBTlt_Y&x-yt-ts=1422327029&x-yt-cl=84838260
 
@@ -66,15 +60,14 @@
 
 ####Do the following assignments:
 
-1. Write a simple functions that takes a list of numbers, and optionally another single number (using the * function) and does the following:
+1. Write a simple functions that takes a list of numbers and does the following:
   1. Checks that the list is in fact a list of just numbers, and if not returns only a value of None.  If true returns each of the following as a tuple:
   2. Returns the sum.
   3. Returns the mean.
   4. Returns Standard Deviation
-  5. If a second argument was given, returns the number of values above the given value
   * Test this function above by creating a program to generate a report of the return values.
 2. The function included with this lab uses a module to find the latitude and longitude of a city or address.  Modify the last program from last week to take a list of cities (as strings e.g. “Hattiesburg, MS”) and report the distance along a path that traverses the entire list (your list should include at least 5 cities).  
-3. Modify the script from above to include the function you wrote from Script 1 so that the user is also give the mean, standard deviation, and the number of individual legs that were above a certain distance.
+3. Modify the script from above to include the function you wrote from Script 1 so that the user is also give the mean, standard deviation of all the legs.
 
 Please turn them in by emailing the python scripts to me at ghy.gis@gmail.com  
 
