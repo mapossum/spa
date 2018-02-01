@@ -79,6 +79,8 @@ where :
 * Y is the Exercise number (in this case 1) and 
 * Z is the script number (the first is 1 then second is 2 and so on). 
 
+2018 Lecture Video: https://youtu.be/HEw_ZqXY5aw
+2018 Lab Video: https://youtu.be/q10pib7Tg60
 2016 Video: https://www.youtube.com/watch?v=lcLgSmgPjkA#t=3769
 2015 Video: https://www.youtube.com/watch?v=5rDnqBTlt_Y&x-yt-cl=84838260&x-yt-ts=1422327029 
 
