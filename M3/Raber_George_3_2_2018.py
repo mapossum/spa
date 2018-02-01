@@ -1,4 +1,9 @@
-import math
+import math, urllib
+def getaddresslocation(address):
+    params = urllib.urlencode({'address': address})
+    f = urllib.urlopen("https://maps.googleapis.com/maps/api/geocode/json?%s" % params)
+    loc = eval(f.read())
+    return (loc["results"][0]["geometry"]["location"]['lng'],  loc["results"][0]["geometry"]["location"]['lat'])
 
 def recalculate_coordinate(val,_as=None):
   """
@@ -50,8 +55,20 @@ def points2distance(slong, slat, elong, elat):
   return 6371 * c
 
 
-#This is an Example of how it could be used
-print points2distance(-89.342 , 32.3, -90.233, 24.4)
+
+Citylist = ["Hattiesburg, MS", "Irvine, CA", "Calgary, AB"]
+
+for city in Citylist:
+    #get x and y using tuple assignment
+    x, y = getaddresslocation(city)
+    #these is an equal statements
+    #point = getaddresslocation(city)
+    #x = point[0]
+    #y = point[1]
+    print city , "   LON:" , x, "    LAT:" , y
+
+
+
 
 
 firsttime = True
@@ -95,3 +112,4 @@ while(keepgoing):
         print totaldistance
         keepgoing = False
     
+
