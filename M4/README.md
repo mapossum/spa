@@ -15,6 +15,7 @@
   2. Reading files (section 9.1)
     1. Readline, readlines, read
     2. Strip function
+	3. Split and Join Function
   3. Writing files
   4. Format operator
   5. Directories – the os module
