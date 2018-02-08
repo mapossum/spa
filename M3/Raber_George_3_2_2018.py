@@ -1,8 +1,9 @@
 import math, urllib
 def getaddresslocation(address):
-    params = urllib.urlencode({'address': address})
+    params = urllib.urlencode({'address': address, 'key': 'AIzaSyAIkAkn6l3NkAqQ1xXmIniNnGvL24_N1Lc'})
     f = urllib.urlopen("https://maps.googleapis.com/maps/api/geocode/json?%s" % params)
     loc = eval(f.read())
+    print loc
     return (loc["results"][0]["geometry"]["location"]['lng'],  loc["results"][0]["geometry"]["location"]['lat'])
 
 def recalculate_coordinate(val,_as=None):
@@ -56,31 +57,15 @@ def points2distance(slong, slat, elong, elat):
 
 
 
+firsttime = True
+totaldistance = 0
+
 Citylist = ["Hattiesburg, MS", "Irvine, CA", "Calgary, AB"]
 
 for city in Citylist:
     #get x and y using tuple assignment
     x, y = getaddresslocation(city)
-    #these is an equal statements
-    #point = getaddresslocation(city)
-    #x = point[0]
-    #y = point[1]
     print city , "   LON:" , x, "    LAT:" , y
-
-
-
-
-
-firsttime = True
-totaldistance = 0
-keepgoing = True
-
-while(keepgoing):
-
-    #Have the user give us a point as two numebers (X and Y)
-
-    x = float(raw_input("X value for point along line:"))
-    y = float(raw_input("Y value for point along line:"))
 
     #Test if there is a previous x and y and if not assign one
     if firsttime:
@@ -90,26 +75,15 @@ while(keepgoing):
     firsttime = False
     
     #Figure out the distance from current point to the previous point
-
     cdist = points2distance(prex,prey,x,y)
     print cdist, prex, prey, x, y
     
     #Add that distance to the running total
-
     totaldistance = cdist + totaldistance
 
-    #Find out if they want to continue
+    prex = x
+    prey = y
 
-    cont = raw_input("Do you want to continue? (Enter Y to keep going)")
-
-    #If they want to continue ask for another point
-
-    if (cont == "Y"):
-        prex = x
-        prey = y
-    else:
-        #If not report the total distance
-        print totaldistance
-        keepgoing = False
+print totaldistance
     
 

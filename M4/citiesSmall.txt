@@ -1,5 +1,5 @@
 ﻿Canonical Name
-Anchorage,Anchorage,Alaska,United States
+Anchorage,Alaska,United States
 Anderson,Alaska,United States
 Angoon,Alaska,United States
 Atqasuk,Alaska,United States

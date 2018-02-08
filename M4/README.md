@@ -43,8 +43,8 @@ First we will write a point class simmilar to the one in the book on page 144 (w
 
 In this assignement you will turn in a single script, but the script will have several functions.
 1. Write a function that takes the path to a text file as the only input parameter and then reads the lines of that textfile into a list or tuple (one line is one item in the list) and then returns the list or tuple.
-2. Write a function that takes a list of cities and returns a dictionary where the keys are the city names and the values are the locations as point objects.  For this step you will re-use the function from last week that finds the location of a city.
-3. Write a function that takes a dictionary of point objects (The output of #2 above), and a file location and writes the values to a text file that has the data in rows with the name of the city followed by the coordinate value.  
+2. Write a function that takes a list of cities and returns a dictionary where the keys are the city names and the values are the locations as a dictionary with x and y as keys and the point values as the values.  For this step you will re-use the function from last week that finds the location of a city.
+3. Write a function that takes a dictionary of points (The output of #2 above), and a file location and writes the values to a text file that has the data in rows with the name of the city followed by the coordinate value.  
 
 You can use the given list of cities for testing.  Feel free to make it smaller (just use the citiesSmall.txt until you want to test on larger set).
 

@@ -1,0 +1,5 @@
+﻿Canonical Name
+Anchorage|Alaska|United States|57.1122624607
+Anderson|Alaska|United States|62.043546128
+Angoon|Alaska|United States|58.2739133635
+Atqasuk|Alaska|United States|73.9555965808
