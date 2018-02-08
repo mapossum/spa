@@ -11,7 +11,17 @@
   4. Functions
   5. Classes and Objects
   6. Methods and Properties
-2. ArcPy
+2. Modules
+  1. Just a group of code that does things.
+  2. Like functions, they can serve to organize your code better.
+  3. You can write your own, but we usually won't for this course.  (If it helps you though go ahead and do it)
+3. Classes and Objects
+  1. We've already been using these
+  2. What is a class and what is an object
+  3. How do you create a class?
+  4. How do you use a class (How do you create an object).
+  5. Again, in this class we will mostly be consumers of classes and objects other's have written, but if it helps you to orgainze things go ahead and create your own.
+4. ArcPy
   1. ArcGIS 10 has python built right in.
   2. arcpy module is for making requests to the arcgis toolboxes (Geoprocessing)
     1. Importing arcpy
@@ -23,7 +33,17 @@
       2. extent
       3. overwriteOutput
     6. Describe
-3. Readings for you:
+5. External Modules (often use custom classes they have included)
+  1. arcpy (Interacting with ArcGIS)
+  2. gdal (Using Open Source GIS tools)
+  3. psycopg (Interacting with PostGres and PostGIS, doing GIS in a Database)
+  3. numpy (Arrays)
+  4. scipy (Scientific analysis of Arrays)
+  5. flask and django (Web framworks)
+  6. Tkinter (GUI design)
+  7. matplotlib (plots and graphs
+  8. Pillow (Image Processing)
+6. Readings for you:
   1. http://downloads2.esri.com/ESRIpress/images/224/PYTHON_sample-ch5.pdf
   2. http://resources.arcgis.com/en/help/main/10.2/index.html#/What_is_geoprocessing/002s00000001000000/
   3. http://resources.arcgis.com/en/help/main/10.2/index.html#/What_is_Python/002z00000001000000/

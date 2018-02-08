@@ -10,17 +10,7 @@
   3. Tuples are often used to store tabular information
     1. Can be used to build bar charts and histograms
   4. JSON (Javascript Object Notation)
-2. Modules
-  1. Just a group of code that does things.
-  2. Like functions, they can serve to organize your code better.
-  3. You can write your own, but we usually won't for this course.  (If it helps you though go ahead and do it)
-3. Classes and Objects
-  1. We've already been using these
-  2. What is a class and what is an object
-  3. How do you create a class?
-  4. How do you use a class (How do you create an object).
-  5. Again, in this class we will mostly be consumers of classes and objects other's have written, but if it helps you to orgainze things go ahead and create your own.
-4. Files – are the primary way to persist information that you want to keep around.
+2. Files – are the primary way to persist information that you want to keep around.
   1. Types of files – we will be using just text files for this class so skip the parts of the chapter that deal with "databases" and "pickeling".
   2. Reading files (section 9.1)
     1. Readline, readlines, read
@@ -35,16 +25,7 @@
   1. Try statement
   2. Raise statement
   3. Random numbers
-6. External Modules (often use custom classes they have included)
-  1. arcpy (Interacting with ArcGIS)
-  2. gdal (Using Open Source GIS tools)
-  3. psycopg (Interacting with PostGres and PostGIS, doing GIS in a Database)
-  3. numpy (Arrays)
-  4. scipy (Scientific analysis of Arrays)
-  4. flask and django (Web framworks)
-  5. Tkinter (GUI design)
-  6. matplotlib (plots and graphs
-  7. Pillow (Image Processing)
+
 
 link to Lecture and Lab:
 
