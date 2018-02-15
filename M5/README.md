@@ -37,19 +37,20 @@
   1. arcpy (Interacting with ArcGIS)
   2. gdal (Using Open Source GIS tools)
   3. psycopg (Interacting with PostGres and PostGIS, doing GIS in a Database)
-  3. numpy (Arrays)
-  4. scipy (Scientific analysis of Arrays)
+  3. numpy (Arrays) *
+  4. scipy (Scientific analysis of Arrays) *
   5. flask and django (Web framworks)
   6. Tkinter (GUI design)
-  7. matplotlib (plots and graphs
+  7. matplotlib (plots and graphs) *
   8. Pillow (Image Processing)
+  * means is included with ArcGIS install
 6. Readings for you:
   1. http://downloads2.esri.com/ESRIpress/images/224/PYTHON_sample-ch5.pdf
-  2. http://resources.arcgis.com/en/help/main/10.2/index.html#/What_is_geoprocessing/002s00000001000000/
-  3. http://resources.arcgis.com/en/help/main/10.2/index.html#/What_is_Python/002z00000001000000/
-  4. http://resources.arcgis.com/en/help/main/10.2/index.html#/What_is_ArcPy/000v000000v7000000/
+  2. http://desktop.arcgis.com/en/arcmap/latest/analyze/main/what-is-geoprocessing.htm
+  3. http://desktop.arcgis.com/en/arcmap/latest/analyze/python/what-is-python-.htm
+  4. http://desktop.arcgis.com/en/arcmap/latest/analyze/arcpy/what-is-arcpy-.htm
   
- Video:  https://www.youtube.com/watch?v=AGvjPEYvFNo
+ Old Video:  https://www.youtube.com/watch?v=AGvjPEYvFNo
  
   
 #Lab Assignment
@@ -75,9 +76,7 @@ where :
 Thus for the first script to turn in, I would name the file Raber_George_5_1.py
 
 You will turn in 1 script for this exercise.
-
-You also have one question to answer in this lab.  What if the land use and/or census data did not fall completly within a TAZ unit but sometimes overlapped and had portions in two different TAZ units?  How would this change which GIS operations we would use?
-      
+  
       
       
 
