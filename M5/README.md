@@ -49,7 +49,9 @@
   2. http://desktop.arcgis.com/en/arcmap/latest/analyze/main/what-is-geoprocessing.htm
   3. http://desktop.arcgis.com/en/arcmap/latest/analyze/python/what-is-python-.htm
   4. http://desktop.arcgis.com/en/arcmap/latest/analyze/arcpy/what-is-arcpy-.htm
-  
+
+ 2018 Lecture Video: https://youtu.be/KC13FIYA2Ns
+ 2018 Video for Lab: https://youtu.be/E79MKf_L-4s
  Old Video:  https://www.youtube.com/watch?v=AGvjPEYvFNo
  
   
