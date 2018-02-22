@@ -18,8 +18,10 @@ A toolbox is basically just a file with a .tbx extension.  A toolbox that a user
 
 The lab assignement for this week is simply to take the assignement from last week and turn it into a script tool within a toolbox.
 
+Youtube Lecture Video: https://youtu.be/6EZg9ABz0B0
+Youtube Lab Video: https://youtu.be/mdyYhzUWb_U
 
-You tube Video:  https://www.youtube.com/watch?v=2W6di6SwNYg
+Old Youtube Video:  https://www.youtube.com/watch?v=2W6di6SwNYg
 
 
 

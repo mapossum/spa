@@ -1,0 +1,6 @@
+FC 1 - Represents the regions to be split - Feature Layer
+FC 2 - Regions to split into - Feature Layer
+Field1 - Field in FC1 that represents the items to split - Field - Obtained from FC1
+Field2 - New field that represents the total of the items once reapportioned by area - Field or String - Output
+Field3 - Field in FC2 that represents the items to summarize by - Field - Obtained from FC 2
+Output - The reapportioned dataset - Ouput - Feature Class
