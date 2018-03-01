@@ -28,12 +28,12 @@ This exercise constitutes 3/5 of your grade for exam 1.  I will also post a writ
 
 Explanation of Layers:
 You are provided with the following data layers. 
-All layers are in NAD83, UTM zone 15 coordinates, meters, and elevations in meters. Remember, there 10,000 square meters in each hectare. 
-MARON_STX - A DEM grid of the study area 
-MAR_BD - A polygon shapefile of major municipal regions from a USGS digital line graph. Ownership codes are in the item MODN_ID Codes 1, 7, and 8 are Wisconsin, 3 is private land in Chisago County, 9 private land in Washington County, and 2, 4, 5, 6, 10, and 11 either public land or within the borders of Marine on St. Croix. 
-MAR_HYD - A polygon shapefile, hydrologic features, from a USGS digital line graph.  Lakes, rivers, and ponds are represented as polygons 
-MAR_WET - A polygon shapefile of wetlands with item "attribute", giving USFWS wetlands type.  A value for Attribute of OUT contains no data and a value of ‘U’ is upland (i.e. not wetland)– don’t use these areas.  Use all the other areas as wetland. 
-MAR_RD - A line shapefile identifying road locations in the study area.
+1. All layers are in NAD83, UTM zone 15 coordinates, meters, and elevations in meters. Remember, there 10,000 square meters in each hectare. 
+  1. MARON_STX - A DEM grid of the study area 
+  2. MAR_BD - A polygon shapefile of major municipal regions from a USGS digital line graph. Ownership codes are in the item MODN_ID Codes 1, 7, and 8 are Wisconsin, 3 is private land in Chisago County, 9 private land in Washington County, and 2, 4, 5, 6, 10, and 11 either public land or within the borders of Marine on St. Croix. 
+  3. MAR_HYD - A polygon shapefile, hydrologic features, from a USGS digital line graph.  Lakes, rivers, and ponds are represented as polygons 
+  4. MAR_WET - A polygon shapefile of wetlands with item "attribute", giving USFWS wetlands type.  A value for Attribute of OUT contains no data and a value of ‘U’ is upland (i.e. not wetland)– don’t use these areas.  Use all the other areas as wetland. 
+  5. MAR_RD - A line shapefile identifying road locations in the study area.
 
   
 
