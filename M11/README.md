@@ -1,34 +1,34 @@
 #Lecture
-##Meeting 11 - More External Modules - Matpotlib for plotting data, 
-##### Today we will discuss how to use Matplotlib for plotting vector and raster data.
+##Week 10 - More Working with Raster Data
+#### Raster GIS Data Processing using Python and Numpy
+###### Today we will continue our discussion on how to use arcpy to manipulate raster data.  We will explore toolboxes and manipulate data at the cell level (numpy)
 
-1. Test next week.
-  1. There will be a short test week.  
-  2. Most of it will be looking at code snippets and interpreting what is happening.  
-  3. The test will be open notes / open computers.
-  4. Should take less than an hour.
-  5. The rest of the time will be devoted to answering questions about labs / projects.
-1. There are many external modules for python that can be useful in GIS.
-  1. Flask - A web server
-  2. psycop2 - interface with database
-  3. Scipy - do scientific operations
-  4. numpy - arrays
-  5. and many more.
-2. matplotlib is a powerful library for plotting data (http://matplotlib.org/)
-  1. Plots arrays (or array like objects such as python lists)
-  2. Sometimes arrays have to be manipulated to be the correct dimensions.
-  3. Often best start with an example and modify to what you want to do.
-    1. Histograms
-	2. Scatter Plot
+
+1. arcpy.sa
+  1. You can run almost every function in python
+  2. WATCH OUT: arcpy.env extent and cell size ussually need to be set or results won't be right (Also watch out for No Data)
+  3. eval function (for putting together large functions)
+  4. save function (for saving output results)
+  5. Raster function (for turning text paths into rasters)
+  6. arcpy.RasterToNumPyArray and arcpy.NumPyArrayToRaster
+  7. These functions are are used like cursors in vector data.
+1. Numpy (http://www.numpy.org/)
+  1. What is an array?
+  2. Pay particular attendtion to cell size and extent, because numpy does NOT
+  3. There are however a few functions that are more "GIS-y" that would be very hard to replicate in numpy and therefore GDAL has tools for these operations.
+    1. Raster to vector conversion and back
+    2. Raster Proximity functions
+
   
+
 #Lab 
 
 Here is your assignment (You have two weeks to finish this assignment).
 
-1. Create script that makes a histogram of any one of the statistics you generated from the vector lab (metrics of shape for cities of mississippi)
-  1. Tell me about the distribution of your data. Does that distribution look normal?
-  2. Your script should report the mean and standard dev of the data. (There are already numpy array methods for calculating these values).
-2. Make a scatter plot of any two of the GOM datasets from Meeting 10.
+Download the data in this weeks folder.
+
+1. Write a script that does the following:
+  1. Uses numpy to rewite the script from last week (except Euecldian distance) so that it runs using numpy instead of spatial analysis tools.
 
 
 

@@ -1,18 +1,17 @@
 import arcpy
+from arcpy.sa import *
 import numpy
 
-arcpy.env.overwriteOutput = True
 
-inRas = arcpy.Raster(r"C:/temp/myRandomRaster4.tif")
-lowerLeft = arcpy.Point(inRas.extent.XMin,inRas.extent.YMin)
-cellSize = inRas.meanCellWidth
+arcpy.CheckOutExtension("Spatial")
 
+arr1 = arcpy.RasterToNumPyArray(Raster(r"C:\temp\week10data\data\worldwidedata.gdb\prec_1"),nodata_to_value=0)
+arr2 = arcpy.RasterToNumPyArray(Raster(r"C:\temp\week10data\data\worldwidedata.gdb\prec_7"),nodata_to_value=0)
 
-arr = arcpy.RasterToNumPyArray(inRas,nodata_to_value=0)
+outarr = numpy.maximum(arr1, arr2)
 
-arr[3,1] = 0
+myRaster = arcpy.NumPyArrayToRaster(outarr)
 
-print arr
+myRaster.save(r"C:\temp\week10data\data\worldwidedata.gdb\prec_max")
 
-myRaster = arcpy.NumPyArrayToRaster(arr,lowerLeft,cellSize,value_to_nodata=0)
-myRaster.save("C:/temp/myRandomRaster5.tif")
+#outras.save(r"C:\temp\week10data\data\worldwidedata.gdb\prec_add")
