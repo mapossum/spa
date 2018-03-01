@@ -35,7 +35,8 @@ You are provided with the following data layers.
   4. MAR_WET - A polygon shapefile of wetlands with item "attribute", giving USFWS wetlands type.  A value for Attribute of OUT contains no data and a value of ‘U’ is upland (i.e. not wetland)– don’t use these areas.  Use all the other areas as wetland. 
   5. MAR_RD - A line shapefile identifying road locations in the study area.
 
-  
+Video Link - Part 1: https://youtu.be/MSPdkH6hV0k
+Video Link - Part 2: https://youtu.be/67cxnPirHRQ
 
 
 
