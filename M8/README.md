@@ -25,7 +25,9 @@
     1. Search
     2. Insert
     3. Update
-
+	
+Vid 1: https://youtu.be/6G6iblph_aA
+Vid 2: https://youtu.be/t2XfuQrKvi4
 
 #Lab 
 
