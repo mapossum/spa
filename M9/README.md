@@ -26,6 +26,10 @@ Use the accompanying point GIS shapefile to test your program.
 
 You will turn in 2 programs for this week.
 
+New Video:  https://youtu.be/L9sFyJbdjm4
+
+New Lab Video:  https://youtu.be/RPtMH-VizvE
+
 Old Video: https://www.youtube.com/watch?v=UMyzk9mzY68
 
 
