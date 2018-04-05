@@ -19,7 +19,8 @@ YouTube Link:  https://www.youtube.com/watch?v=e0V_mMspZc8
   3. eval function (for putting together large functions)
   4. save function (for saving output results)
   5. Raster function (for turning text paths into rasters)
-  6. arcpy.RasterToNumPyArray and arcpy.NumPyArrayToRaster (next week)
+  6. http://desktop.arcgis.com/en/arcmap/10.5/extensions/spatial-analyst/map-algebra/working-with-raster-objects.htm
+  7. arcpy.RasterToNumPyArray and arcpy.NumPyArrayToRaster (next week)
 
   
 
