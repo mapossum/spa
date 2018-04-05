@@ -29,6 +29,8 @@ New Video:  https://youtu.be/L9sFyJbdjm4
 
 New Lab Video:  https://youtu.be/RPtMH-VizvE
 
+New Lab Video (cont during week 10): https://youtu.be/pJB550H7CfE
+
 Old Video: https://www.youtube.com/watch?v=UMyzk9mzY68
 
 
