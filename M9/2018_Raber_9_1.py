@@ -34,7 +34,7 @@ for row in cursor:
         cstat = row[4] / newpolygon.area
         print row[3], mbc, cstat
         row[7] = cstat
-        #This is a line you need to add
+        #This line below is good the way it is
         row[6] = newpolygon
     except:
         print "Bad City: " + row[3]
