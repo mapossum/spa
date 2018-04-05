@@ -1,5 +1,5 @@
 #Lecture
-##Week 9 - Working with Raster Data
+##Week 10 - Working with Raster Data
 #### Raster GIS Data Processing using Python
 ###### Today we will discuss how to use arcpy to manipulate raster data
 
@@ -19,7 +19,7 @@ YouTube Link:  https://www.youtube.com/watch?v=e0V_mMspZc8
   3. eval function (for putting together large functions)
   4. save function (for saving output results)
   5. Raster function (for turning text paths into rasters)
-  6. arcpy.RasterToNumPyArray and arcpy.NumPyArrayToRaster (More on this next week)
+  6. arcpy.RasterToNumPyArray and arcpy.NumPyArrayToRaster (next week)
 
   
 

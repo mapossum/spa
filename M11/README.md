@@ -1,5 +1,5 @@
 #Lecture
-##Week 10 - More Working with Raster Data
+##Week 11 - More Working with Raster Data
 #### Raster GIS Data Processing using Python and Numpy
 ###### Today we will continue our discussion on how to use arcpy to manipulate raster data.  We will explore toolboxes and manipulate data at the cell level (numpy)
 
