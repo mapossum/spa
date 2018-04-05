@@ -3,7 +3,9 @@
 #### Raster GIS Data Processing using Python
 ###### Today we will discuss how to use arcpy to manipulate raster data
 
-YouTube Link:  https://www.youtube.com/watch?v=e0V_mMspZc8
+2018 Lecture Video: https://youtu.be/bWkHGZOym-g
+
+2018 Lab Video: https://youtu.be/eG8BbFnN-lc
 
 1. Review of raster operations:
   1. Local
@@ -36,6 +38,10 @@ Download the data in this weeks folder.
   3. Subtract the values in the Euclidian output from 1000.
   4. Set all the negative values to 0.
   5. add up each of these datasets and save the output.
+  
+  
+Old YouTube Link:  https://www.youtube.com/watch?v=e0V_mMspZc8
+
   
 
 
