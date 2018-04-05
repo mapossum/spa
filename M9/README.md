@@ -10,10 +10,9 @@ Here is your assignment
 
 From last week:
 
-1) Build on the script from last week and output a new shapefile that contains the difference between the smallest circumscribing circle and the area of the input polygon (Think clip and buffer), and another shapefile that contains the circles that are the same area as the inputs.
+1) Build on the script from last week and output a new shapefile that contains the smallest circumscribing circle and the area of the input polygon.
 
-The SEC.py script, already contains code to calculate the smallest circumscribing circle (function is called make_circle).  Go ahead and use this rather than creating your own.
-You will need to find the circle and square of the same area as each of the input polygons.
+The SEC.py script, already contains code to calculate the smallest circumscribing circle (function is called make_circle).  Go ahead and use this rather than creating your own.  It will be easiest to start by copying the orginal feature class then replacing the cities with the smallest circumscribing circle.  You should include a new field that is the ratio of the area to the city to the area of the circle.
 
 2) Write a python program that does the following:
 Take a point shapefile that has contains two fields.  In our case one will be called "Animal" and one field called "Time".  
