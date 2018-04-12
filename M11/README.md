@@ -27,6 +27,11 @@ Download the data in this weeks folder.  It is a temperature average for the ent
   1. Uses numpy to rewite the script from last week (except Euecldian distance) so that it runs using numpy instead of spatial analysis tools. 
 
 
+Videos:
+1) https://youtu.be/-QeYpjPULok
+2) https://youtu.be/I9cQYETIkG0
+3) https://youtu.be/yrrNDVPGCSo
+
 
 
 
