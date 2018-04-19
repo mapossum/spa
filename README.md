@@ -43,8 +43,8 @@ The course is a traditional lab / lecture format.  The lab and the lecture are b
 Each week there will be lab exercise. The lab will directly enforce the lecture topic through practical application.  
 PLEASE TURN ASSIGNEMENTS INTO: ghy.gis@gmail.com
 
-##Paper / Project:
-Everyone (not just graduate students) will be responsible for creating a GIS program that automates a task.  The program must implement branching, looping and at least two different GIS tools.  Undergraduates must turn in a short (two paragraph) descriptions of what there tool does.  Graduate students are responsible for turning in a term paper along with there tool.  The paper must describe the need (background) for use of such a tool and examples of the tool executed on data (maps and figures) in answering a simple research question.  This paper will likely be around 10 pages.  This will be due May 5th.
+##Paper / Project (Due May 10th):
+Everyone (not just graduate students) will be responsible for creating a GIS program that automates a task.  The program must implement branching, looping and at least two different GIS tools.  Undergraduates must turn in a short (two paragraph) descriptions of what there tool does.  Graduate students are responsible for turning in a term paper along with there tool.  The paper must describe the need (background) for use of such a tool and examples of the tool executed on data (maps and figures) in answering a simple research question.  This paper will likely be around 10 pages.
 
 ##Prerequisites:
 GIS experience **required** for course.  217 or equivilent is required and you should be taking or have already taken GHY 417 or 418 before you enrolled.  There can be exceptions with the instructors permission.  We won't be using the GIS knowledge for the first few weeks of the course so if you are dedicated you have time to catch up.
@@ -101,7 +101,7 @@ Python 2.7 or 2.8 This software installs with ArcGIS.  It can also be downloaded
 - - - - - -
 **March 15** - *Spring Holidays NO CLASS*  
 - - - - - -
-**March 22** - ArrcGIS Toolboxes (M 8)
+**March 22** - ArcGIS Toolboxes (M 8)
 - - - - - -
 **March 29** - Manipulating Vector GIS data Exploring and Manipulating Spatial Data (M 9)
 - - - - - -
@@ -111,7 +111,7 @@ Python 2.7 or 2.8 This software installs with ArcGIS.  It can also be downloaded
 - - - - - -
 **April 19** - Raster Processing Continuted. (M 12)
 - - - - - -
-**April 26** - Using GIS Scripting with other Programs (M 13)
+**April 26** - Using GIS Scripting with other Programs (M 13) (Video Lecture)
 - - - - - -
 **May 3** - *Final Exam*
 
