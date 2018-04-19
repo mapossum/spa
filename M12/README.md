@@ -19,6 +19,12 @@
 		1. Histograms
 		2. Scatter Plot
   
+Videos:
+
+https://youtu.be/XxBVSAXTcSw
+https://youtu.be/VQHCIy5ye6o
+
+
 #Final Exam Programming Part
 
 You will write 2 scripts for your final exam.  Both scripts should be submitted as tools in a single toolbox file.
