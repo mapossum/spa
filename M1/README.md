@@ -45,11 +45,11 @@ You do not need to turn in anything for this assignment.
 
 You should make sure your understand the terms in the glossary that we discussed in class.
 
-Video of class: 
+Video of class: <br>
 https://youtu.be/gKQaSrfqNSc <br>
 https://youtu.be/2dCMW2tEdbs
 
-Youtube Links From Previous Years: 
-https://www.youtube.com/watch?v=dS2moe56vmQ
-https://www.youtube.com/watch?v=VVhzluWyfsA
+Youtube Links From Previous Years: <br>
+https://www.youtube.com/watch?v=dS2moe56vmQ <br>
+https://www.youtube.com/watch?v=VVhzluWyfsA <br>
 https://www.youtube.com/watch?v=fKlVV89-jUM&x-yt-ts=1421782837&x-yt-cl=84359240
