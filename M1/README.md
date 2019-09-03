@@ -46,7 +46,7 @@ You do not need to turn in anything for this assignment.
 You should make sure your understand the terms in the glossary that we discussed in class.
 
 Video of class: 
-https://youtu.be/gKQaSrfqNSc
+https://youtu.be/gKQaSrfqNSc <br>
 https://youtu.be/2dCMW2tEdbs
 
 Youtube Links From Previous Years: 
