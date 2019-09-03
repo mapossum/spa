@@ -32,7 +32,9 @@
   * Compiled
   * Interpreted
   * Functions – Like little programs (For Next Week)
-
+* Ways to Run Python
+ * Interpreter (command line and ArcGIS) - Where to write code? IDE or Text editor
+ * Jupyter Notebooks
 
 * Follow the book for chapters 1 – 2 (Read ahead for next week 3,4,5)
 
