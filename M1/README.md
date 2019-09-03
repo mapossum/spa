@@ -1,4 +1,4 @@
-#Lecture
+﻿#Lecture
 ##Meeting 1 – Course Introduction
 * Course Format
 * Syllabus
@@ -35,12 +35,9 @@
 
 
 * Follow the book for chapters 1 – 2 (Read ahead for next week 3,4,5)
-* Read the extra assignment at: http://downloads2.esri.com/ESRIpress/images/224/PYTHON_sample.pdf
 
 #Lab Assignment
 For this assignment you will simply do all the exercises found in each of the book chapters we covered so far (1-2).  
-
-Python has updated it's webpage and the instructions for Excersize 1.2 are no longer valid.  That is ok, just skip it.
 
 You do not need to turn in anything for this assignment.
 
