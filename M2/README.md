@@ -1,5 +1,5 @@
 #Lecture
-##Meeting 2 – Looping, Branching and Functions
+##Meeting 2 â€“ Looping, Branching and Functions
 ####Today we will discuss a number of topics related to logical flow of a computer program.  The lecture notes are outlined below:
 
 1. Review of variables, operators, data types and functions
@@ -24,10 +24,10 @@
   2. Incremental Development
   3. Composition
   4. Boolean Functions
-6. Keyboard Input – (5.11)
+6. Keyboard Input â€“ (5.11)
 
 #Lab Assignment
-##Exercise #2 – Making Decisions and Looping
+##Exercise #2 â€“ Making Decisions and Looping
 
 ####Do the following assignments:
 
@@ -43,7 +43,7 @@
 
 3. Calculating distances on a spheroid is different that the Cartesian coordinates.  Use the haversine function (part of this download, on next page) and modify the program from #2 to calculate the length of line along a sphere.
 
-Please turn them in by emailing the python scripts to me at ghy.gis@gmail.com  
+Please turn them in by uploading them on Canvas. 
 
 Name the script W_X_Y_Z.py 
 
