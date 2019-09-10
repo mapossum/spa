@@ -58,7 +58,7 @@ Raber_George_2_2.py. For the second file and Raber_George_2_3.py.
 
 You will turn in 3 scripts for this exercise.
 
-Youtube links from 2019: https://youtu.be/izLt3ySCG6c and https://youtu.be/MabaAPunLyY
-YouTube links from 2018:  https://youtu.be/DXgafzQYlpM and https://youtu.be/2n6g6R8UA_Y
+Youtube links from 2019: https://youtu.be/izLt3ySCG6c and https://youtu.be/MabaAPunLyY <br>
+YouTube links from 2018:  https://youtu.be/DXgafzQYlpM and https://youtu.be/2n6g6R8UA_Y <br>
 YouTube Link From 2016: https://www.youtube.com/watch?v=OoKOJRrNHBw#t=176
 
