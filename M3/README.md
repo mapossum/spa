@@ -66,10 +66,11 @@
   3. Returns the mean.
   4. Returns Standard Deviation
   * Test this function above by creating a program to generate a report of the return values.
+Don't do these other assignemnts yet, we will do those next week.
 2. The function included with this lab uses a module to find the latitude and longitude of a city or address.  Modify the last program from last week to take a list of cities (as strings e.g. “Hattiesburg, MS”) and report the distance along a path that traverses the entire list (your list should include at least 5 cities).  
 3. Modify the script from above to include the function you wrote from Script 1 so that the user is also give the mean, standard deviation of all the legs.
 
-Please turn them in by emailing the python scripts to me at ghy.gis@gmail.com  
+Please turn them in by using Canvas.
 
 Name the script W_X_Y_Z.py 
 
@@ -78,6 +79,9 @@ where :
 * X is your first name, 
 * Y is the Exercise number (in this case 1) and 
 * Z is the script number (the first is 1 then second is 2 and so on). 
+
+2019 Lecture Video: https://youtu.be/bLvRqsYxnX8 <br><br>
+2019 Lab Video: https://youtu.be/UJUM8RQWNxQ <br><br>
 
 2018 Lecture Video: https://youtu.be/HEw_ZqXY5aw
 2018 Lab Video: https://youtu.be/q10pib7Tg60
