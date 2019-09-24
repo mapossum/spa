@@ -1,19 +1,12 @@
 import arcpy
+from arcpy.sa import *
 
-fc = r"C:\temp\m7\Cityi10.shp"
-fields = ["SHAPE@", "NAME10", 'ALAND10']
-
-# For each row print the WELL_ID and WELL_TYPE fields, and the
-#  the feature's x,y coordinates
-#
-#with arcpy.da.SearchCursor(fc, fields) as cursor:
-#    for row in cursor:
-#        print("{0}, {1}, {2}".format(row[0], row[1], row[2]))
+arcpy.CheckOutExtension("Spatial")
 
 
-cursor = arcpy.da.SearchCursor(fc, fields)
+outCon = Con(Raster(r"D:\temp\M9\wsb_dsm.tif") > 46, 1, 0)
 
-for row in cursor:
-    print row[0], row[1]
+outCon.save(r"D:\temp\M9\wsb_dsm_con.tif")
 
-del cursor, row
+print "done!"
+

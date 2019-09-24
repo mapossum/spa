@@ -1,8 +1,13 @@
-from arcpy.sa import *
-arcpy.CheckOutExtension("Spatial")
+import arcpy
+import numpy
 
-Raster(r"C:\temp\spaLab\week10\wsb_dsm.tif")
-wsbDEM = Raster(r"C:\temp\spaLab\week10\wsb_dsm.tif")
-slopeWSB = Slope(wsbDEM)
+arcpy.env.overwriteOutput = True
+# Create a simple array from scratch using random values
+myArray = numpy.random.random_integers(0,100,25) #numpy.ones(25) * 5 #
+myArray.shape = (5,5)
+print myArray
 
-slopeWSB.save(r"C:\temp\spaLab\week10\wsb_dsm_slope.tif")
+# Convert array to a geodatabase raster
+point = arcpy.Point(50, 50)
+myRaster = arcpy.NumPyArrayToRaster(myArray,lower_left_corner=point,x_cell_size=10)
+myRaster.save("C:/temp/myRandomRaster4.tif")

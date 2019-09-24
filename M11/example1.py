@@ -1,13 +1,11 @@
+from scipy import stats
+import numpy as np
 import arcpy
-import numpy
 
-arcpy.env.overwriteOutput = True
-# Create a simple array from scratch using random values
-myArray = numpy.random.random_integers(0,100,25) #numpy.ones(25) * 5 #
-myArray.shape = (5,5)
-print myArray
+input = r"C:\temp\spaLab\elevClim.gdb\sample_points"
+arr = arcpy.da.FeatureClassToNumPyArray(input, ('OID', 'temp', 'elevation'))
 
-# Convert array to a geodatabase raster
-point = arcpy.Point(50, 50)
-myRaster = arcpy.NumPyArrayToRaster(myArray,lower_left_corner=point,x_cell_size=10)
-myRaster.save("C:/temp/myRandomRaster4.tif")
+slope, intercept, r_value, p_value, std_err = stats.linregress(arr["elevation"],arr["temp"])
+# To get coefficient of determination (r_squared)
+
+print r_value**2, slope, intercept

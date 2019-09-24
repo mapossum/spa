@@ -1,13 +1,18 @@
-from arcpy.sa import *
-arcpy.CheckOutExtension("Spatial")
+import arcpy
+import numpy
+
 arcpy.env.overwriteOutput = True
 
-Raster(r"C:\temp\spaLab\week10\wsb_dsm.tif")
-wsbDEM = Raster(r"C:\temp\spaLab\week10\wsb_dsm.tif")
+inRas = arcpy.Raster(r"C:/temp/myRandomRaster4.tif")
+lowerLeft = arcpy.Point(inRas.extent.XMin,inRas.extent.YMin)
+cellSize = inRas.meanCellWidth
 
-neighborhood = NbrRectangle(10, 10, "CELL")
-outFocalStatistics = FocalStatistics(wsbDEM, neighborhood, "MEAN")
 
-total = outFocalStatistics - wsbDEM 
+arr = arcpy.RasterToNumPyArray(inRas,nodata_to_value=0)
 
-total.save(r"C:\temp\spaLab\week10\wsb_dsm_edge_10.tif")
+outarr = numpy.where(arr > 75, arr, 0)
+
+print outarr
+
+myRaster = arcpy.NumPyArrayToRaster(outarr,lowerLeft,cellSize,value_to_nodata=0)
+myRaster.save("C:/temp/myRandomRaster6.tif")

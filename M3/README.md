@@ -50,6 +50,22 @@
       1. zip function
       2. range function
       3. enumerate function
+5. Files – are the primary way to persist information that you want to keep around.
+  1. Types of files – we will be using just text files for this class so skip the parts of the chapter that deal with "databases" and "pickeling".
+  2. Reading files (section 9.1)
+    1. Readline, readlines, read
+    2. Strip function
+	3. Split and Join Function
+  3. Writing files
+  4. Format operator
+  5. Directories – the os module
+    1. Exists, isdir, listdir
+    2. Walk function from the book is helpful.
+  6. Format operator
+6. Other Topics 
+  1. Try statement
+  2. Raise statement
+  3. Random numbers
 
     
 2015 - Lecture Video: https://www.youtube.com/watch?v=5rDnqBTlt_Y&x-yt-ts=1422327029&x-yt-cl=84838260
@@ -58,7 +74,7 @@
 #Lab Assignment
 ##Exercise #3 – Sequences
 
-####Do the following assignments:
+####Do the following assignment:
 
 1. Write a simple functions that takes a list of numbers and does the following:
   1. Checks that the list is in fact a list of just numbers, and if not returns only a value of None.  If true returns each of the following as a tuple:
@@ -66,9 +82,6 @@
   3. Returns the mean.
   4. Returns Standard Deviation
   * Test this function above by creating a program to generate a report of the return values.
-Don't do these other assignemnts yet, we will do those next week.
-2. The function included with this lab uses a module to find the latitude and longitude of a city or address.  Modify the last program from last week to take a list of cities (as strings e.g. “Hattiesburg, MS”) and report the distance along a path that traverses the entire list (your list should include at least 5 cities).  
-3. Modify the script from above to include the function you wrote from Script 1 so that the user is also give the mean, standard deviation of all the legs.
 
 Please turn them in by using Canvas.
 

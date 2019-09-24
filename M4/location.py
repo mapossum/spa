@@ -1,9 +1,14 @@
 import math, urllib
-def getaddresslocation(address):
-    params = urllib.urlencode({'address': address})
-    f = urllib.urlopen("https://maps.googleapis.com/maps/api/geocode/json?%s" % params)
-    loc = eval(f.read())
-    return (loc["results"][0]["geometry"]["location"]['lng'],  loc["results"][0]["geometry"]["location"]['lat'])
+import urllib.parse
+import urllib.request
 
-if __name__ == "__main__":
-    print getaddresslocation("Hattiesburg, MS")
+def getaddresslocation(address):
+    params = urllib.parse.urlencode({'SingleLine': address, 'f': 'json'})
+    f = urllib.request.urlopen("https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?%s" % params)
+    loc = eval(f.read())
+    return (loc['candidates'][0]['location'])
+
+print(getaddresslocation("Hattiesburg, MS"))
+
+
+

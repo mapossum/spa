@@ -86,29 +86,29 @@ Python 3x This software installs with ArcGIS Pro.
 - - - - - -
 **Sept 10** - Functions, Conditionals and Recursion, Fruitful functions (M 2)
 - - - - - -
-**Sept 17** - Iteration, Intro to Sequences Strings, Lists and Tuples (M 3)
+**Sept 17** - Iteration, and Sequences (M 3)
 - - - - - -
-**Sept 24** - Dictionaries, Objects and Classes(M 4)
+**Sept 24** - Dictionaries, External Modules and Making the Connection to ArcGIS (M 4)
 - - - - - -
-**Oct 1** - External Modules (M 5)
+**Oct 1** - Automating ArcGIS functions with Python Geoprocessing Cont. (M 5)
 - - - - - -
-**Oct 8** - Making the GIS Connection Automating ArcGIS functions with Python Geoprocessing (M 6)
+**Oct 8** - ArcGIS Toolboxes (M 6)
 - - - - - -
-**Oct 15** - Automating ArcGIS functions with Python Geoprocessing Cont. (M 7)
+**Oct 15** - Exam. (M 7)
 - - - - - -
-**Oct 22** - Exam (May be Take Home)
+**Oct 22** - TBA (M 8)
 - - - - - -
-**Oct 29** - ArcGIS Toolboxes (M 8)
+**Oct 29** - TBA (M 9)
 - - - - - -
-**Nov 5** - Manipulating Vector GIS data Exploring and Manipulating Spatial Data (M 9)
+**Nov 5** - Manipulating Vector GIS data Exploring and Manipulating Spatial Data (M 10)
 - - - - - -
-**Nov 12** -  Working with GIS data Continuted (M 10)
+**Nov 12** -  Working with GIS data Continuted (M 11)
 - - - - - -
-**Nov 19** -  Manipulating Raster GIS data (M 11)
+**Nov 19** -  Manipulating Raster GIS data (M 12)
 - - - - - -
 **Nov 26** - Thanksgiveing Holiday
 - - - - - -
-**Dec 3** - Using GIS Scripting with other Programs and Course Review (M 12)
+**Dec 3** - Using GIS Scripting with other Programs and Course Review (M 13)
 - - - - - -
 
 

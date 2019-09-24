@@ -1,26 +1,13 @@
-import arcpy
+from arcpy.sa import *
+from arcpy import env
+arcpy.CheckOutExtension("Spatial")
+env.overwriteOutput = True
 
-arcpy.env.overwriteOutput = True
+wsbDEM = Raster(r"C:\temp\spaLab\week10\wsb_dsm.tif")
+myextent = wsbDEM.extent
+env.extent = myextent
+env.cellSize = r"C:\temp\spaLab\week10\wsb_dsm.tif"
 
-out_path = r'c:\temp\spaLab\\'
-out_name = "rects3.shp"
-geometry_type = "POLYGON"
+wsbCon = Con(wsbDEM > 40, 1,0)
 
-prjlocation = out_path + "Cityi10.prj"
-
-arcpy.CreateFeatureclass_management(out_path, out_name, geometry_type, "", "", "", prjlocation)
-
-fc = out_path + out_name
-cursor = arcpy.da.InsertCursor(fc, ["SHAPE@", "Id"])
-
-
-for i in range(100,500,10):
-    for j in range(0,100,5):
-        print i,j
-        #xy = (i,j)
-        array = arcpy.Array([arcpy.Point(i, j), arcpy.Point(i + 10, j), arcpy.Point(i + 10, j + 5), arcpy.Point(i, j + 5)])
-        newpolygon = arcpy.Polygon(array).buffer(1)
-        cursor.insertRow([newpolygon, i * j])
-
-del cursor
-                   
+wsbCon.save(r"C:\temp\spaLab\week10\wsb_dsm_con.img")

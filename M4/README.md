@@ -1,56 +1,80 @@
 #Lecture
-##Meeting 4 – Dictionaries and External Modules
-####Today we will finish sequences (Dictionaries) and introduce a number of powerful external modules:
+##Meeting 4 – Dictionaries and External Modules, Python in ArcGIS (arcpy)
+####Today we will introduce and discuss arcpy, a module for interacting with ArcGIS:
 
 1. Dictionaries – Are a data type that is like a list, but the index can be almost any other non sequence type (although it is typically a string)
   1. Sometimes called hashtables or associative arrays.
   2. Consist of a key and a value.
     1. Keys must be unique
     2. Values can be any of any type
-  3. Tuples are often used to store tabular information
-    1. Can be used to build bar charts and histograms
-  4. JSON (Javascript Object Notation)
-2. Files – are the primary way to persist information that you want to keep around.
-  1. Types of files – we will be using just text files for this class so skip the parts of the chapter that deal with "databases" and "pickeling".
-  2. Reading files (section 9.1)
-    1. Readline, readlines, read
-    2. Strip function
-	3. Split and Join Function
-  3. Writing files
-  4. Format operator
-  5. Directories – the os module
-    1. Exists, isdir, listdir
-    2. Walk function from the book is helpful.
-  6. Format operator
-5. Other Topics 
-  1. Try statement
-  2. Raise statement
-  3. Random numbers
+2. Quick Review of what we have learned so far:
+  1. Programming what is it and why are we doing it?
+  2. Data types and Variables
+  3. Program flow
+    1. Making decisions (testing conditions and branching)
+    2. Looping
+  4. Functions
+  5. Classes and Objects
+  6. Methods and Properties
+3. Modules
+  1. Just a group of code that does things.
+  2. Like functions, they can serve to organize your code better.
+  3. You can write your own, but we usually won't for this course.  (If it helps you though go ahead and do it)
+4. Classes and Objects
+  1. We've already been using these
+  2. What is a class and what is an object
+  3. How do you create a class? (Not going to really cover in this class).
+  4. How do you use a class (How do you create an object).
+  5. Again, in this class we will mostly be consumers of classes and objects other's have written, but if it helps you to orgainze things go ahead and create your own.
+5. ArcPy
+  1. ArcGIS Pro has python built right in.
+  2. arcpy module is for making requests to the arcgis toolboxes (Geoprocessing)
+    1. Importing arcpy
+    2. Using Tools
+    3. Using Functions
+    4. Environmental Options:
+    5. env object – allows you to set or change default processing options for geoprocessing.
+      1. cellSize
+      2. extent
+      3. overwriteOutput
+    6. Describe
+6. External Modules (often use custom classes they have included)
+  1. arcpy (Interacting with ArcGIS)
+  2. gdal (Using Open Source GIS tools)
+  3. psycopg (Interacting with PostGres and PostGIS, doing GIS in a Database)
+  3. numpy (Arrays) *
+  4. scipy (Scientific analysis of Arrays) *
+  5. flask and django (Web framworks)
+  6. Tkinter (GUI design)
+  7. matplotlib (plots and graphs) *
+  9. seaborn (Advanced Statistical plots and graphs based on matplotlib).
+  8. Pillow (Image Processing)
+  * means is included with ArcGIS install
+6. Readings for you:
+  1. http://downloads2.esri.com/ESRIpress/images/224/PYTHON_sample-ch5.pdf
+  2. http://desktop.arcgis.com/en/arcmap/latest/analyze/main/what-is-geoprocessing.htm
+  3. http://desktop.arcgis.com/en/arcmap/latest/analyze/python/what-is-python-.htm
+  4. http://desktop.arcgis.com/en/arcmap/latest/analyze/arcpy/what-is-arcpy-.htm
 
-
-link to Lecture and Lab:
-
-2018 Lecture Video: https://youtu.be/TOoeYa5urFw
-2018 Lab Video: https://youtu.be/uL5xTbzi9ww
-2016 Lecture Video: https://www.youtube.com/watch?v=Tfgfp0X6AQE
-2016 Lab Video: https://www.youtube.com/watch?v=kBlAEVH7S1E
-2015 Video: https://www.youtube.com/watch?v=0v_D4A7WjUQ#t=3176
+ 2018 Lecture Video: https://youtu.be/KC13FIYA2Ns
+ 2018 Video for Lab: https://youtu.be/E79MKf_L-4s
+ Old Video:  https://www.youtube.com/watch?v=AGvjPEYvFNo
+ 
   
 #Lab Assignment
-##Exercise #4 – Using Objects, Dictionaries and Files
+##Exercise #4 – Using ArcGIS to run a simple model
 
-First we will write a point class simmilar to the one in the book on page 144 (we will do this in class so no need to turn in).
+####Do the following assignments:
 
-####Do the following assignment:
+1. Write a program that reads a list of cities from a file, creates and prints the contents of a dictionary where the keys are the city names and the values are the locations as a dictionary with x and y as keys and the point values as the values.  The file location.py contains a function that takes an text location and returns a dictionary with the location as x,y.  The file citiesSubset contains a file with a list of cities you can use for testing.
 
-In this assignement you will turn in a single script, but the script will have several functions.
-1. Write a function that takes the path to a text file as the only input parameter and then reads the lines of that textfile into a list or tuple (one line is one item in the list) and then returns the list or tuple.
-2. Write a function that takes a list of cities and returns a dictionary where the keys are the city names and the values are the locations as a dictionary with x and y as keys and the point values as the values.  For this step you will re-use the function from last week that finds the location of a city.
-3. Write a function that takes a dictionary of points (The output of #2 above), and a file location and writes the values to a text file that has the data in rows with the name of the city followed by the coordinate value.  
 
-You can use the given list of cities for testing.  Feel free to make it smaller (just use the citiesSmall.txt until you want to test on larger set).
+We have some data included in this lab.  The data consists of 2 different sets:
 
-Please turn them in by emailing the python scripts to me at ghy.gis@gmail.com  
+* Census data
+* Watersheds
+
+2. You will create a simple script that calcuates how many people live in each watershed.  Since the watershed boundaries and the census boundaies do not match up you will use GIS to break apart (overlay) and assign people to each watershed based on the percentage of area a particular tract has in each watershed.  For example if 100 people live in a tract and 80% of the area of that tract falls in a watershed then 80 people will be counted for that watershed.  Your output will be the total number of people in each watershed.
 
 Name the script W_X_Y_Z.py 
 
@@ -60,11 +84,10 @@ where :
 * Y is the Exercise number (in this case 1) and 
 * Z is the script number (the first is 1 then second is 2 and so on). 
 
-
 Thus for the first script to turn in, I would name the file Raber_George_4_1.py
 
-You will turn in 3 scripts for this exercise.
-      
+You will turn in 1 script for this exercise.
+  
       
       
 

@@ -1,18 +1,19 @@
 import arcpy
 
-arcpy.env.overwriteOutput = True
+fc = r"C:\temp\m7\Cityi10.shp"
+fields = ["SHAPE@", "NAME10", 'ALAND10']
 
-fc = r"C:\temp\Cityi10.shp"
-fc2 = r"C:\temp\Cityi10_copy.shp"
+# For each row print the WELL_ID and WELL_TYPE fields, and the
+#  the feature's x,y coordinates
+#
+#with arcpy.da.SearchCursor(fc, fields) as cursor:
+#    for row in cursor:
+#        print("{0}, {1}, {2}".format(row[0], row[1], row[2]))
 
-arcpy.Copy_management(fc, fc2)
 
-fields = ["Name10", "SHAPE@"]
+cursor = arcpy.da.SearchCursor(fc, fields)
 
-# loop through each city and find shape
-with arcpy.da.UpdateCursor(fc2, fields) as cursor:
-    for row in cursor:
-        print row[0]
-        polygonbuf = row[1].buffer(100)
-        row[1] = polygonbuf.difference(row[1])
-        cursor.updateRow(row) 
+for row in cursor:
+    print row[0], row[1]
+
+del cursor, row

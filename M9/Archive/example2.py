@@ -1,13 +1,17 @@
 import arcpy
+from arcpy.sa import *
+import numpy
 
-rows = arcpy.da.SearchCursor(r"C:\temp\data\GPS_points.shp", ["Animal", "SHAPE@JSON"])
 
-total = 0
-count = 0
-for row in rows:
-    rowGeom = eval(row[1])
-    print rowGeom["x"], rowGeom["y"]
-    total += row[0]
-    count += 1
+arcpy.CheckOutExtension("Spatial")
 
-print total, count, total / count
+arr1 = arcpy.RasterToNumPyArray(Raster(r"C:\temp\week10data\data\worldwidedata.gdb\prec_1"),nodata_to_value=0)
+arr2 = arcpy.RasterToNumPyArray(Raster(r"C:\temp\week10data\data\worldwidedata.gdb\prec_7"),nodata_to_value=0)
+
+outarr = numpy.maximum(arr1, arr2)
+
+myRaster = arcpy.NumPyArrayToRaster(outarr)
+
+myRaster.save(r"C:\temp\week10data\data\worldwidedata.gdb\prec_max")
+
+#outras.save(r"C:\temp\week10data\data\worldwidedata.gdb\prec_add")

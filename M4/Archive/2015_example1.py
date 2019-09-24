@@ -1,19 +1,22 @@
-myd = { "George": 39, "April": 37, "Lloyd": 35 }
-
-#Small cities Dictionary
-Cites = {"Hattiesburg": {"Population" : 50000, "Area": 300}}
+import arcpy
 
 
-def histogram(s):
-    d = dict()
-    for c in s:
-        if c not in d:
-            d[c] = 1
-        else:
-            d[c] += 1
+#List out inputs, outputs, and other intermediate variables
 
-    return d
+inputWorkspace = r"C:\temp\lab5\labData.gdb"
+inputLayer = "taZones"
+outputLayer = r"taBuff"
+bufferDistance = "500"
 
-print histogram("The quick brown fox jumps over the lazy dog!")
+arcpy.env.workspace = inputWorkspace
+arcpy.env.overwriteOutput = True
 
+desc = arcpy.Describe(inputLayer)
 
+if desc.shapeType <> "Polygon":
+    print "This tool only works with Polygon data"
+    #Stop Program
+else:
+    print "Everything is Awesome!"
+    #Proceed with Program
+    arcpy.Buffer_analysis(inputLayer, outputLayer, bufferDistance, "#", "#", "ALL")

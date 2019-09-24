@@ -1,84 +1,31 @@
 #Lecture
-##Meeting 5 – Python in ArcGIS (arcpy)
-####Today we will introduce and discuss arcpy, a module for interacting with ArcGIS:
+##Meeting 6 – Python in ArcGIS (arcpy) - Building Toolboxes
+####Today we will continue to discuss arcpy, specifically, how to connect the scripts we make to Toolboxes:
 
-1. Quick Review of what we have learned so far:
-  1. Programming what is it and why are we doing it?
-  2. Data types and Variables
-  3. Program flow
-    1. Making decisions (testing conditions and branching)
-    2. Looping
-  4. Functions
-  5. Classes and Objects
-  6. Methods and Properties
-2. Modules
-  1. Just a group of code that does things.
-  2. Like functions, they can serve to organize your code better.
-  3. You can write your own, but we usually won't for this course.  (If it helps you though go ahead and do it)
-3. Classes and Objects
-  1. We've already been using these
-  2. What is a class and what is an object
-  3. How do you create a class?
-  4. How do you use a class (How do you create an object).
-  5. Again, in this class we will mostly be consumers of classes and objects other's have written, but if it helps you to orgainze things go ahead and create your own.
-4. ArcPy
-  1. ArcGIS 10 has python built right in.
-  2. arcpy module is for making requests to the arcgis toolboxes (Geoprocessing)
-    1. Importing arcpy
-    2. Using Tools
-    3. Using Functions
-    4. Environmental Options:
-    5. env object – allows you to set or change default processing options for geoprocessing.
-      1. cellSize
-      2. extent
-      3. overwriteOutput
-    6. Describe
-5. External Modules (often use custom classes they have included)
-  1. arcpy (Interacting with ArcGIS)
-  2. gdal (Using Open Source GIS tools)
-  3. psycopg (Interacting with PostGres and PostGIS, doing GIS in a Database)
-  3. numpy (Arrays) *
-  4. scipy (Scientific analysis of Arrays) *
-  5. flask and django (Web framworks)
-  6. Tkinter (GUI design)
-  7. matplotlib (plots and graphs) *
-  8. Pillow (Image Processing)
-  * means is included with ArcGIS install
-6. Readings for you:
-  1. http://downloads2.esri.com/ESRIpress/images/224/PYTHON_sample-ch5.pdf
-  2. http://desktop.arcgis.com/en/arcmap/latest/analyze/main/what-is-geoprocessing.htm
-  3. http://desktop.arcgis.com/en/arcmap/latest/analyze/python/what-is-python-.htm
-  4. http://desktop.arcgis.com/en/arcmap/latest/analyze/arcpy/what-is-arcpy-.htm
+Making a toolbox:
+One of the most useful things you can do with a script it to create a toolbox and tools that gather the input parameters and execute your script from within ArcGIS.  Doing this allows you to share your tools with others and truly customize the arcGIS experience.
 
- 2018 Lecture Video: https://youtu.be/KC13FIYA2Ns
- 2018 Video for Lab: https://youtu.be/E79MKf_L-4s
- Old Video:  https://www.youtube.com/watch?v=AGvjPEYvFNo
- 
-  
-#Lab Assignment
-##Exercise #5 – Using ArcGIS to run a simple model
+A toolbox is basically just a file with a .tbx extension.  A toolbox that a user creates is called a custom toolbox.  These exist on your computer in a location that you specify.  Toolboxes contain tools.  Tools can be connected to scripts so that executing one will run the script in the process.  We will walk through the process of creating a script tool and hooking a script up to it.
 
-####Do the following assignment:
+1. Use of arcpy.GetParameterAsText and arcpy.GetParameter
+2. arcpy.GetArgumentCount()
+3. Creating a toolbox in ArcGIS
+  1. Script Tools
+  2. Building to Script Tool
+    1. Input and Output Types
+	2. Everything is passed around as strings
+4. Use of SetParameterAsText and SetParameter
 
-We have some data included in this lab.  The data consists of 2 different sets:
+The lab assignement for this week is simply to take the assignement from last week and turn it into a script tool within a toolbox.
 
-1. Census data
-2. Watersheds
+Youtube Lecture Video: https://youtu.be/6EZg9ABz0B0
+Youtube Lab Video: https://youtu.be/mdyYhzUWb_U
 
-You will create a simple script that calcuates how many people live in each watershed.  Since the watershed boundaries and the census boundaies do not match up you will use GIS to break apart (overlay) and assign people to each watershed based on the percentage of area a particular tract has in each watershed.  For example if 100 people live in a tract and 80% of the area of that tract falls in a watershed then 80 people will be counted for that watershed.  Your output will be the total number of people in each watershed.
+Old Youtube Video:  https://www.youtube.com/watch?v=2W6di6SwNYg
 
-Name the script W_X_Y_Z.py 
 
-where :
-* W is your last name, 
-* X is your first name, 
-* Y is the Exercise number (in this case 1) and 
-* Z is the script number (the first is 1 then second is 2 and so on). 
 
-Thus for the first script to turn in, I would name the file Raber_George_5_1.py
 
-You will turn in 1 script for this exercise.
-  
       
       
 

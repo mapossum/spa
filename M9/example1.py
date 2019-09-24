@@ -1,22 +1,8 @@
-import arcpy
+from arcpy.sa import *
+arcpy.CheckOutExtension("Spatial")
 
-arcpy.env.overwriteOutput = True
+Raster(r"C:\temp\spaLab\week10\wsb_dsm.tif")
+wsbDEM = Raster(r"C:\temp\spaLab\week10\wsb_dsm.tif")
+slopeWSB = Slope(wsbDEM)
 
-out_path = r'c:\temp\spaLab\\'
-out_name = "points2.shp"
-geometry_type = "POINT"
-
-arcpy.CreateFeatureclass_management(out_path, out_name, geometry_type)
-
-fc = out_path + out_name
-cursor = arcpy.da.InsertCursor(fc, ["SHAPE@XY"])
-
-
-for i in range(100,500,10):
-    for j in range(0,100,5):
-        print i,j
-        xy = (i,j)
-        cursor.insertRow([xy])
-
-del cursor
-                   
+slopeWSB.save(r"C:\temp\spaLab\week10\wsb_dsm_slope.tif")

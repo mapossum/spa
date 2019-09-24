@@ -1,22 +1,13 @@
-import arcpy
-
+from arcpy.sa import *
+arcpy.CheckOutExtension("Spatial")
 arcpy.env.overwriteOutput = True
 
-out_path = r'c:\temp\spaLab\\'
-out_name = "points2.shp"
-geometry_type = "POINT"
+Raster(r"C:\temp\spaLab\week10\wsb_dsm.tif")
+wsbDEM = Raster(r"C:\temp\spaLab\week10\wsb_dsm.tif")
 
-arcpy.CreateFeatureclass_management(out_path, out_name, geometry_type)
+neighborhood = NbrRectangle(10, 10, "CELL")
+outFocalStatistics = FocalStatistics(wsbDEM, neighborhood, "MEAN")
 
-fc = out_path + out_name
-cursor = arcpy.da.InsertCursor(fc, ["SHAPE@XY"])
+total = outFocalStatistics - wsbDEM 
 
-
-for i in range(100,500,10):
-    for j in range(0,100,5):
-        print i,j
-        xy = (i,j)
-        cursor.insertRow([xy])
-
-del cursor
-                   
+total.save(r"C:\temp\spaLab\week10\wsb_dsm_edge_10.tif")

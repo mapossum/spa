@@ -1,12 +1,10 @@
 import arcpy
+from arcpy.sa import *
+import numpy
 
-rows = arcpy.da.SearchCursor(r"C:\temp\data\Parks.shp", ["Animal", "SHAPE@WKT"])
 
-total = 0
-count = 0
-for row in rows:
-    print row[1]
-    total += row[0]
-    count += 1
+arcpy.CheckOutExtension("Spatial")
 
-print total, count, total / count
+a = SetNull(r"C:\temp\week10data\data\worldwidedata.gdb\prec_max", r"C:\temp\week10data\data\worldwidedata.gdb\prec_max", "Value < 0.00001")
+
+a.save(r"C:\temp\week10data\data\worldwidedata.gdb\prec_max_nodata2")
