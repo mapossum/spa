@@ -51,10 +51,9 @@
   8. Pillow (Image Processing)
   * means is included with ArcGIS install
 6. Readings for you:
-  1. http://downloads2.esri.com/ESRIpress/images/224/PYTHON_sample-ch5.pdf
-  2. http://desktop.arcgis.com/en/arcmap/latest/analyze/main/what-is-geoprocessing.htm
-  3. http://desktop.arcgis.com/en/arcmap/latest/analyze/python/what-is-python-.htm
-  4. http://desktop.arcgis.com/en/arcmap/latest/analyze/arcpy/what-is-arcpy-.htm
+  1. https://pro.arcgis.com/en/pro-app/help/analysis/geoprocessing/basics/what-is-geoprocessing-.htm
+  2. https://pro.arcgis.com/en/pro-app/arcpy/get-started/installing-python-for-arcgis-pro.htm
+  3. https://pro.arcgis.com/en/pro-app/arcpy/get-started/what-is-arcpy-.htm
 
  2019 Lecture Video: https://youtu.be/hvNVtX1K_Eg
  2019 Lab Video: https://youtu.be/murtnYG94HU
