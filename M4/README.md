@@ -56,6 +56,9 @@
   3. http://desktop.arcgis.com/en/arcmap/latest/analyze/python/what-is-python-.htm
   4. http://desktop.arcgis.com/en/arcmap/latest/analyze/arcpy/what-is-arcpy-.htm
 
+ 2019 Lecture Video: https://youtu.be/hvNVtX1K_Eg
+ 2019 Lab Video: https://youtu.be/murtnYG94HU
+
  2018 Lecture Video: https://youtu.be/KC13FIYA2Ns
  2018 Video for Lab: https://youtu.be/E79MKf_L-4s
  Old Video:  https://www.youtube.com/watch?v=AGvjPEYvFNo
@@ -66,7 +69,7 @@
 
 ####Do the following assignments:
 
-1. Write a program that reads a list of cities from a file, creates and prints the contents of a dictionary where the keys are the city names and the values are the locations as a dictionary with x and y as keys and the point values as the values.  The file location.py contains a function that takes an text location and returns a dictionary with the location as x,y.  The file citiesSubset contains a file with a list of cities you can use for testing.
+1. Write a program that reads a list of cities from a file, creates and prints the contents of a dictionary where the keys are the city names and the values are the locations as a x,y pairs (as tuple or list).  The file location.py contains a function that takes an text location and returns a dictionary with the location as x,y.  The file citiesSubset contains a file with a list of cities you can use for testing.
 
 
 We have some data included in this lab.  The data consists of 2 different sets:

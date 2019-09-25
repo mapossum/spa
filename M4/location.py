@@ -9,6 +9,8 @@ def getaddresslocation(address):
     return (loc['candidates'][0]['location'])
 
 print(getaddresslocation("Hattiesburg, MS"))
+print(getaddresslocation("Jackson, MS"))
+print(getaddresslocation("Los Angeles, CA"))
 
 
 
