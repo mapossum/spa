@@ -76,7 +76,7 @@ We have some data included in this lab.  The data consists of 2 different sets:
 * Census data
 * Watersheds
 
-2. You will create a simple script that calcuates how many people live in each watershed.  Since the watershed boundaries and the census boundaies do not match up you will use GIS to break apart (overlay) and assign people to each watershed based on the percentage of area a particular tract has in each watershed.  For example if 100 people live in a tract and 80% of the area of that tract falls in a watershed then 80 people will be counted for that watershed.  Your output will be the total number of people in each watershed.
+2. You will create a simple script that calcuates how many people live in each watershed.  Since the watershed boundaries and the census boundaies do not match up you will use GIS to break apart (overlay) and assign people to each watershed.  We will tackle this in a simple way.  First do the overlay (we did it using the Identity tool in class), then do a dissolve.  Use a unique field for the dissolve field (e.g. HUC_8) and summarize based on the population (e.g. P0010001)  based on the percentage of area a particular tract has in each watershed. Your output will be the total number of people in each watershed, but it is just an estimate as cencus tracts that strattle watershed boundaries will be double counted.
 
 Name the script W_X_Y_Z.py 
 
