@@ -18,8 +18,19 @@ A toolbox is basically just a file with a .tbx extension.  A toolbox that a user
 
 The lab assignement for this week is simply to take the assignement from last week and turn it into a script tool within a toolbox.
 
-Youtube Lecture Video: https://youtu.be/6EZg9ABz0B0
-Youtube Lab Video: https://youtu.be/mdyYhzUWb_U
+Your toolbox and must allow the user to specify the following paramaters (has to have 5 paramaters):
+1) The feature class representing the aggregation polygons (in our case watersheds)
+2) the field from this feature class representing a label or unique ID for those features on which to aggregate or dissolve.
+3) The feature class representing the data to be aggregated (in our case cencus tracts).
+4) The field from this feature class represening the values to be aggregated (in this case the population).
+5) The location of the output feature class. (This is an output paramater, but is not derived.)
+
+
+Youtube Lecture Video: https://youtu.be/Blh6QD8SPxQ
+Youtube Lab Video: https://youtu.be/lG_oOPbHZwE
+
+Old 2018 Youtube Lecture Video: https://youtu.be/6EZg9ABz0B0
+Old 2018 Youtube Lab Video: https://youtu.be/mdyYhzUWb_U
 
 Old Youtube Video:  https://www.youtube.com/watch?v=2W6di6SwNYg
 
