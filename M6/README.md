@@ -33,6 +33,8 @@ Videos:
 
 Here is your assignment.
 
+1) Write a script that takes the tornado data and adds a new field called "Month" That is a string field.  Then in your script, convert the values in the mo field from an integer to a string representation of the month (1 = "January", 2 = "February" etc) and stores them in the "Month" Field string you created.
+
 
 
 
