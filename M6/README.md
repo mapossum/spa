@@ -28,6 +28,11 @@
 
 	
 Videos:
+https://youtu.be/hWzcEoD9HzI <br>
+https://youtu.be/ttYsvjtw4nQ
+
+Test Review:
+https://youtu.be/GOtCAUANWkI
 
 #Lab 
 
