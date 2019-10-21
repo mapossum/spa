@@ -1,5 +1,5 @@
 #Lecture
-##Meeting 6 - Working with Vector GIS Data with Python I
+##Meeting 6 - Working with Vector GIS Data with Python II
 
 
 1.  What is GIS Data? 
@@ -25,7 +25,9 @@
     2. FeatureClassToNumPyArray and TableToNumPyArray
     3. NumPyArrayToTable and NumPyArrayToFeatureClass
     4. ExtendTable
-
+  4. Reading Geometries - https://pro.arcgis.com/en/pro-app/arcpy/get-started/reading-geometries.htm
+  5. Writing Geometries - https://pro.arcgis.com/en/pro-app/arcpy/get-started/writing-geometries.htm
+  
 	
 Videos:
 
@@ -33,9 +35,7 @@ Videos:
 
 Here is your assignment.
 
-1) Write a script that takes the tornado data and adds a new string field called month.  Then using the Update and/or the Search Cursor it puts in the proper month string into the field ("January" for 1, "February" for 2 and so on).  You can base this on the example we did in class where we created a new field and calculated a new value based on the existing magnitude value.
-
-
+1) We are goingt to start the assignment together in class.  I have included a file called turtleData.py.  It reads information off a turtle tracking website.  I will explain the data that comes from the site that we can read into a python list.  Each element represents a single turtle location.  First you will notice that by changing the URL accessed you can get the data for a different turtle.  There are a total of 244 turtles (Ids of 1-244).  You will create a polyline shapefile and then read each turtle data in and construct a polyline feature for that turtle.  Finally run the Minimum Bounding Geometry to find out each turtles home range.  https://pro.arcgis.com/en/pro-app/tool-reference/data-management/minimum-bounding-geometry.htm  
 
 
 
