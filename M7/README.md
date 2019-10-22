@@ -29,13 +29,15 @@
   5. Writing Geometries - https://pro.arcgis.com/en/pro-app/arcpy/get-started/writing-geometries.htm
   
 	
-Videos:
+Videos:<br>
+https://youtu.be/3j_fSkT4FQA and <br>
+https://youtu.be/UjHiBCBhCEY
 
 #Lab 
 
 Here is your assignment.
 
-1) We are goingt to start the assignment together in class.  I have included a file called turtleData.py.  It reads information off a turtle tracking website.  I will explain the data that comes from the site that we can read into a python list.  Each element represents a single turtle location.  First you will notice that by changing the URL accessed you can get the data for a different turtle.  There are a total of 244 turtles (Ids of 1-244).  You will create a polyline shapefile and then read each turtle data in and construct a polyline feature for that turtle.  Finally run the Minimum Bounding Geometry to find out each turtles home range (convex hull).  https://pro.arcgis.com/en/pro-app/tool-reference/data-management/minimum-bounding-geometry.htm  
+1) We are goingt to start the assignment together in class.  I have included a file called turtleData.py.  It reads information off a turtle tracking website.  I will explain the data that comes from the site that we can read into a python list.  Each element represents a single turtle location.  First you will notice that by changing the URL accessed you can get the data for a different turtle.  There are a total of 244 turtles (Ids of 1-244).  You will create a polyline shapefile and then read each turtle data in and construct a polyline feature for that turtle.  To get full credit include a TurtleID field in the output shapefile.  Finally run the Minimum Bounding Geometry to find out each turtles home range (convex hull).  https://pro.arcgis.com/en/pro-app/tool-reference/data-management/minimum-bounding-geometry.htm  
 
 
 
