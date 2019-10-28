@@ -1,37 +1,53 @@
 #Lecture
-##Meeting 9 - Working with GIS data - Cont. Writing Geometries.
-####Today we review GIS Data structures and talk about how they can accessed programattically.
+##Week 8 - Working with Raster Data
+#### Raster GIS Data Processing using Python
+###### Today we will discuss how to use arcpy to manipulate raster data
 
-Writing Geometries
+2018 Lecture Video: https://youtu.be/bWkHGZOym-g
+
+2018 Lab Video: https://youtu.be/eG8BbFnN-lc
+
+1. Review of raster operations:
+  1. Local
+  2. Neighborhood
+  3. Zonal and Global
+2. Very useful functions
+  1. Con (conditional statement) basically an if-then statement.
+  2. Arithmetic operations
+  3. IsNull (assigns a no data value to an area)
+3. arcpy.sa
+  1. You can run almost every function in python
+  2. WATCH OUT: arcpy.env extent and cell size ussually need to be set or results won't be right (Also watch out for No Data)
+  3. eval function (for putting together large functions)
+  4. save function (for saving output results)
+  5. Raster function (for turning text paths into rasters)
+  6. http://desktop.arcgis.com/en/arcmap/10.5/extensions/spatial-analyst/map-algebra/working-with-raster-objects.htm
+  7. arcpy.RasterToNumPyArray and arcpy.NumPyArrayToRaster (next week)
+
+  
 
 #Lab 
 
-Here is your assignment
+Here is your assignment (You have two weeks to finish this assignment).
 
-From last week:
+Download the data in this weeks folder.
 
-1) Build on the script from last week and output a new shapefile that contains the smallest circumscribing circle and the area of the input polygon.
+1. Write a script that does the following:
+  1. Take each of the shapefiles that start with "Risk_"
+  2. Use Euclidian distance to create a raster of straight line distance from each of these datasets.
+  3. Subtract the values in the Euclidian output from 1000.
+  4. Set all the negative values to 0.
+  5. add up each of these datasets and save the output.
+  
+  
+Old YouTube Link:  https://www.youtube.com/watch?v=e0V_mMspZc8
 
-The SEC.py script, already contains code to calculate the smallest circumscribing circle (function is called make_circle).  Go ahead and use this rather than creating your own.  It will be easiest to start by copying the orginal feature class then replacing the cities with the smallest circumscribing circle.  You should include a new field that is the ratio of the area to the city to the area of the circle.
+  
 
-2) Write a python program that does the following:
-Take a point shapefile that has contains two fields.  In our case one will be called "Animal" and one field called "Time".  
-The Point shapefile represents animal movements acquired using a GPS collar.  
-1) You must create a line shapefile that contains one line per animal representing the movements of that animal from the earliest time to the latest time.
-2) Your program should also create a polygon shapefile that represents the animal’s home range.  The home range will be defined as the polyline shapefile you create buffered by 0.1 km.
-3) Your program should also find the amount of each animal's home range that is within each feature of another dataset called "Parks". (Find the amount of each home range that is within a park (Think GIS Intersect)).
 
-Use the accompanying point GIS shapefile to test your program.
 
-You will turn in 2 programs for this week.
 
-New Video:  https://youtu.be/L9sFyJbdjm4
 
-New Lab Video:  https://youtu.be/RPtMH-VizvE
-
-New Lab Video (cont during week 10): https://youtu.be/pJB550H7CfE
-
-Old Video: https://www.youtube.com/watch?v=UMyzk9mzY68
 
 
 

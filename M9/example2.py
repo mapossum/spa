@@ -1,11 +1,18 @@
-from arcpy.sa import *
-arcpy.CheckOutExtension("Spatial")
+import arcpy
+import numpy
+
 arcpy.env.overwriteOutput = True
 
-Raster(r"C:\temp\spaLab\week10\wsb_dsm.tif")
-wsbDEM = Raster(r"C:\temp\spaLab\week10\wsb_dsm.tif")
-slopeWSB = Slope(wsbDEM)
+inRas = arcpy.Raster(r"C:/temp/myRandomRaster4.tif")
+lowerLeft = arcpy.Point(inRas.extent.XMin,inRas.extent.YMin)
+cellSize = inRas.meanCellWidth
 
-total = slopeWSB + wsbDEM
 
-total.save(r"C:\temp\spaLab\week10\wsb_dsm_total.tif")
+arr = arcpy.RasterToNumPyArray(inRas,nodata_to_value=0)
+
+arr[3,1] = 0
+
+print arr
+
+myRaster = arcpy.NumPyArrayToRaster(arr,lowerLeft,cellSize,value_to_nodata=0)
+myRaster.save("C:/temp/myRandomRaster5.tif")
