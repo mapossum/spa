@@ -38,6 +38,8 @@ Download the data in this weeks folder.
   3. Subtract the values in the Euclidian output from 1000.
   4. Set all the negative values to 0.
   5. add up each of these datasets and save the output.
+
+** Note the extent and cell size for all datasets should be cell size 50 and the extent should be the same as the watershed layer (if you like you can also set that as the mask, but you don't have to).
   
   
 Old YouTube Link:  https://www.youtube.com/watch?v=e0V_mMspZc8
