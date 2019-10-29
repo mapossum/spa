@@ -3,9 +3,10 @@
 #### Raster GIS Data Processing using Python
 ###### Today we will discuss how to use arcpy to manipulate raster data
 
-2018 Lecture Video: https://youtu.be/bWkHGZOym-g
+Lecture Video: https://youtu.be/abAR8loiTOQ
 
-2018 Lab Video: https://youtu.be/eG8BbFnN-lc
+Lab Video: https://youtu.be/spPxZg4HL-s
+
 
 1. Review of raster operations:
   1. Local
@@ -42,7 +43,11 @@ Download the data in this weeks folder.
 ** Note the extent and cell size for all datasets should be cell size 50 and the extent should be the same as the watershed layer (if you like you can also set that as the mask, but you don't have to).
   
   
-Old YouTube Link:  https://www.youtube.com/watch?v=e0V_mMspZc8
+Old YouTube Links:  https://www.youtube.com/watch?v=e0V_mMspZc8
+
+2018 Lecture Video: https://youtu.be/bWkHGZOym-g
+
+2018 Lab Video: https://youtu.be/eG8BbFnN-lc
 
   
 
