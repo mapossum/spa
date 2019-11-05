@@ -24,7 +24,9 @@ Here is your assignment.
 Download the data in this weeks folder.  It is a temperature average for the entire year.  Simmilar to last week, you will add up all the temperature values using a loop and the eval statement.  This time use numpy.
 
 Write a script that does the following:
-  1. Inside a loop convert each temperature raster to a array.  Then add all the arrays together to get a total.  Finally divide that array by 12 to get the average yearly tempurature. 
+  1. Inside a loop convert each temperature raster to a array.  Then add all the arrays together to get a total.  Divide that array by 12 to get the average yearly tempurature. Convert the average yearly temp array back into a raster dataset.  Full credit for produces a map like the one posted on Canvas with noData values in the right places.
+
+Turn in just your script.  
 
 
 Videos:
