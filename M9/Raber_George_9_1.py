@@ -3,7 +3,7 @@ import numpy
 
 arcpy.env.overwriteOutput = True
 
-for x in range(1,12):
+for x in range(1,13):
     inRas = arcpy.Raster(r"C:\temp\spaLab\week9\climatedata.gdb\temp_" + str(x))
     lowerLeft = arcpy.Point(inRas.extent.XMin,inRas.extent.YMin)
     cellSize = inRas.meanCellWidth
@@ -11,7 +11,7 @@ for x in range(1,12):
     arr = arcpy.RasterToNumPyArray(inRas,nodata_to_value=-1000)
 
     if (x == 1):
-        total = arr * 1
+        total = arr * 1.0
     else:
         ### Calculate total each time through the loop
         total = ????????
