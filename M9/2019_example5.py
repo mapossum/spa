@@ -16,5 +16,6 @@ outarr = numpy.where(arr2 > 75, 1, 0)
 myRaster = arcpy.NumPyArrayToRaster(outarr,lowerLeft,cellSize,value_to_nodata=14.0)
 myRaster.save(r"C:\temp\spaLab\week9\climatedata.gdb\ft_threshold_temp_3")
 
+
 print("done")
 

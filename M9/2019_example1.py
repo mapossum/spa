@@ -3,16 +3,18 @@ import numpy
 
 arcpy.env.overwriteOutput = True
 # Create a simple array from scratch using random values
-myArray = numpy.random.random_integers(0,100,25) #numpy.ones(25) * 5 #
-myArray.shape = (5,5)
+myArray = numpy.random.random_integers(0,100,100) #numpy.ones(25) * 5 #
+myArray.shape = (5,5,4)
 print(myArray)
 
-# Convert array to a geodatabase raster
-point = arcpy.Point(50, 50)
-myRaster = arcpy.NumPyArrayToRaster(myArray,lower_left_corner=point,x_cell_size=10)
-myRaster.save("C:/temp/myRandomRaster.tif")
+## Convert array to a geodatabase raster
+point = arcpy.Point(493907, 195476)
+myRaster = arcpy.NumPyArrayToRaster(myArray,point,100)
+myRaster.save(r"C:\temp\spaLab\week9\MyRandomRaster_Coords3.tif")
 
-dsc = arcpy.Describe(r"C:\temp\ks_Large.shp")
-coord_sys = dsc.spatialReference
+#dsc = arcpy.Describe(r"C:\temp\spaLab\week9\climatedata.gdb\usa_states")
+#coord_sys = dsc.spatialReference
 
-arcpy.DefineProjection_management("C:/temp/myRandomRaster.tif", coord_sys)
+coord_sys = arcpy.SpatialReference(32145)
+
+arcpy.DefineProjection_management(r"C:\temp\spaLab\week9\MyRandomRaster_Coords3.tif", coord_sys)

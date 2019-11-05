@@ -5,20 +5,18 @@ arcpy.env.overwriteOutput = True
 # Create a simple array from scratch using random values
 myArray = numpy.random.random_integers(0,100,25) #numpy.ones(25) * 5 #
 myArray.shape = (5,5)
-print myArray
 
-for i in range(0,5):
-    for j in range(0,5):
-        myArray[i,j] = i
+for row in range(0,5):
+    for col in range(0,5):
+        myArray[row,col] = row
 
 print(myArray)
 
 # Convert array to a geodatabase raster
 point = arcpy.Point(50, 50)
 myRaster = arcpy.NumPyArrayToRaster(myArray,lower_left_corner=point,x_cell_size=10)
-myRaster.save("C:/temp/myRandomRaster.tif")
+myRaster.save(r"C:\temp\spaLab\week9\rowstrip.tif")
 
-dsc = arcpy.Describe(r"C:\temp\ks_Large.shp")
-coord_sys = dsc.spatialReference
+coord_sys = arcpy.SpatialReference(32145)
 
-arcpy.DefineProjection_management("C:/temp/myRandomRaster.tif", coord_sys)
+arcpy.DefineProjection_management(r"C:\temp\spaLab\week9\rowstrip.tif", coord_sys)
