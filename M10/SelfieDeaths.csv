@@ -1,0 +1,177 @@
+﻿Date,Location,Casualties,Type,Latitude,Longitude
+201110,United States,3,Transport,40.73061,-73.935242
+201312,London,1,Transport,51.509865,-0.118092
+201403,Spain,1,Electrocution,40.416775,-3.70379
+201404,North Carolina,1,Transport,35.782169,-80.793457
+205106,Russia,1,Fall,61.524,105.3188
+201405,India,1,Transport,20.5937,78.9629
+201405,United States,2,Transport,40.73061,-73.935242
+201406,"Taranto, Italy",1,Fall,40.466667,17.233334
+201407,"Pasig, Phillipines",1,Fall,14.5869,121.0614
+201408,Phillippines,1,Firearm,14.6042,120.9822
+201408,Mexico,1,Firearm,19.432608,-99.133209
+201408,Portugal,2,Fall,41.1496,8.611
+201408,"Kerala, India",1,Electrocution,10.850516,76.27108
+201408,Portland,1,Transport,45.523064,-122.676483
+201410,Phillipines,1,Drowned,14.6042,120.9822
+201411,"Seville, Spain",1,Fall,37.3828,5.9732
+201501,Johannesburg,1,Fall,-26.195246,28.034088
+201501,Ural Mountains,2,Other,61.524,105.3188
+201501,Kosikala,3,Transport,27.7902,77.438643
+201502,Mumbai,1,Transport,20.745532,72.78044
+201502,"Kalama, Washington",1,Transport,46.008447,-122.844551
+201503,"Kuhi, India",7,Drowned,21.017248,79.367675
+201504,"Sremska Mitrovica, Serbia",1,Transport,44.979497,19.620966
+201504,"Trentino-Alto Adige, Italy",1,Fall,46.433666,11.169329
+201505,"Lasi, Romania",2,Electrocution,47.158455,27.601442
+201505,"Ryzan Oblast, Russia",1,Electrocution,54.609542,39.712586
+201505,Russia,1,Firearm,61.524,105.3188
+201505,"Mount Merapi, Indonesia",1,Fall,-7.540717,110.445724
+201505,"Nusa Lembongan, Indonesia",1,Fall,-8.678583,115.455586
+201506,Pakistan,1,Firearm,30.375319,69.345116
+201506,"Taganrog, Russia",2,Electrocution,47.297666,38.71328
+201506,"Plitvice Lakes National Park, Croatia",1,Fall,44.868229,15.574561
+201507,"Moscow International Business Center, Russia",1,Fall,55.752543,37.528303
+201507,San Diego,1,Animal,32.994933,-117.785135
+201507,Yellowstone National Park,1,Animal,44.43512,-110.607131
+201507,"Brecon Beacons, United Kingdom",1,Electrocution,51.888616,-3.465088
+201507,"Pagudpud, Phillipines",1,Transport,18.669068,120.661367
+201508,"Villaseca de la Sagra, Spain",1,Animal,39.965275,-3.89168
+201508,"Zhejiang, China",1,Fall,31.379394,114.690937
+201508,Russia,1,Electrocution,61.524,105.3188
+201509,Houston,1,Firearm,30.04645,-95.988944
+201509,"Agra, India",1,Fall,27.250277,77.853535
+201509,"Vologda, Russia",1,Fall,59.260303,39.743414
+201509,"Kolli Hills, India",1,Fall,11.413445,78.024697
+201510,Barcelona,1,Electrocution,41.446635,2.020008
+201510,"El Tatio Geyser, Chile",1,Other,-22.331919,-68.018208
+201511,"Narmada Canal, India",2,Drowned,24.886623,71.971748
+201511,"West Bengal, India",2,Transport,25.338701,82.838499
+201511,"Nahur Station, Mumbai India",1,Electrocution,19.159193,72.94115
+201512,"Rawalpindi, Pakistan",1,Transport,33.63399,72.862462
+201512,Turkey,2,Transport,42.671851,24.639794
+201601,"Chennai, India",1,Transport,13.243844,79.961688
+201601,"Manila, Phillipines",1,Fall,14.639629,120.906894
+201601,"Bertioga, Brazil",1,Fall,-23.682631,-46.425554
+201601,"Jammu and Kashmir, India",1,Fall,34.858916,74.06287
+201601,"Bandra, India",2,Drowned,19.069397,72.810121
+201602,"Bengaluru, India",3,Drowned,13.132973,77.28527
+201602,"Waldevi Dam, India",2,Drowned,19.901724,73.667759
+201602,"Anjuna, India",5,Fall,15.597116,73.722632
+201602,"Narayani River, Nepal",1,Drowned,29.077058,82.429584
+201603,"Concrete, Washington",1,Firearm,29.077058,82.429584
+201603,"Melbourne, Austrlia",1,Firearm,-37.285196,143.739658
+201603,"Lion Rock, Hong Kong",1,Fall,22.35227,114.187037
+201604,"Hyderabad, India",1,Fall,17.385044,78.486671
+201604,"Uttar Pradesh, India",2,Transport,26.837089,80.928377
+201604,"Ibitipoca State Park, Brazil",1,Fall,-21.717068,-43.925793
+201604,"Saharanpur, India",1,Transport,29.968003,77.555207
+201604,"Campos dos Goytacazes, Brazil",1,Fall,-21.762668,-41.31845
+201604,"Vattakanal, India",1,Fall,10.212676,77.485254
+201605,"Pathankot, India",1,Firearm,32.273335,75.652207
+201605,"Rongcheng, China",2,Animal,37.16516,122.486656
+201606,"Nabadwip, India",1,Drowned,23.403669,88.365857
+201606,"Overland, Missouri",1,Firearm,38.701163,-90.362338
+201606,"Sindhrot Check Dam, India",1,Drowned,22.3307,73.05943
+201606,"Lake George, Adirondack Mountains",1,Fall,43.569145,-73.63596
+201606,"Kanpur Ganges Barrage, India",7,Drowned,26.5078,80.3169
+201606,"Maharashtra, Indai",1,Fall,19.75148,75.713888
+201606,"Gocta Waterfalls, Peru",1,Fall,-6.023033,-77.887318
+201606,"Machu Picchu, Peru",1,Fall,-13.163141,-72.544963
+201607,"Plitvice Lakes National Park, Croatia",1,Fall,44.865397,15.582012
+201607,"Uttarakhand, India",1,Fall,30.066753,79.0193
+201607,"Madhya Pradesh, India",4,Drowned,22.973423,78.656895
+201607,"Khandala, India",1,Fall,18.758314,73.375703
+201607,Nepal,1,Animal,28.394857,84.124008
+201607,"Kosi Dam, India",2,Drowned,26.526229,86.927001
+201607,"Hung Yen, Vietnam",2,Transport,20.852571,106.016997
+201607,"Kanyakumari, India",2,Drowned,8.088306,77.538451
+201607,"Charmadi Gat, India",2,Fall,13.05834,75.429323
+201607,"Amboli Falls, India",1,Fall,15.949113,73.998853
+201607,"Dehradun, India",1,Drowned,30.316494,78.032192
+201607,"Bhopal, India",1,Drowned,23.259933,77.412615
+201607,"Vindham Waterfall, India",2,Fall,20.593685,78.962882
+201608,Florida,1,Firearm,27.664828,-81.515752
+201608,"Vilpatti, India",1,Fall,10.267546,77.500309
+201608,"Mandoshi Gat, India",1,Fall,19.046141,73.63596
+201608,"Kunhar River, Pakistan",3,Drowned,34.483734,73.358889
+201608,"Kherva Ganpat University, India",1,Fall,23.529288,72.457736
+201608,"Maharashtra, Indai",4,Drowned,19.75148,75.713888
+201608,"Peelamedu, India",1,Fall,11.026629,77.021219
+201608,"Muzaffarnagar, India",1,Firearm,29.472682,77.708509
+201608,"Kunhar River, Pakistan",2,Drowned,34.483734,73.358889
+201608,"Lake Saiful Muluk, Pakistan",3,Other,34.876195,73.693352
+201609,"Telangana, India",5,Drowned,18.112437,79.019299
+201609,"Kulalu Ranch, Kenya",1,Animal,-3.218981,40.113908
+201610,"Dordi Stream, Nepal",1,Fall,28.176763,84.455348
+201610,"Hyderabad, India",2,Drowned,17.385044,78.486671
+201610,"Ain Garziz, Oman",2,Drowned,17.10358,54.076717
+201610,"Lonavia, India",1,Fall,18.755724,73.409076
+201610,Sri Lanka,1,Transport,7.873054,80.771797
+201610,"Bindu Village, India",1,Drowned,27.097699,88.871294
+201610,"Gajapati, India",1,Drowned,19.191222,84.185711
+201610,Russia,1,Fall,61.524,105.3188
+201611,"Nagarjuna Sagar Canal, India",2,Drowned,16.575967,79.312402
+201701,"Coimbatore, India",1,Transport,11.016845,79.955832
+201701,"Lansdowne Bridge Rohri, Pakistan",1,Drowned,39.083218,-77.479364
+201701,"Rijeka, Croatia",2,Electrocution,45.327063,14.442176
+201701,"Koteshwar Temple, India ",1,Drowned,23.69485,68.532913
+201701,"West Bengal, India",1,Transport,22.986757,87.854975
+201701,"Anand Vihar, India",2,Transport,28.650218,77.302706
+201701,"Ludhiana, India",1,Transport,30.900965,75.857276
+201702,"Kolukhet, India",1,Fall,30.415166,78.080882
+201702,New Zealand,1,Drowned,-40.900554,174.885983
+201703,"Bandon, Oregon",1,Drowned,43.118998,-124.408448
+201703,"Chinipas de Almada, Mexico",2,Transport,27.394174,-108.535884
+201704,"Howrah, India",5,Transport,22.595769,88.263639
+201704,"Gudow, Germany",1,Transport,53.556369,10.771708
+201705,"Bandra Fort, India",1,Drowned,19.041894,72.818368
+201705,"Hooghly District, India",2,Drowned,22.896256,88.246118
+201705,"Secunderabad, India",2,Transport,17.43993,78.498274
+201706,"Dhenkanal District, India",1,Animal,20.746457,85.51784
+201706,"Bambalapitiya, Sri Lanka",2,Transport,6.90095,79.855156
+201706,"Vladivostok, Russia",4,Transport,43.119809,131.886924
+201706,"Southern Province, Sri Lanka",2,Transport,6.237375,80.543845
+201706,"Perm Krai, Russia",1,Electrocution,58.823191,56.587246
+201706,"Novosibirsk, Russia",1,Electrocution,55.008353,82.935733
+201706,"Seaford Head, United Kingdom",1,Fall,50.764167,0.122585
+201706,"Mumbai, India",1,Drowned,19.075984,72.877666
+201707,"Akure, Nigeria",2,Drowned,7.257133,5.205791
+201707,"Chennai, India",28,Fire,13.08268,80.270718
+201707,"Bannerghatta Biological Park, India",1,Animal,12.800285,77.577047
+201707,"Budapest, Hungary",1,Fall,47.497912,19.040235
+201707,"Mumbai, India",1,Drowned,19.075984,72.877666
+201708,"Ambarnath, India",1,Electrocution,19.182517,73.192602
+201708,"Tambaram, India",1,Electrocution,12.924931,80.100003
+201709,"Rourkela, India",1,Animal,22.260423,84.853584
+201709,"London, United Kingdom",1,Transport,51.507351,-0.127758
+201709,"Pahang, Malaysia",1,Fall,3.812632,103.32562
+201711,"London, United Kingdom",1,Fall,51.507351,-0.127758
+201712,"Malpaso Dam, Mexico",1,Fall,17.177376,-93.598993
+201712,Australia,6,Transport,-25.274403,133.775128
+201801,"Zagreb, Croatia",1,Electrocution,45.815011,15.981919
+201801,"Manto de la Virgin Falls, Colombia",1,Fall,3.536424,-76.781335
+201801,India,1,Transport,20.593682,78.962881
+201802,"Phaya Thai District, Thailand",2,Transport,13.780778,100.54507
+201803,United States,5,Drowned,37.090237,-95.712894
+201804,"Keratsini, Greece",1,Fall,37.964357,23.621531
+201804,"Piaui, Brazil",3,Fall,-7.71834,-42.728924
+201804,"Corumba Lake, Brazil",1,Fall,-17.989167,-48.531667
+201805,"Nabarangpur, India",1,Animal,19.500132,82.301773
+201806,"Devils Tears, Indonesia",1,Fall,-8.69107,115.429204
+201806,"Ericeira, Portugal",2,Fall,38.966493,-9.417617
+201807,"Cape Solande, Australia",1,Fall,-34.009407,151.227578
+201809,Yosemite National Park,1,Fall,37.8651,-119.53833
+201809,"Pictured Rocks National Seashore, United States",1,Fall,46.561438,-86.321306
+201810,Panama,1,Fall,8.76018,-80.150998
+201810,"Taft Point, United States",2,Fall,37.712983,-119.604608
+201811,"Horton Plains National Park, Sri Lanka",1,Fall,6.802097,80.807405
+201901,"Cliffs of Moher, Ireland",1,Fall,52.971537,-9.430882
+201903,"Arizona, United States",1,Animal,34.048928,-111.093732
+201907,"Punta Prima Beach, Spain",2,Fall,37.941006,-0.705032
+201907,Italy,1,Fall,41.871943,12.567381
+201907,"Nowshera, Pakistan",1,Fall,34.010464,71.987553
+201907,Pakistan,2,Drowned,30.375321,69.345114
+201908,"Sydney, Australia",1,Fall,-33.86882,151.209296
+201909,"Pavagadh, India",1,Fall,22.462015,73.524074
+201910,India,4,Fall,20.593682,78.962881
