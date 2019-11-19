@@ -17,7 +17,7 @@ You will write 2 scripts for your final exam.  The first should be turned in as 
 You will write a python script that is attached to a tool a the toolbox. You must turn in both the script and the toolbox.  The tool will calculate lapse rate (described below) and return the modeled temperature as a new raster.  The tool will have as input a feature class (or feature layer) and allow the user to specify an output location for the output raster.  The scatterplot of the relationship should be saved in a directory specified by the user.
 While air temperatures generally drop with increasing elevation, the amount of temperature change depends on how much water vapor the air mass is carrying. When water vapor condenses from a gas to a liquid, it releases all the heat that was originally necessary to evaporate it from a liquid to a gas. The release of this latent heat (“latent” means hidden) energy warms the air around it. This means a parcel of dry air (very low humidity) will cool off faster when it rises in elevation than a rising parcel of wet air (very high humidity).  The lapse rate is the degree of change in temperature per 1000 units of change in elevation.  The lapse rate can be derived empirically through linear regression.  In class I will demonstrate using python to find the linear relationship between two numpy arrays using regression.  You will combine this knowledge with what you already know to complete the assignment. 
 The script that you will write will allow users to calculate the lapse rate for a given area (feature class).  You will calculate the lapse rate based on the provided raster data (elevation and temperature).  Do not include in your tool the ability to select the elevation and temperature raster datasets.  They should be “hard coded” into the script (i.e. there should be only two user defined parameters, one input and one output.  The output raster will be the predicted temperature given the lapse rate you provide.  
-i.e. modeled temperature outputraster = slope(m)*Elevation + intercept(b)
+i.e. modeled temperature outputraster = slope*Elevation + intercept (the slope and intercept are reported by regression function)
 
 Grading:
 If your tool works (functions and returns the expected result) you will get an 85 out of 100.  You have the opportunity to earn extra points for completing the following:
@@ -41,11 +41,10 @@ You will write a python script as a juypter notebook that creates a histogram of
 
 Grading:
 The grading will be same with the following exceptions.  
-1)	Rather than the correlation coefficient and the lapse rate, display the mean and standard deviation of the values in the list. (Still 2 plus points)
-2)	Include in your code a histogram function that takes a list and creates a histogram (still 4 plus points).
-3)	Rather than correctly inferring an answer you can earn 3 extra points by including error checking logic that makes sure the field that was specified by the user is numeric and exits the script gracefully and reports the error to the user.  
-
-
+1)	Rather than reporting correlation coefficient and the lapse rate to the processing window, display the mean and standard deviation of the values in the field in the notebook or on the plot of the histogram. (Still 2 plus points)
+2)	Include in your code a histogram function that takes a data and returns the histogram plot (still 4 plus points).
+3)	Rather than correctly inferring an answer you can earn 3 extra points by including a line of code that selects out a portion of the data based on an query.  This can be done at either when you create the cursor or the dataframe (either are acceptable). 
+4)	Since this script is not built into a toolbox, there is not potential for the second deduction above.
 
 
 
