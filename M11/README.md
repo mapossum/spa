@@ -46,6 +46,10 @@ The grading will be same with the following exceptions.
 3)	Rather than correctly inferring an answer you can earn 3 extra points by including a line of code that selects out a portion of the data based on an query.  This can be done at either when you create the cursor or the dataframe (either are acceptable). 
 4)	Since this script is not built into a toolbox, there is not potential for the second deduction above.
 
+Videos:
+1)  https://youtu.be/rqT9wlDn9rk
+2)  https://youtu.be/Dv7EGle6DHE
+
 
 
 
