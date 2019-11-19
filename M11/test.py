@@ -27,19 +27,10 @@ temparr = arcpy.RasterToNumPyArray(tempArea, nodata_to_value = -9999).flatten()
 elevarr = arcpy.RasterToNumPyArray(elevArea, nodata_to_value = -9999).flatten()
 
 #This gets the indexs of all those areas not no Data
-goodIndex = np.where(temparr > -9999)
-x = elevarr[goodIndex]
-y = temparr[goodIndex]
+x = np.where(temparr > -9999)
 
-#This code does a simple linear regression model but does not plot
-#You can replace this with all the other code from the scatter plot example
-slope, intercept, r_value, p_value, std_err = stats.linregress(y,x)
+slope, intercept, r_value, p_value, std_err = stats.linregress(temparr[x],elevarr[x])
+
 print(slope, intercept, r_value, p_value, std_err)
 
 #Lets think about what else we need to do.
-
-
-#OutputRaster = slope * Elevation(Raster) + intercept
-#OutputRaster.save(Path to Raster)
-
-

@@ -8,7 +8,6 @@ import matplotlib.pyplot as plt
 N = 50
 x = np.random.rand(N)
 y = np.random.rand(N)
-colors = np.random.rand(N)
 area = 10 
 
 m,b = np.polyfit(x, y, 1)
