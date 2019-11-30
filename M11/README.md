@@ -6,12 +6,13 @@
   1. Most of it will be looking at code snippets and interpreting what is happening.  
   2. The test will be open notes / open computers like the last one.
   3. The written portion of the exam will account for 50% of your final exam score (On the mid-term it was 70%). 
-  4. Here are some things for you to review:
-    a. Cursors (search, insert, update)
-    b. Modules matching to description and what is a module (Numpy, matplotlib, arcpy, ArcGIS API for Python, math, pandas)
-    c. Raster datasets in code interpretation
-    d. Con tool and numpy where statements (they basically do the same thing)
-    e. Numpy array conversion functions in arcpy
+
+Here are some things for you to review:
+-Cursors (search, insert, update)
+-Modules matching to description and what is a module (Numpy, matplotlib, arcpy, ArcGIS API for Python, math, pandas)
+-Raster datasets in code interpretation
+-Con tool and numpy where statements (they basically do the same thing)
+-Numpy array conversion functions in arcpy
 
 
 2. The take home portion this time will be two scripts.  Each will account for 25% of your score.  We will start both as part of this class and go over strategy for completing each.  One will be turned in as a toolbox, the other as a Juypter notebook.
