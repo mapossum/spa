@@ -17,7 +17,7 @@ Here are some things for you to review:
 </ul>
 
 
-1. The take home portion this time will be two scripts.  Each will account for 25% of your score.  We will start both as part of this class and go over strategy for completing each.  One will be turned in as a toolbox, the other as a Juypter notebook.
+The take home portion this time will be two scripts.  Each will account for 25% of your score.  We will start both as part of this class and go over strategy for completing each.  One will be turned in as a toolbox, the other as a Juypter notebook.
   
 
 #Final Exam Scripting Part
