@@ -83,33 +83,33 @@ Python 3x This software installs with ArcGIS Pro.
 
 ##Schedule:
 
-**JAN 20** - Course Introduction & Setting up Python Introduction to Programming & Python
+**JAN 20** - 1 - Course Introduction & Setting up Python Introduction to Programming & Python
 - - - - - -
-**JAN 27** - Python Variables Expressions and Statements (THINK PYTHON)
+**JAN 27** - 2 - Python Variables Expressions and Statements (THINK PYTHON)
 - - - - - -
-**FEB 3** - Functions, Conditionals and Recursion, Fruitful functions (THINK PYTHON)
+**FEB 3** - 3 - Functions, Conditionals and Recursion, Fruitful functions (THINK PYTHON)
 - - - - - -
-**FEB 10** - Iteration, and Sequences, Dictionaries (THINK PYTHON)
+**FEB 10** - 4 - Iteration, and Sequences, Dictionaries (THINK PYTHON)
 - - - - - -
-**FEB 17** - Scientific Python Tools (Numpy, Scipy, Pandas) 
+**FEB 17** - 5 - External Modules - Scientific Python Tools (Numpy, Scipy, Pandas) 
 - - - - - -
-**FEB 24** - Geoprocessing in ArcGIS Pro & Geoprocessing using Python (PS4AGSPro)
+**FEB 24** - 6 - Geoprocessing in ArcGIS Pro & Geoprocessing using Python (PS4AGSPro)
 - - - - - -
-**MAR 3** - Exploring Spatial Data (PS4AGSPro)
+**MAR 3** - 7 - Exploring Spatial Data (PS4AGSPro)
 - - - - - -
-**MAR 10** - Exam Week and Debugging and error handling (PS4AGSPro)
+**MAR 10** - 8 - Exam Week and Debugging and error handling (PS4AGSPro)
 - - - - - -
-**MAR 17** - Manipulating spatial and tabular data (PS4AGSPro)
+**MAR 17** - 9 - Manipulating spatial and tabular data (PS4AGSPro)
 - - - - - -
-**MAR 24** - Working with geometries (PS4AGSPro)
+**MAR 24** - 10 - Working with geometries (PS4AGSPro)
 - - - - - -
-**MAR 31** - Working with rasters (PS4AGSPro)
+**MAR 31** - 11 - Working with rasters (PS4AGSPro)
 - - - - - -
-**APR 7** - Map scripting (PS4AGSPro)
+**APR 7** - 12 - Map scripting (PS4AGSPro)
 - - - - - -
-**APR 14** - Scientific Data visulization and presentation (matplotlib)
+**APR 14** - 13 - Scientific Data visulization and presentation (matplotlib)
 - - - - - -
-**APR 21** - Notebooks and Toolboxes (ESRI Readings)
+**APR 21** - 14 - Notebooks and Toolboxes (ESRI Readings)
 - - - - - -
 **** FINAL EXAM ONLINE
 - - - - - -
