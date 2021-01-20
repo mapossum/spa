@@ -48,13 +48,14 @@ Everyone (not just graduate students) will be responsible for creating a GIS pro
 GIS experience **required** for course.  217 or equivilent is required and you should be taking or have already taken GHY 417 or 418 before you enrolled.  There can be exceptions with the instructors permission.  We won't be using the GIS knowledge for the first few weeks of the course so if you are dedicated you have time to catch up.
 
 ##Required Materials:
-Downey, Allen, 2016. Think Python 2nd Edition, 214 p.
+
+Downey, Allen, 2016. Think Python 2nd Edition, 214 p. (THINK PYTHON)
 
 The above is a FREE textbook.  
 It is available in various forms online at: https://greenteapress.com/wp/think-python-2e/
 When I refer to page numbers I am using the PDF version.  You are responsible for printing you own version if you desire to do so.
 
-Zandbergen, Paul, 2020. Python scripting for ArcGIS Pro
+Zandbergen, Paul, 2020. Python scripting for ArcGIS Pro (PS4AGSPro)
 
 Python Documentation - http://docs.python.org/
 
@@ -83,7 +84,7 @@ Python 3x This software installs with ArcGIS Pro.
 
 ##Schedule:
 
-**JAN 20** - 1 - Course Introduction & Setting up Python Introduction to Programming & Python
+**JAN 20** - 1 - Course Introduction & Setting up Python Introduction to Programming & Python (PS4AGSPro)
 - - - - - -
 **JAN 27** - 2 - Python Variables Expressions and Statements (THINK PYTHON)
 - - - - - -
