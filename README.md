@@ -2,11 +2,10 @@
 
 This is the repository to USM spatial programming course.  This GitHub Repo will serve as a location for all the code and the lecture notes.  
 
-Lecture: Tuesday 11:30-2:30pm
+Lecture: Online Video Lecture
 
-Lab: Immidiatly following the Lecture
+Lab: 1 pm Wednesdays
 
-Room WSB 229 and IVN to Coast
 
 ###Instructor:
 George T. Raber, PhD  
@@ -16,10 +15,10 @@ The University of Southern Mississippi
 ###Contact:
 Office: WSB 226A 601-266-5807
 Email: george.raber@usm.edu
-Office Hours: Tuesday, Wednesday 9am-11:30am or Monday and Friday by Appointment
+Office Hours: Monday and Wednesday mornings or by Appointment
 
 **TURN ASSIGNMENTS INTO:**
-CANVAS - Labs will be posted in Canvas.  If multiple files are requested for submission, zip them together and upload.
+CANVAS - Labs will be posted in Canvas.  For most labs, the devliverable or product will be a python script.  If multiple files are requested for submission, zip them together and upload.
 
 ##Course Overview:
 This course class will teach concepts and methods that are often important when implementing actual GIS applications.  A GIS system has many powerful standard features, however in any application there are going to be instances where the GIS needs to be customized in order perform at its maximum potential.  
@@ -30,7 +29,7 @@ What if a GIS user has output from another model / method that is not GIS ready?
 
 There are many examples of GIS processes that work better utilizing customizations.  These include GIS modeling of temporal events, decision support tools, and more.
 
-This course focuses on the extension of geographic information systems (GIS) through programming as well
+This course focuses on the extension of geographic information systems (GIS) through programming (specifially in Python) as well
 as on the development of algorithms for spatial analysis and information extraction in vector and raster data. We will cover
 different concepts, principles and techniques of programming that help you to solve a variety of spatial problems in physical
 and human Geography. You will learn how to work with Python for Geoprocessing in ArcGIS as well as for spatial
@@ -55,6 +54,8 @@ The above is a FREE textbook.
 It is available in various forms online at: https://greenteapress.com/wp/think-python-2e/
 When I refer to page numbers I am using the PDF version.  You are responsible for printing you own version if you desire to do so.
 
+Zandbergen, Paul, 2020. Python scripting for ArcGIS Pro
+
 Python Documentation - http://docs.python.org/
 
 Helpful Google Python Course: https://developers.google.com/edu/python/
@@ -62,7 +63,7 @@ Helpful Google Python Course: https://developers.google.com/edu/python/
 Various ArcGIS Pro help and documentation, most of these items will be posted on the course website.
 
 ##Required Software:
-ArcGIS Pro This software is installed on all the Lab machines.  You can also receive a student version from the instructor free of charge to install on your own machine.  
+ArcGIS Pro This software is installed on all the Lab machines.  Most of you are working remotly and thus should install a student version from the instructor free of charge to install on your own machine.  
 
 Python 3x This software installs with ArcGIS Pro.
 
@@ -82,33 +83,35 @@ Python 3x This software installs with ArcGIS Pro.
 
 ##Schedule:
 
-**Sept 3** - Course Introduction, Introduction to Programming & Python, Python Variables Expressions and Statements (M 1)
+**JAN 20** - Course Introduction & Setting up Python Introduction to Programming & Python
 - - - - - -
-**Sept 10** - Functions, Conditionals and Recursion, Fruitful functions (M 2)
+**JAN 27** - Python Variables Expressions and Statements (THINK PYTHON)
 - - - - - -
-**Sept 17** - Iteration, and Sequences (M 3)
+**FEB 3** - Functions, Conditionals and Recursion, Fruitful functions (THINK PYTHON)
 - - - - - -
-**Sept 24** - Dictionaries, External Modules and Making the Connection to ArcGIS (M 4)
+**FEB 10** - Iteration, and Sequences, Dictionaries (THINK PYTHON)
 - - - - - -
-**Oct 1** - Automating ArcGIS functions with Python Geoprocessing Cont. (M 5)
+**FEB 17** - Scientific Python Tools (Numpy, Scipy, Pandas) 
 - - - - - -
-**Oct 8** - ArcGIS Toolboxes (M 6)
+**FEB 24** - Geoprocessing in ArcGIS Pro & Geoprocessing using Python (PS4AGSPro)
 - - - - - -
-**Oct 15** - Exam. (M 7)
+**MAR 3** - Exploring Spatial Data (PS4AGSPro)
 - - - - - -
-**Oct 22** - TBA (M 8)
+**MAR 10** - Exam Week and Debugging and error handling (PS4AGSPro)
 - - - - - -
-**Oct 29** - TBA (M 9)
+**MAR 17** - Manipulating spatial and tabular data (PS4AGSPro)
 - - - - - -
-**Nov 5** - Manipulating Vector GIS data Exploring and Manipulating Spatial Data (M 10)
+**MAR 24** - Working with geometries (PS4AGSPro)
 - - - - - -
-**Nov 12** -  Working with GIS data Continuted (M 11)
+**MAR 31** - Working with rasters (PS4AGSPro)
 - - - - - -
-**Nov 19** -  Manipulating Raster GIS data (M 12)
+**APR 7** - Map scripting (PS4AGSPro)
 - - - - - -
-**Nov 26** - Thanksgiveing Holiday
+**APR 14** - Scientific Data visulization and presentation (matplotlib)
 - - - - - -
-**Dec 3** - Using GIS Scripting with other Programs and Course Review (M 13)
+**APR 21** - Notebooks and Toolboxes (ESRI Readings)
+- - - - - -
+**** FINAL EXAM ONLINE
 - - - - - -
 
 
