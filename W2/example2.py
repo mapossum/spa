@@ -12,7 +12,3 @@ areaTriangle = base * height / float(2)
 print("The area of your triangle is: {0}".format(areaTriangle)) # Report Area of Triangle to User
 
 
-a = 4
-b = 2
-
-print((b * a) ** b)

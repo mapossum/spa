@@ -92,7 +92,7 @@ Python 3x This software installs with ArcGIS Pro.
 - - - - - -
 **FEB 10** - 4 - Iteration, and Sequences, Dictionaries (THINK PYTHON)
 - - - - - -
-**FEB 17** - 5 - External Modules - Scientific Python Tools (Numpy, Scipy, Pandas) 
+**FEB 17** - 5 - External Modules - Scientific Python Tools (Notebooks, Numpy, Scipy, Pandas) 
 - - - - - -
 **FEB 24** - 6 - Geoprocessing in ArcGIS Pro & Geoprocessing using Python (PS4AGSPro)
 - - - - - -
@@ -110,7 +110,7 @@ Python 3x This software installs with ArcGIS Pro.
 - - - - - -
 **APR 14** - 13 - Scientific Data visulization and presentation (matplotlib)
 - - - - - -
-**APR 21** - 14 - Notebooks and Toolboxes (ESRI Readings)
+**APR 21** - 14 - Toolboxes (ESRI Readings)
 - - - - - -
 **** FINAL EXAM ONLINE
 - - - - - -
