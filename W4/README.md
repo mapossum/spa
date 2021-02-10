@@ -98,6 +98,7 @@ Other Videos to Watch:
   * Standard Deviation.
 
 3. Use the included points2 file.  Read in all the points into an array or list.  Then write a function that calculates the standard distance.  Your function should take two paramaters and return a tuple:
+  * There is an image with the formula in the same folder as this readme.
   * Test this function above by creating a program to generate a report of the return values.
 
 Please turn them in by using Canvas.
