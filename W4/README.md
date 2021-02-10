@@ -93,15 +93,11 @@ Other Videos to Watch:
 1. Complete the exercises on the Notebooks from the lecture.
 
 2. Use the included points2 file.  Read in the data into an array or list. Compile the following statistics for each column (must work even if there are more columns) as a tuple and then report them to the screen using the tuple:
-  1. Min.
-  2. Mean.
-  3. Standard Deviation.
+  * Min.
+  * Mean.
+  * Standard Deviation.
 
 3. Use the included points2 file.  Read in all the points into an array or list.  Then write a function that calculates the standard distance.  Your function should take two paramaters and return a tuple:
-  1. Checks that the list is in fact a list of just numbers, and if not returns only a value of None.  If true returns each of the following as a tuple:
-  2. Returns the sum.
-  3. Returns the mean.
-  4. Returns Standard Deviation
   * Test this function above by creating a program to generate a report of the return values.
 
 Please turn them in by using Canvas.
