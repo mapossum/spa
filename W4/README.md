@@ -93,7 +93,7 @@ Other Videos to Watch:
 1. Complete the exercises on the Notebooks from the lecture.
 
 2. Use the included points2 file.  Read in the data into an array or list. Compile the following statistics for each column (must work even if there are more columns) as a tuple and then report them to the screen using the tuple:
-  * Min.
+  * Median.
   * Mean.
   * Standard Deviation.
 
