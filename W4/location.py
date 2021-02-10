@@ -13,9 +13,3 @@ def getaddresslocation(address, outSR=4326):
 print(getaddresslocation("Hattiesburg, MS", 102100))
 print(getaddresslocation("Jackson, MS"))
 print(getaddresslocation("Los Angeles, CA"))
-
-
-clist = ["Hattiesburg, MS", "Jackson, MS", "Los Angeles, CA"]
-
-result = map(getaddresslocation,clist,[102100] * 3)
-print(list(result))
