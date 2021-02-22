@@ -40,3 +40,5 @@ print(outputlist)
 presidentArray = np.zeros((len(outputlist)), dtype=datadef)
 presidentArray[:] = outputlist[:]
 print(presidentArray)
+
+
