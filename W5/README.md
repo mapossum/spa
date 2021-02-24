@@ -19,7 +19,7 @@ Other Videos to Watch:
 
 1. Complete the exercises on the Notebooks from the lecture (This time cut and paste each one into a text file and upload as part of your submission).
 
-2. In the included dataset there is a featureclass that contains the beginings of an map accuracy assessment.  You will finish up a notebook called "Lab Starter."  In this notebook you need to caculate the accuracy of the map (explained in class) and then find the user's accuracy for each class and the producer's accuracy for each class.  These are explained in this web page:
+2. In the included dataset there is a featureclass that contains the beginings of an map accuracy assessment.  You will finish up a notebook called "Lab Starter."  In this notebook you need to caculate the accuracy of the map (explained in class) and then find the user's accuracy for each class and the producer's accuracy for each class.  Graph both the user's and producer's accuracy in a bar chart (either together or seperately)  These are explained in this web page:
 
 http://gis.humboldt.edu/OLM/Courses/GSP_216_Online/lesson6-2/error-matrix.html
 http://gis.humboldt.edu/OLM/Courses/GSP_216_Online/lesson6-2/metrics.html
