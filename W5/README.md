@@ -7,9 +7,10 @@
 
 Other Videos to Watch:
 1. https://youtu.be/e60ItwlZTKM (Pandas Intro)
-1. https://youtu.be/DCE6t3vNfvM (Pandas Slice an Filter)
-2. https://youtu.be/ALX88JzeQnk (Pandas charting)
-3. https://youtu.be/x2Shyoif3ls (Reading and Writing Data Frames)
+2. https://youtu.be/DCE6t3vNfvM (Pandas Slice an Filter)
+3. https://youtu.be/ALX88JzeQnk (Pandas charting)
+4. https://youtu.be/x2Shyoif3ls (Reading and Writing Data Frames)
+5. https://youtu.be/h1Lnz-rfWQo (Pandas and GIS)
  
 
 #Lab Assignment
