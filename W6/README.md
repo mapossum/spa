@@ -16,5 +16,5 @@
    
 #Lab Assignment
 
-1. Complete the Chapter 5 PS4AGSPro Excersize (PDF included in this same folder)
+1. Complete the Chapter 5 PS4AGSPro Excersize (PDF included in this same folder)  Then turn in the script.
 2. Continue the script we wrote in class that finds the estimated number of people in each watershed.  Convert the final result into a pandas dataframe and make a bar chart of the total number of people in each watershed. 
