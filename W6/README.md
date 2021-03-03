@@ -1,5 +1,5 @@
 #Lecture
-##Meeting 5 – Python in ArcGIS (arcpy)
+##Meeting 6 – Python in ArcGIS (arcpy)
 ####Today we will discuss arcpy, the created by module for running ArcGIS tools and interacting with GIS Data
 
 1. Much of the material for the lecture comes from PS4AGSPro Chapter 5
