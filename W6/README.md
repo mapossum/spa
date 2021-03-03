@@ -14,6 +14,8 @@
      3. overwriteOutput
    6. Describe
    
+Like to Python in ArcGIS Pro:  https://pro.arcgis.com/en/pro-app/latest/arcpy/main/arcgis-pro-arcpy-reference.htm
+   
 #Lab Assignment
 
 1. Complete the Chapter 5 PS4AGSPro Excersize (PDF included in this same folder)  Then turn in the script.
