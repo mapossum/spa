@@ -1,5 +1,5 @@
 #Lecture
-##Meeting 6 - Working with Vector GIS Data with Python I
+##Meeting 7 - Working with Vector GIS Data with Python I
 
 
 1.  What is GIS Data? 
