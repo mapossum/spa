@@ -1,13 +1,15 @@
 import arcpy
 
-rows = arcpy.da.SearchCursor(r"C:\temp\data\GPS_points.shp", ["Animal", "SHAPE@JSON"])
+rows = arcpy.da.SearchCursor(r"C:\temp\data\GPS_points.shp", ["SHAPE@JSON", "Animal", "Time"])
 
 total = 0
 count = 0
 for row in rows:
-    rowGeom = eval(row[1])
-    print rowGeom["x"], rowGeom["y"]
-    total += row[0]
-    count += 1
-
-print total, count, total / count
+    a = eval(row[0])
+    print(type(a))
+    
+    #print(row[0])
+    #total = row[0][0] + total
+    #count = count + 1
+    
+#print(total / count)
