@@ -7,6 +7,14 @@ file = "GPS_points_connected.shp"
 
 #Connect all dots from the the same animal in time order
 
+def writenew(polylineList, cursor):
+        print(polylineList)
+        #This only happens when we finish the animal
+        array = arcpy.Array(polylineList)
+        polyline = arcpy.Polyline(array)
+        cursor.insertRow([polyline, row[1]])
+        
+
 arcpy.CreateFeatureclass_management(folder, file, "POLYLINE", 
                                     r"C:\temp\data\GPS_points.shp", "DISABLED", "DISABLED", 
                                     r"C:\temp\data\GPS_points.shp")
@@ -29,13 +37,8 @@ for row in rows:
     if currentAnimal != previousAnimal:
         #Write out to output file the path
      
-        print(polylineList)
-        #This only happens when we finish the animal
-        array = arcpy.Array(polylineList)
-        polyline = arcpy.Polyline(array)
-        cursor.insertRow([polyline, row[1]])
+        writenew(polylineList, cursor)
         polylineList = []
-
     
     pt = arcpy.Point(row[0][0], row[0][1])
     polylineList.append(pt)
@@ -43,12 +46,7 @@ for row in rows:
     previousAnimal = currentAnimal
 
 #Write out to output file the path
-print(polylineList)
-#This only happens when we finish the animal
-array = arcpy.Array(polylineList)
-polyline = arcpy.Polyline(array)
-cursor.insertRow([polyline, row[1]])
-polylineList = []       
+writenew(polylineList, cursor)    
 
 
 del cursor
