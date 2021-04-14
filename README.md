@@ -108,9 +108,9 @@ Python 3x This software installs with ArcGIS Pro.
 - - - - - -
 **APR 7** - 12 - Map scripting (PS4AGSPro)
 - - - - - -
-**APR 14** - 13 - Scientific Data visulization and presentation (matplotlib)
+**APR 14** - 13 - Toolboxes (ESRI Readings) 
 - - - - - -
-**APR 21** - 14 - Toolboxes (ESRI Readings)
+**APR 21** - 14 - Scientific Data visulization and presentation (matplotlib)
 - - - - - -
 **** FINAL EXAM ONLINE
 - - - - - -
