@@ -16,6 +16,8 @@ A toolbox is basically just a file with a .tbx extension.  A toolbox that a user
 	2. Everything is passed around as strings
 4. Use of SetParameterAsText and SetParameter
 
+More help on script tool creation: https://pro.arcgis.com/en/pro-app/latest/help/analysis/geoprocessing/basics/create-a-python-script-tool.htm
+
 The lab assignement for this week is to take assignement from watersheds and census assigment (week 6) and turn it into a script tool within a toolbox.
 
 Your toolbox and must allow the user to specify the following paramaters (has to have 5 paramaters):

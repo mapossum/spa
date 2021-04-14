@@ -1,5 +1,7 @@
 import arcpy
 
+arcpy.env.overwriteOutput = True
+
 arcpy.env.workspace = "G:\courses\spa\W11\IntroToArcpy\IntroToArcpy.gdb"
 
 #What are the inputs to my process?
