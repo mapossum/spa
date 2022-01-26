@@ -2,9 +2,7 @@
 
 This is the repository to USM spatial programming course.  This GitHub Repo will serve as a location for all the code and the lecture notes.  
 
-Lecture: Online Video Lecture
-
-Lab: 1 pm Wednesdays
+Meeting time: 1 pm Wednesdays, WSB 229 and Online Video Lecture 
 
 
 ###Instructor:
@@ -84,35 +82,37 @@ Python 3x This software installs with ArcGIS Pro.
 
 ##Schedule:
 
-**JAN 20** - 1 - Course Introduction & Setting up Python Introduction to Programming & Python (PS4AGSPro)
+**JAN 19** - 1 - (NO CLASS INSTRUCTOR TRAVELING CONTENT MOVED TO WEEK 2) -- Course Introduction & Setting up Python Introduction to Programming & Python (PS4AGSPro)
 - - - - - -
-**JAN 27** - 2 - Python Variables Expressions and Statements (THINK PYTHON)
+**JAN 26** - 2 - Python Variables Expressions and Statements (THINK PYTHON)
 - - - - - -
-**FEB 3** - 3 - Functions, Conditionals and Recursion, Fruitful functions (THINK PYTHON)
+**FEB 2** - 3 - Functions, Conditionals and Recursion, Fruitful functions (THINK PYTHON)
 - - - - - -
-**FEB 10** - 4 - Iteration, and Sequences, Dictionaries (THINK PYTHON)
+**FEB 9** - 4 - Iteration, and Sequences, Dictionaries (THINK PYTHON)
 - - - - - -
-**FEB 17** - 5 - External Modules - Scientific Python Tools (Notebooks, Numpy, Scipy, Pandas) 
+**FEB 16** - 5 - External Modules - Scientific Python Tools (Notebooks, Numpy, Scipy, Pandas) 
 - - - - - -
-**FEB 24** - 6 - Geoprocessing in ArcGIS Pro & Geoprocessing using Python (PS4AGSPro)
+**FEB 23** - 6 - Geoprocessing in ArcGIS Pro & Geoprocessing using Python (PS4AGSPro)
 - - - - - -
-**MAR 3** - 7 - Exploring Spatial Data (PS4AGSPro)
+**MAR 2** - 7 - Exploring Spatial Data (PS4AGSPro)
 - - - - - -
-**MAR 10** - 8 - Exam Week and Debugging and error handling (PS4AGSPro)
+**MAR 9** - 8 -  Exam Week and Debugging and error handling (PS4AGSPro) - EXAM 1 on CANVAS  
 - - - - - -
-**MAR 17** - 9 - Manipulating spatial and tabular data (PS4AGSPro)
+**MAR 16** - 9 - Spring Break 
 - - - - - -
-**MAR 24** - 10 - Working with geometries (PS4AGSPro)
+**MAR 23** - 10 - Manipulating spatial and tabular data (PS4AGSPro)
 - - - - - -
-**MAR 31** - 11 - Working with rasters (PS4AGSPro)
+**MAR 30** - 11 - Working with geometries (PS4AGSPro)
 - - - - - -
-**APR 7** - 12 - Map scripting (PS4AGSPro)
+**APR 6** - 12 - Working with rasters (PS4AGSPro)
 - - - - - -
-**APR 14** - 13 - Toolboxes (ESRI Readings) 
+**APR 13** - 13 - Map scripting (PS4AGSPro)
 - - - - - -
-**APR 21** - 14 - Scientific Data visulization and presentation (matplotlib)
+**APR 20** - 14 - Toolboxes (ESRI Readings)
 - - - - - -
-**** FINAL EXAM ONLINE
+**APR 27** - 14 - Scientific Data visulization and presentation (matplotlib)
+- - - - - -
+**** FINAL EXAM ONLINE MAY 4th
 - - - - - -
 
 
