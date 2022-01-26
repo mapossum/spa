@@ -39,7 +39,7 @@ methods development.
 The course is a traditional lab / lecture format.  The lab and the lecture are both 2 hours.  
 Each week there will be lab exercise. The lab will directly enforce the lecture topic through practical application.  
 
-##Paper / Project (Due Dec 13th):
+##Paper / Project (Due May 12th):
 Everyone (not just graduate students) will be responsible for creating a GIS program that automates a task.  You should turn a script (.py file) or a juypter notebook (.ipynb).  The program must implement branching, looping and at least at least one GIS tool.  Undergraduates must turn in a short (two paragraph) descriptions of what their program does.  Graduate students are responsible for turning in a term paper along with there tool.  The paper must describe the need (background) for use of such a tool and examples of the tool executed on data (maps and figures) in answering a simple research question.  This paper should be several pages. 
 
 ##Prerequisites:
