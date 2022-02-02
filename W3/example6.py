@@ -1,6 +1,6 @@
 
 
-n = 6
+n = 10
 
 #countdown code
 

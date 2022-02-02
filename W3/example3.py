@@ -40,6 +40,7 @@ if not a:
 
 #Examples of nesting conditionals
 if (a > b):
+    print("a is less than b")
     if (a < 5):
         print("a is between b and 5")
 

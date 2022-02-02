@@ -13,7 +13,7 @@ def factorial(n,s):
     return runningProduct
 
 n = 11
-x = 7
+x = 1
 
 factorialvalue = factorial(n,x)
 

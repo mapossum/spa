@@ -2,7 +2,8 @@
 errorState = False
 
 try:
-    x1 = float(input("Provide the first X value: "))
+    userinput1 = input("Provide the first X value: ")
+    x1 = float(userinput1)
     y1 = float(input("Provide the first Y value: "))
 except:
     print("The value entered could not be converted into a number.")
