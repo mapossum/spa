@@ -1,6 +1,6 @@
 #Lecture
 ##Meeting 3 – Looping, Branching and Functions
-####Today we will discuss a number of topics related to logical flow of a computer program.  (Chapter 5,6,7 & some of 8 and 14)
+####Today we will discuss a number of topics related to logical flow of a computer program.  (Chapter 3,5,6,7 & some of 8 and 14)
 
 The lecture notes are outlined below:
 
