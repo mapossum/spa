@@ -3,7 +3,7 @@
 
 Much of the material for the lecture comes from PS4AGSPro Chapter 6,7,8 
 I covered a signficant part of chapter 6 last week.  I am not really going to chapter 7 much.  Today we will mostly focus on Chapter 8 from PS4AGSPro.
-We won't meet next week (I will post an exam and this weeks assignment will be longer than usual.
+There is a short test that will be due this next Friday before spring break (March 11)
 Short Test Review - Open everything - Ability to open test and enter test 10 times - Ask me questions.
 
 
@@ -48,7 +48,9 @@ Here is your assignment.
  a. Text: https://southernmiss.maps.arcgis.com/home/item.html?id=0cad298208984ae4b3c3f7718195c174  
  b. Data: https://southernmiss.maps.arcgis.com/home/item.html?id=ea906d3a31d54824a1930806a0cfb59e 
  
-4) Write a script that takes the tornado data and adds a new field called "Month" That is a string field (You can do this by running a toolbox in ArcGIS.  Then in your script, convert the values in the mo field from an integer to a string representation of the month (1 = "January", 2 = "February" etc) and stores them in the "Month" Field string you created.  Select a state (does not matter which one).  Select only the tornados in that state using an SQL statement and the "st" field.  Finally use the tool SummaryStatistics to create a table of the number of tornados each month for that state and use pandas to create a bar chart of the same information.  
+4) Write a script that takes the tornado data and adds a new field called "Month" That is a string field (You can do this by running a toolbox in ArcGIS.  Then in your script, convert the values in the mo field from an integer to a string representation of the month (1 = "January", 2 = "February" etc) and stores them in the "Month" Field string you created.  Select a state (does not matter which one).  Select only the tornados in that state using an SQL statement and the "st" field.  Finally use the tool SummaryStatistics to create a table of the number of tornados each month for that state.  Your final table should have at least 2 columns (Month and number of tornados) and 12 rows (one for each month).
+
+As an extra challange you can use pandas to create a bar chart of the same information.
 
 
 
