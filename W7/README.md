@@ -4,7 +4,7 @@
 Much of the material for the lecture comes from PS4AGSPro Chapter 6,7,8 
 I covered a signficant part of chapter 6 last week.  I am not really going to chapter 7 much.  Today we will mostly focus on Chapter 8 from PS4AGSPro.
 There is a short test that will be due this next Friday before spring break (March 11)
-Short Test Review - Open everything - Ability to open test and enter test 10 times - Ask me questions.
+Short Test Review - Open everything - Ability to open test and enter test 4 times - Ask me questions.
 
 
 1.  What is GIS (Vector) Data? 
