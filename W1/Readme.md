@@ -5,7 +5,7 @@ Today we will focus on setting up ArcGIS Pro and getting the Python Programming 
 ## If you don't already have ArcGIS Pro installed on your machine you need to do that.
 
 Download it here:  
-https://smttt-my.sharepoint.com/:u:/g/personal/w496207_usm_edu/EcgLfk3hXRxFjksIKkaLw08BDvOe5cTQdhcRWeDxUrVaAQ?e=GyV0Ye
+https://smttt-my.sharepoint.com/:u:/g/personal/w496207_usm_edu/EZFkG2CjHI1Og50nUKoidKwB0PkPv-lBrrLVrTE693SpfA?e=SCjNok
 
 
 ## Do Ex #1 and Ex #2 from the Python Programming in ArcGIS Pro Book
