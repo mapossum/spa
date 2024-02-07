@@ -1,8 +1,10 @@
-myname = "George"
+myname = "George" #String
+
+#Strings are sequences <--todays topic
 
 #This loop goes through each element in a sequence
-for letter in myname:
-    print(letter)
+for char in myname:
+    print(char)
 
 print(len(myname))
 
@@ -12,3 +14,6 @@ index = 0
 while index < len(myname):
     print(myname[index])
     index += 1
+
+part = myname[2:-2]
+print(part)

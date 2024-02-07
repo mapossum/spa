@@ -12,3 +12,9 @@ index = 0
 while index < len(myname):
     print(myname[index])
     index += 1
+
+
+for name in myname:
+    print(name)
+    for letter in name:
+        print(letter)
