@@ -1,28 +1,30 @@
+#This is a script that will disagg a field by another field after an intersect.
+
 import arcpy
 
-arcpy.env.workspace = "G:\courses\spa\W6\IntroToArcpy\IntroToArcpy.gdb"
+arcpy.env.workspace = r"C:\courses\spa\W6\IntroToArcpy\IntroToArcpy.gdb"
 
-#What are the inputs to my process?
-PolygonCountData = "ctracts"
-CountField = "P0010001"
-NewAggregationData = "watersheds"
-AggregationField = "HUC_8"
-correctedFieldName = "EstimatedPop"
+#Inputs
 
-#TempDatasets
-intersectData = r"memory\Temporary_Intersect"
-intersectInputs = [PolygonCountData, NewAggregationData]
+#Feature Class to be disagged
+disaggFC = "ctracts"
+iaFieldName = "Inital_Area"
 
-#What are the outputs to my process?
-outputDataset = "WatershedSummary"
+overlayFC = "watersheds"
 
-arcpy.management.AddField(PolygonCountData, "Pre_Area", "DOUBLE", None, None, None, '', "NULLABLE", "NON_REQUIRED", '')
-arcpy.management.CalculateField(PolygonCountData, "Pre_Area", "!Shape_Area!", "PYTHON3", '', "TEXT")
-arcpy.analysis.Intersect(intersectInputs, intersectData, "ALL", None, "INPUT")
-arcpy.management.AddField(intersectData, correctedFieldName, "DOUBLE", None, None, None, '', "NULLABLE", "NON_REQUIRED", '')
-arcpy.management.CalculateField(intersectData, correctedFieldName, "!{0}! * (!Shape_Area! / !Pre_Area!)".format(CountField), "PYTHON3", '', "TEXT")
-arcpy.management.Dissolve(intersectData, outputDataset, AggregationField, "{0} SUM".format(correctedFieldName), "MULTI_PART", "DISSOLVE_LINES")
+tintersectFC = "memory\intersect"
 
+oPopFieldName = "P0010001"
+oUnitsfield = "HUC_8"
 
+#Outputs
 
+EstPopFieldName = "Estimated_population"
+TotalPopFieldName = "Estimated_population SUM"
 
+disaggoutFC = r"disaggdata"
+
+arcpy.management.CalculateField(disaggFC, iaFieldName, "!shape.area!", "PYTHON3", '', "DOUBLE")
+arcpy.analysis.PairwiseIntersect("{};{}".format(disaggFC,overlayFC), tintersectFC, "ALL", None, "INPUT")
+arcpy.management.CalculateField(tintersectFC, EstPopFieldName, "(!shape.area! / !{}!) * !{}!".format(iaFieldName, oPopFieldName), "PYTHON3", '', "LONG")
+arcpy.analysis.PairwiseDissolve(tintersectFC, disaggoutFC, oUnitsfield, TotalPopFieldName, "MULTI_PART")
