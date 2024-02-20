@@ -1,9 +1,8 @@
 #Lecture
 ##Meeting 6 – Python in ArcGIS (arcpy)
-####Today we will discuss arcpy, the created by module for running ArcGIS tools and interacting with GIS Data
+####Today we will discuss arcpy, the Module created by ESRI for running ArcGIS tools and interacting with GIS Data
 
-1. Much of the material for the lecture comes from PS4AGSPro Chapter 5
-2. arcpy module is for making requests to the arcgis toolboxes (Geoprocessing)
+1. arcpy module is for making requests to the arcgis toolboxes (Geoprocessing)
    1. Importing arcpy
    2. Using Tools
    3. Using Functions
