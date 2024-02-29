@@ -2,7 +2,7 @@ import arcpy
 
 arcpy.env.overwriteOutput = True
 
-folder = r"C:\temp\data"
+folder = r"C:\courses\spa\W7\animaldata\data"
 file = "GPS_points_connected.shp"
 
 #Connect all dots from the the same animal in time order
@@ -16,14 +16,14 @@ def writenew(polylineList, cursor):
         
 
 arcpy.CreateFeatureclass_management(folder, file, "POLYLINE", 
-                                    r"C:\temp\data\GPS_points.shp", "DISABLED", "DISABLED", 
-                                    r"C:\temp\data\GPS_points.shp")
+                                    r"{}\GPS_points.shp".format(folder), "DISABLED", "DISABLED", 
+                                    r"{}\GPS_points.shp".format(folder))
 
 fc = folder + "//" + file
 
 cursor = arcpy.da.InsertCursor(fc, ["SHAPE@", "Animal"])
 
-rows = arcpy.da.SearchCursor(r"C:\temp\data\GPS_points.shp", ["SHAPE@XY", "Animal", "Time"], sql_clause=(None, "ORDER BY Animal, Time"))
+rows = arcpy.da.SearchCursor(r"{}\GPS_points.shp".format(folder), ["SHAPE@XY", "Animal", "Time"], sql_clause=(None, "ORDER BY Animal, Time"))
 
 polylineList = []
 

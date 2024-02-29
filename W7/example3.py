@@ -2,24 +2,26 @@ import arcpy
 
 arcpy.env.overwriteOutput = True
 
-folder = r"C:\temp\data"
+folder = r"C:\courses\spa\W7\animaldata\data"
 file = "GPS_points_buffered.shp"
 
 arcpy.CreateFeatureclass_management(folder, file, "POLYGON", 
-                                    r"C:\temp\data\GPS_points.shp", "DISABLED", "DISABLED", 
-                                    r"C:\temp\data\GPS_points.shp")
+                                    r"{}\GPS_points.shp".format(folder), "DISABLED", "DISABLED", 
+                                    r"{}\GPS_points.shp".format(folder))
 
-fc = folder + "//" + file
+fc = folder + r"/" + file
 
-cursor = arcpy.da.InsertCursor(fc, ["SHAPE@", "Animal", "Time"])
+arcpy.management.AddField(fc, "Area", "DOUBLE")
 
-rows = arcpy.da.SearchCursor(r"C:\temp\data\GPS_points.shp", ["SHAPE@", "Animal", "Time"])
+cursor = arcpy.da.InsertCursor(fc, ["SHAPE@", "Animal", "Time", "Area"])
+
+rows = arcpy.da.SearchCursor(r"{}\GPS_points.shp".format(folder), ["SHAPE@", "Animal", "Time"])
 
 for row in rows:
-    pointbuf = row[0].buffer(10)
+    pointbuf = row[0].buffer(row[1])
     pointbuf2 = row[0].buffer(20)
     outgeom = pointbuf2.symmetricDifference(pointbuf)
-    cursor.insertRow([outgeom, row[1], row[2]])
+    cursor.insertRow([outgeom, row[1], row[2], pointbuf.area])
     print(pointbuf.area)
 
 del cursor
