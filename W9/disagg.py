@@ -2,7 +2,7 @@ import arcpy
 
 arcpy.env.overwriteOutput = True
 
-arcpy.env.workspace = "G:\courses\spa\W9\IntroToArcpy\IntroToArcpy.gdb"
+arcpy.env.workspace = "C:\courses\spa\W9\IntroToArcpy\IntroToArcpy.gdb"
 
 #What are the inputs to my process?
 PolygonCountData = "ctracts"
