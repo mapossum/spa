@@ -8,6 +8,6 @@ print(aprx.filePath)
 
 maps = aprx.listMaps()
 
-print(maps[1].name)
+print(maps[0].name)
 
 del aprx
