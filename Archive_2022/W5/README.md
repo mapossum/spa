@@ -1,6 +1,6 @@
 #Lecture
-##Meeting 4 – Pandas and MatplotLib (https://pandas.pydata.org/)
-####Today we will discuss Pandas and MatplotLib which are built on Numpy:
+##Meeting 12 ï¿½ Data Science and Visualization - Pandas and MatplotLib (https://pandas.pydata.org/)
+####Today we will discuss Pandas and MatplotLib for use with data which are built on Numpy:
 
 1. Most of the outline is avalibe as notebooks that you can download with this weeks material.
 
@@ -14,7 +14,7 @@ Other Videos to Watch:
  
 
 #Lab Assignment
-##Exercise #5 – Pandas
+##Exercise #5 ï¿½ Pandas
 
 ####Do the following assignment:
 
