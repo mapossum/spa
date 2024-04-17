@@ -1,5 +1,5 @@
 #Lecture
-##Meeting 12 � Data Science and Visualization - Pandas and MatplotLib (https://pandas.pydata.org/)
+##Meeting 11 - Data Science and Visualization - Pandas and MatplotLib (https://pandas.pydata.org/)
 ####Today we will discuss Pandas and MatplotLib for use with data which are built on Numpy:
 
 1. Most of the outline is avalibe as notebooks that you can download with this weeks material.
