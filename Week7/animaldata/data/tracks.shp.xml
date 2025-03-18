@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="en"><Esri><MetaID>{73B2F2B7-AC55-4DA6-96D7-A795D479FCDF}</MetaID><CreaDate>20100303</CreaDate><CreaTime>19522400</CreaTime><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CreateFeatureclass" Date="20100303" Time="195224">CreateFeatureclass T:\rabercag\week7\GPS_points tracks.shp POLYLINE T:\rabercag\week7\GPS_points\GPS_points.shp DISABLED DISABLED "{B286C06B-0879-11D2-AACA-00C04FA33C20};-450359962737.05 -450359962737.05 10000;#;#;0.001;#;#;IsHighPrecision" # 0 0 0 T:\rabercag\week7\GPS_points\tracks.shp</Process></lineage></DataProperties></Esri></metadata>
