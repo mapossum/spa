@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Wednesday, March 27, 2024 3:16:22 PM</msg><msg code="-2147467259" type="100">Traceback (most recent call last):
+  File "&lt;expression&gt;", line 1, in &lt;module&gt;
+TypeError: can't multiply sequence by non-int of type 'float'
+Traceback (most recent call last):
+  File "C:\courses\spa\W9\IntroToArcpy\IntroToArcpy.tbx#da_IntroToArcpy.py", line 18, in &lt;module&gt;
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 5606, in CalculateField
+    raise e
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 5603, in CalculateField
+    retval = convertArcObjectToPythonObject(gp.CalculateField_management(*gp_fixargs((in_table, field, expression, expression_type, code_block, field_type, enforce_domains), True)))
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\geoprocessing\_base.py", line 520, in &lt;lambda&gt;
+    return lambda *args: val(*gp_fixargs(args, True))
+arcgisscripting.ExecuteError: ERROR 000539: Traceback (most recent call last):
+  File "&lt;expression&gt;", line 1, in &lt;module&gt;
+TypeError: can't multiply sequence by non-int of type 'float'
+
+Failed to execute (CalculateField).
+
+</msg><msg code="0" type="0">Failed script da...</msg><msg code="-2147467259" type="100">Failed to execute (da).</msg><msg code="0" type="3">Failed at Wednesday, March 27, 2024 3:16:24 PM (Elapsed Time: 1.89 seconds)</msg></messages>
