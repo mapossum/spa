@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Wednesday, March 26, 2025 1:31:38 PM</msg><msg code="0" type="0">Con(Slope(Raster(r"elevation")) &gt; 20, 1,0) + Con( Raster(r"ASTF2") &gt; 80, 1,0)</msg><msg code="0" type="3">Succeeded at Wednesday, March 26, 2025 1:31:41 PM (Elapsed Time: 3.37 seconds)</msg></messages>

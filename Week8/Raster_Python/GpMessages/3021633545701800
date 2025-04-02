@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Wednesday, March 26, 2025 1:15:58 PM</msg><msg code="0" type="0">((Raster(r"averge_summer_temperature")/10.0) * 9.0/5.0) + 32.0</msg><msg code="539" type="100">ERROR 000539: Traceback (most recent call last):
+﻿  File "&lt;expression&gt;", line 1, in &lt;module&gt;
+﻿  File "&lt;string&gt;", line 8, in rcexec_DC684390_0C54_4F14_9EBF_B34DF3F2E1B1
+﻿RuntimeError: ERROR 010240: Could not save raster dataset to ASTF with output format FGDBR.
+﻿
+If you suspect this is an IPython 8.18.1 bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    %config Application.verbose_crash=True
+
+</msg><msg code="-2147467259" type="100">Failed to execute (RasterCalculator).</msg><msg code="0" type="3">Failed at Wednesday, March 26, 2025 1:15:59 PM (Elapsed Time: 1.25 seconds)</msg></messages>
