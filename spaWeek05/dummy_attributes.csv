@@ -1,0 +1,6 @@
+ParcelID,LandUse,Area_Sqm,Value_USD
+101,Residential,500.0,250000
+102,Commercial,1200.5,1500000
+103,Residential,450.2,210000
+104,Industrial,3000.0,800000
+105,Park,8000.0,0
